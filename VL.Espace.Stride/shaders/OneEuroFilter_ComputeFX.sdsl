@@ -1,0 +1,63 @@
+[Summary("OneEuroFilter Compute Shader which is performed by pixel")]
+// by Matthias Husinsky
+// adapted from https://jaantollander.com/post/noise-filtering-using-one-euro-filter/ 
+shader OneEuroFilter_ComputeFX : ComputeShaderBase, Texturing, Math
+{
+	Texture2D<float> tex;
+    Texture2D<float> previousTex;
+    Texture2D<float> previousDxTex;
+    RWTexture2D<float> filteredTex;
+    RWTexture2D<float> dxTex;
+    RWTexture2D<float> ageTex;
+    float timeDifference = 0.32;
+    float min_cutoff = 1.0; 
+    float beta = 0.0; 
+    float d_cutoff = 1.0;   //derivative
+    
+
+    float smoothingFactor(float timeDifference, float cutoff)
+    {
+        float r = 2 * PI * cutoff * timeDifference;
+        return r/(r+1);        
+    }
+
+    float exponentialSmoothing(float a, float x, float x_prev)
+    {
+        return a * x + (1 - a) * x_prev;
+    }
+
+    override void Compute()
+    {
+        uint2 uv = streams.DispatchThreadId.xy;
+        
+        float x = tex.Load(int3(uv,0));
+        float x_prev = previousTex.Load(int3(uv,0));
+        float dx_prev = previousDxTex.Load(int3(uv,0));
+        
+
+        if (x < 0.001)
+        {
+            filteredTex[streams.DispatchThreadId.xy] = x_prev;
+            dxTex[streams.DispatchThreadId.xy] = dx_prev;
+            ageTex[streams.DispatchThreadId.xy] += 0.001;
+            return;
+        }
+
+        ageTex[streams.DispatchThreadId.xy] = 0;
+
+        
+        float a_d = smoothingFactor(timeDifference, d_cutoff);
+
+        float dx = (x-x_prev) / timeDifference;
+        float dx_hat = exponentialSmoothing (a_d, dx, dx_prev);
+        // # The filtered signal.
+        float cutoff = min_cutoff + beta * abs(dx_hat);
+        float a = smoothingFactor(timeDifference, cutoff);
+        float x_hat = exponentialSmoothing(a, x, x_prev);
+
+        // # Memorize the previous values.
+        filteredTex[streams.DispatchThreadId.xy] = x_hat;
+        dxTex[streams.DispatchThreadId.xy] = dx_hat;
+        
+    }
+};

@@ -1,0 +1,62 @@
+// exactly the same as AzurBuildPointCloud Shader from VL.Devices.Azurekinect. 
+// Renamed and copied here so it can be used without this dependency (2 equal names are not permitted when exporting)
+shader AzureKinectBuildPointCloud_ShaderFX : ComputeFloat4
+{
+    compose ComputeFloat DepthData;
+    compose ComputeFloat ageData;
+    stage float afterlife = 0.003;
+    compose ComputeFloat2 XYTableData;
+
+    stage float3 Minimum;
+    stage float3 Maximum;
+    
+
+    override float4 Compute()
+    {
+        float depth_data = DepthData.Compute() * 65.535; //this coef comes from max uint16 (65535) divided by 1000
+        float2 xy_table_data = XYTableData.Compute();
+
+        float4 point_cloud_data = 1;
+
+        if (ageData.Compute() > afterlife)
+        {
+            point_cloud_data.x = sqrt(-1);
+        }
+
+        else if (depth_data != 0 && !isnan(xy_table_data.x) && !isnan(xy_table_data.y))
+        {
+            if (xy_table_data.x * depth_data >= Minimum.x && xy_table_data.x * depth_data <= Maximum.x)
+            {
+                point_cloud_data.x = xy_table_data.x * depth_data;
+            }
+            else
+            {
+                point_cloud_data.x = sqrt(-1);
+            }
+            if (xy_table_data.y * depth_data >= Minimum.y && xy_table_data.y * depth_data <= Maximum.y)
+            {
+                point_cloud_data.y = xy_table_data.y * depth_data;
+            }
+            else
+            {
+                point_cloud_data.x = sqrt(-1);
+            }
+            if (depth_data >= Minimum.z && depth_data <= Maximum.z)
+            {
+                point_cloud_data.z = depth_data;
+            }
+            else
+            {
+                point_cloud_data.x = sqrt(-1);
+            }
+        }
+        else
+        {
+            point_cloud_data.x = sqrt(-1);
+            point_cloud_data.y = sqrt(-1);
+            point_cloud_data.z = sqrt(-1);
+        }
+
+        return point_cloud_data;
+    }
+};

@@ -1226,7 +1226,7 @@
         </p:NodeReference>
         <Patch Id="GSy7RajRawfMzHT4UHlUk4">
           <Canvas Id="EZgrrpbBOqWMkqalCGqJig" CanvasType="Group">
-            <Pad Id="O1JkXvQ2HxhOupM0JGdkNm" Comment="Found" Bounds="356,454,39,15" ShowValueBox="true" isIOBox="true" />
+            <Pad Id="O1JkXvQ2HxhOupM0JGdkNm" Comment="Found" Bounds="358,454,39,15" ShowValueBox="true" isIOBox="true" />
             <ControlPoint Id="V494fg5mNQQLvCtFsA5Prb" Bounds="184,87" />
             <Pad Id="AFDKXQUEO6eOXEyKXVrl13" Comment="Enabled" Bounds="745,234,35,35" ShowValueBox="true" isIOBox="true" Value="True">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -1238,7 +1238,7 @@
               </p:ValueBoxSettings>
             </Pad>
             <ControlPoint Id="P7W12aql5JBPYUl7HNWKL5" Bounds="745,197" />
-            <Node Bounds="170,111,310,311" Id="FAFGrFZOzVoQbQIAwLUkkH">
+            <Node Bounds="170,111,312,311" Id="FAFGrFZOzVoQbQIAwLUkkH">
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -1250,7 +1250,7 @@
               <Patch Id="JmFdSnihKk1Lm0Es9BOEfx" ManuallySortedPins="true">
                 <Patch Id="PbjG0FfzIKBLFauzqiz1AP" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="UvnxsN1E9JcM2Eajyw7IAf" Name="Then" ManuallySortedPins="true" />
-                <Node Bounds="210,383,150,19" Id="QIIxMNU8tu3Pdap3ubO9oI">
+                <Node Bounds="211,383,150,19" Id="QIIxMNU8tu3Pdap3ubO9oI">
                   <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="FindChessboardCornersSB" />
@@ -1287,7 +1287,7 @@
                   <Pin Id="FrZ0xzrNzmeL4vh6NwUExa" Name="Input" Kind="StateInputPin" />
                   <Pin Id="E9kXWdlkHGlO2fl57z41gM" Name="Output" Kind="StateOutputPin" />
                 </Node>
-                <Node Bounds="210,254,69,19" Id="GO67LXDtsWbP9wqf4QJsTO">
+                <Node Bounds="211,254,69,19" Id="GO67LXDtsWbP9wqf4QJsTO">
                   <p:NodeReference LastCategoryFullName="OpenCV.Utils" LastDependency="VL.OpenCV.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="Category" Name="Utils" NeedsToBeDirectParent="true">
@@ -1300,12 +1300,12 @@
                   <Pin Id="Lzx0wp4tlwhMrJ1MQkpFzi" Name="Index" Kind="InputPin" DefaultValue="1" />
                   <Pin Id="P7PtA3o7W8jLwkrzu1fHL5" Name="Output" Kind="OutputPin" />
                 </Node>
-                <Pad Id="JIl2IZcjpInNVFFNKxH2Dx" Comment="Flags" Bounds="320,364,102,15" ShowValueBox="true" isIOBox="true" Value="Accuracy">
+                <Pad Id="JIl2IZcjpInNVFFNKxH2Dx" Comment="Flags" Bounds="322,364,102,15" ShowValueBox="true" isIOBox="true" Value="Accuracy">
                   <p:TypeAnnotation LastCategoryFullName="OpenCvSharp" LastDependency="VL.OpenCV.vl">
                     <Choice Kind="TypeFlag" Name="ChessboardFlags" />
                   </p:TypeAnnotation>
                 </Pad>
-                <Node Bounds="210,302,121,19" Id="MwY0lg356B4OL6VZLkQdwi">
+                <Node Bounds="211,302,121,19" Id="MwY0lg356B4OL6VZLkQdwi">
                   <p:NodeReference LastCategoryFullName="OpenCV.Filter" LastDependency="VL.OpenCV.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="Category" Name="OpenCV" />
@@ -1320,21 +1320,21 @@
                 </Node>
               </Patch>
               <ControlPoint Id="Cu5K74X5MsIMjkBLE16F28" Bounds="184,117" Alignment="Top" />
-              <ControlPoint Id="AnvLCeXJdWZMCTrFAg89qF" Bounds="212,416" Alignment="Bottom" />
-              <ControlPoint Id="E4iq0j9Z20yMNTUCSnwVL3" Bounds="356,416" Alignment="Bottom" />
-              <ControlPoint Id="LXckVXS1Gy5LY5all4U80O" Bounds="186,416" Alignment="Bottom" />
+              <ControlPoint Id="AnvLCeXJdWZMCTrFAg89qF" Bounds="213,416" Alignment="Bottom" />
+              <ControlPoint Id="E4iq0j9Z20yMNTUCSnwVL3" Bounds="358,416" Alignment="Bottom" />
+              <ControlPoint Id="LXckVXS1Gy5LY5all4U80O" Bounds="184,416" Alignment="Bottom" />
             </Node>
-            <Pad Id="IJItHom9XmBNgPaQPbQJ9D" Comment="Board Size Y" Bounds="570,262,26,15" ShowValueBox="true" isIOBox="true" Value="5">
+            <Pad Id="IJItHom9XmBNgPaQPbQJ9D" Comment="Board Size Y" Bounds="562,262,26,15" ShowValueBox="true" isIOBox="true" Value="5">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Integer32" />
               </p:TypeAnnotation>
             </Pad>
-            <Pad Id="NWn3mi0y1c3PfOaf1fcOlS" Comment="Board Size X" Bounds="546,200,24,15" ShowValueBox="true" isIOBox="true" Value="8">
+            <Pad Id="NWn3mi0y1c3PfOaf1fcOlS" Comment="Board Size X" Bounds="542,200,24,15" ShowValueBox="true" isIOBox="true" Value="8">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Integer32" />
               </p:TypeAnnotation>
             </Pad>
-            <Node Bounds="184,505,141,19" Id="ONBkYiR5nTHP6HCb1jakku">
+            <Node Bounds="182,505,151,19" Id="ONBkYiR5nTHP6HCb1jakku">
               <p:NodeReference LastCategoryFullName="OpenCV.Drawing" LastDependency="VL.OpenCV.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="DrawChessboardCorners" />
@@ -1384,7 +1384,7 @@
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
             </Pad>
-            <Node Bounds="143,811,145,19" Id="SE7pO9r1kFVMIK38dJI9GD">
+            <Node Bounds="142,811,145,19" Id="SE7pO9r1kFVMIK38dJI9GD">
               <p:NodeReference LastCategoryFullName="OpenCV.Sink" LastDependency="VL.OpenCV.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Renderer" />
@@ -1411,7 +1411,7 @@
               <Pin Id="RGEWunjtwdXP2D3OdSA1o7" Name="Show Cursor" Kind="InputPin" />
               <Pin Id="TyCpUYd2FvzLH9OHQELSWn" Name="Enabled" Kind="InputPin" DefaultValue="True" />
             </Node>
-            <Node Bounds="183,773,59,19" Id="HVKxneDBbySMNG25d2iuPv">
+            <Node Bounds="182,773,59,19" Id="HVKxneDBbySMNG25d2iuPv">
               <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Undistort" />
@@ -1429,10 +1429,10 @@
             </Node>
             <ControlPoint Id="Cxwx7DCzTXBOWgfcNKLB7L" Bounds="598,424" />
             <ControlPoint Id="EkhCv9a4TQeOg82CCHyyvN" Bounds="253,84" />
-            <ControlPoint Id="IyL0nGaURIXL8gqFVupsNH" Bounds="546,166" />
-            <ControlPoint Id="POBPO4SfGhQPBLA6rF9Qeh" Bounds="570,232" />
-            <ControlPoint Id="KaWTmnrH5kSMDYBDmrAvkF" Bounds="586,558" />
-            <Node Bounds="584,608,89,19" Id="ETcLhycNoDcOkYBRqtyfui">
+            <ControlPoint Id="IyL0nGaURIXL8gqFVupsNH" Bounds="542,166" />
+            <ControlPoint Id="POBPO4SfGhQPBLA6rF9Qeh" Bounds="562,232" />
+            <ControlPoint Id="KaWTmnrH5kSMDYBDmrAvkF" Bounds="582,558" />
+            <Node Bounds="580,608,89,19" Id="ETcLhycNoDcOkYBRqtyfui">
               <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="IntrinsicsReader" />
@@ -1442,7 +1442,7 @@
               <Pin Id="JiKRor51jwWPXyO5gXbmgG" Name="Read" Kind="InputPin" />
               <Pin Id="Cdc04eIGs1uMVfAVxmcsw9" Name="Intrinsics" Kind="OutputPin" />
             </Node>
-            <Node Bounds="668,579,54,19" Id="DvpdiaKDoFvMhZGSRdGVSm">
+            <Node Bounds="664,579,54,19" Id="DvpdiaKDoFvMhZGSRdGVSm">
               <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="OnOpen" />
@@ -1455,7 +1455,7 @@
               </Pin>
               <Pin Id="O47ZSlyH02UOlhTN5ooqsG" Name="Output" Kind="OutputPin" />
             </Node>
-            <Node Bounds="545,725,105,19" Id="U8pRYlw0LoqOoM8mc87jUj">
+            <Node Bounds="540,725,105,19" Id="U8pRYlw0LoqOoM8mc87jUj">
               <p:NodeReference LastCategoryFullName="OpenCV.Calibration" LastDependency="VL.OpenCV.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="SolvePnP" />
@@ -1477,7 +1477,7 @@
               <Pin Id="Fxt4r7hf8koL6Xe0vO82Vi" Name="Enabled" Kind="InputPin" />
               <Pin Id="AP13QzpOVbsOfbuuAGfQsm" Name="Extrinsics" Kind="OutputPin" />
             </Node>
-            <Node Bounds="545,767,122,19" Id="L5vVrf9JSpqOW3uagWa9yt">
+            <Node Bounds="540,767,122,19" Id="L5vVrf9JSpqOW3uagWa9yt">
               <p:NodeReference LastCategoryFullName="OpenCV.Transform" LastDependency="VL.OpenCV.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="ExtrinsicsToViewMatrix" />
@@ -1485,7 +1485,7 @@
               <Pin Id="Vng8vs2No7hQHO1NMjN7BI" Name="Input" Kind="InputPin" />
               <Pin Id="E5kePkd1tNCMn5ylpH0yuq" Name="View" Kind="OutputPin" />
             </Node>
-            <Node Bounds="545,805,42,19" Id="BMCtwhfeoFNL3CwqLMJDSz">
+            <Node Bounds="540,805,42,19" Id="BMCtwhfeoFNL3CwqLMJDSz">
               <p:NodeReference LastCategoryFullName="3D.Matrix" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="ClassType" Name="Matrix" NeedsToBeDirectParent="true" />
@@ -1494,7 +1494,7 @@
               <Pin Id="LyG8mzdmpDqP5sBm7El7SP" Name="Input" Kind="StateInputPin" />
               <Pin Id="H2fJLRKa2a3LbjyuTNv2Vm" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Node Bounds="545,868,250,19" Id="VhYh9NsxnyzO0q1ikGBT4g">
+            <Node Bounds="540,868,36,19" Id="VhYh9NsxnyzO0q1ikGBT4g">
               <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
@@ -1506,7 +1506,7 @@
               <Pin Id="FV2Nkc3tjTgLsj5mXfPWD4" Name="Sample" Kind="InputPin" />
               <Pin Id="V5zZyML8CtPOgKVNoSjtNx" Name="Value" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="EhVzNyLEw7uL9ysCZifZu8" Bounds="547,936" />
+            <ControlPoint Id="EhVzNyLEw7uL9ysCZifZu8" Bounds="542,936" />
           </Canvas>
           <ProcessDefinition Id="ViTYBsDj38JPGm5qDpIw6I">
             <Fragment Id="TDhzFHm01ocMiax96st9CL" Patch="T7stjQTnHcqLVEdGtiZvkI" Enabled="true" />
@@ -1598,9 +1598,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="DPiFKqVXKkUO6j1P8r9ltd" Location="VL.Stride" Version="2024.6.7" />
   <NugetDependency Id="VmWOoRSjqf1P5AvBeuXQmW" Location="VL.OpenCV" Version="3.0.3" />
-  <NugetDependency Id="T8GRxALUTRTMuImhyFuV24" Location="VL.Skia" Version="2024.6.7" />
   <PlatformDependency Id="Ah0nxy6a8dFPHc7iX4VnRz" Location="../../../../../Program Files/vvvv/vvvv_gamma_2020.3.0-0080-gc288cbe120/lib/Stride.Rendering.dll" />
-  <NugetDependency Id="UZUntqJ4l7eQNz7gUxQBpj" Location="VL.Stride.TextureFX" Version="2024.6.7" />
 </Document>

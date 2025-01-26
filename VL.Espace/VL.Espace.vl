@@ -59,9 +59,15 @@
             <Pad Id="LdYInSRLrJvPn3pIgsXpFU" SlotId="Q0UEexs4BUGLo2CY5YOXTc" Bounds="1362,135" />
             <ControlPoint Id="QUeuMd3DEe4PwSZgS4LkBH" Bounds="1362,105" />
             <ControlPoint Id="HJLbsYY81BONL9EXVe0NAN" Bounds="1362,165" />
+            <Pad Id="VGVWgTBAugiLMHKBZlF6so" Comment="ProcessingMode" Bounds="1605,84,35,15" ShowValueBox="true" isIOBox="true" Value="4">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Integer32" />
+              </p:TypeAnnotation>
+            </Pad>
           </Canvas>
           <ProcessDefinition Id="B0gofuiZ1M5OrdygNuXDrm" IsHidden="true">
             <Fragment Id="Rf2K1dv5tgLQSxBW5lpvDr" Patch="M6RLLv8StEPN3Goyr4L4kw" Enabled="true" />
+            <Fragment Id="R2BsFHK36llQcXtRHEnsXo" Patch="NOyDvTWxLzLLzAznty3hS3" />
             <Fragment Id="Qn1HVYQRlSZNKc2QVJvcIo" Patch="B8eE73zjOhcMbS6HBwvvYc" />
           </ProcessDefinition>
           <Slot Id="Mr5vEdYlkvWL2onVEUWfck" Name="SendColor">
@@ -233,6 +239,8 @@
           <Link Id="JR6YM1oAsHDM5S6NsXsTx7" Ids="QUeuMd3DEe4PwSZgS4LkBH,LdYInSRLrJvPn3pIgsXpFU" />
           <Link Id="D5j2YiyNcSJOABS84oUV7z" Ids="HJLbsYY81BONL9EXVe0NAN,EK6nkaNvBXeO8iBA3NbDFj" IsHidden="true" />
           <Link Id="SQA8HYFG0GcNLs0TJl0N4m" Ids="LdYInSRLrJvPn3pIgsXpFU,HJLbsYY81BONL9EXVe0NAN" />
+          <Patch Id="NOyDvTWxLzLLzAznty3hS3" Name="CreateDefault" ParticipatingElements="JnPgl8o6H83LKfreJNcSeo" />
+          <Link Id="JnPgl8o6H83LKfreJNcSeo" Ids="VGVWgTBAugiLMHKBZlF6so,TbaQYQSBSYeLKWL4YcV3Lj" />
         </Patch>
       </Node>
       <!--
@@ -4405,7 +4413,7 @@
                 <Pin Id="Nk3IEo5DL8hO09ol3n3BXf" Name="Has Changed" Kind="OutputPin" />
                 <ControlPoint Id="FkX0qIp8TgKO1xQ9lWn94e" Bounds="522,121" Alignment="Top" />
                 <ControlPoint Id="LSTeKz92ULHLh5cbxKJl06" Bounds="593,121" Alignment="Top" />
-                <ControlPoint Id="HWSVxUR4SKBLYA4rbU49Z6" Bounds="900,121" Alignment="Top" />
+                <ControlPoint Id="HWSVxUR4SKBLYA4rbU49Z6" Bounds="885,121" Alignment="Top" />
                 <ControlPoint Id="RxqluKG3PPJQSMsgDC73ZI" Bounds="330,341" Alignment="Bottom" />
                 <ControlPoint Id="Hdal9zzJAIQL2iQKgrc7JH" Bounds="694,121" Alignment="Top" />
                 <ControlPoint Id="IUKikU1TxaHQRA2P30I66M" Bounds="1016,121" Alignment="Top" />
@@ -4480,19 +4488,23 @@
                 <ControlPoint Id="RjoVrqsSt3ONymEC0pPDbv" Bounds="365,121" Alignment="Top" />
                 <ControlPoint Id="IqJ2M3UxC3SLtVn0mxdGfN" Bounds="406,121" Alignment="Top" />
                 <ControlPoint Id="AlDSY87K2rgPGvZe43yRa3" Bounds="446,121" Alignment="Top" />
+                <ControlPoint Id="J1c1CMuFlfAOwQg9ECUGwZ" Bounds="906,121" Alignment="Top" />
+                <ControlPoint Id="HHASQTnKgUoP5Go2kQGziC" Bounds="926,121" Alignment="Top" />
               </Node>
               <ControlPoint Id="GwdpZEvJYUkPuqzIY3UxZ1" Bounds="522,47" />
               <ControlPoint Id="EVdkbdrsM0UQFXNHDkJH39" Bounds="593,62" />
-              <ControlPoint Id="NLQwdq1Gl8HOa4X90L0DpZ" Bounds="900,62" />
+              <ControlPoint Id="NLQwdq1Gl8HOa4X90L0DpZ" Bounds="885,2" />
               <ControlPoint Id="VMNkWvLkIcoOAEn7vWs7IC" Bounds="694,62" />
-              <ControlPoint Id="IwWuqNrWzv6Np2DNjKUy9l" Bounds="1016,62" />
+              <ControlPoint Id="IwWuqNrWzv6Np2DNjKUy9l" Bounds="1016,77" />
               <ControlPoint Id="IVB3aWYn2L2LDkPAPuhrBh" Bounds="805,62" />
-              <ControlPoint Id="Hs5xwPhTKEPNwOIhllTmCw" Bounds="968,86" />
+              <ControlPoint Id="Hs5xwPhTKEPNwOIhllTmCw" Bounds="968,60" />
               <ControlPoint Id="CKTu5B3A7YDLJshEpOfRfr" Bounds="752,93" />
               <ControlPoint Id="PZcfviTly7zMXMBP4kO3T5" Bounds="330,13" />
               <ControlPoint Id="G7ZbKF470enLTmaO0F936D" Bounds="360,32" />
               <ControlPoint Id="E9a7hmKfXBDPsWZSRXvedO" Bounds="402,46" />
               <ControlPoint Id="KDsD9TZwK8nMJ1I7CyCne6" Bounds="441,70" />
+              <ControlPoint Id="AEtz8okYgkSL99abqMyKHn" Bounds="906,21" />
+              <ControlPoint Id="AFh8ZLO35FnNHORJTXh8Wu" Bounds="926,42" />
             </Canvas>
             <ProcessDefinition Id="CuY6fQRmrUcPS7hXPC7bre">
               <Fragment Id="CJMKHUULP9WNCCNULQcV8u" Patch="S37AGSvnuOyMF2Iin46W0B" Enabled="true" />
@@ -4550,6 +4562,8 @@
               <Pin Id="UuIpBc0xAaAQBcLiC7tsMB" Name="SendColorDepthPacked" Kind="InputPin" Bounds="648,93" />
               <Pin Id="JNSzs3BLzVHMBERoPl7oKr" Name="SendInfrared" Kind="InputPin" Bounds="699,92" />
               <Pin Id="P9kq64XCyGtO4GObNhiCRO" Name="SendSkeleton" Kind="InputPin" Bounds="734,149" DefaultValue="True" />
+              <Pin Id="IyHitFyO32OP4PpvxVQtHc" Name="ProcessingMode" Kind="InputPin" />
+              <Pin Id="D429gvNnorGNvVKmBSiitM" Name="DeviceOrientation" Kind="InputPin" />
               <Pin Id="TQjRpgMgWWYMvORVdeHQSg" Name="RequestDepthCamData" Kind="InputPin" Bounds="863,86" />
               <Pin Id="VusnoNfmmdONaUbbEhYYsa" Name="Device Transform" Kind="InputPin" Bounds="758,54" />
             </Patch>
@@ -4565,6 +4579,12 @@
             <Link Id="FdDb49MhMSgN9vG5H8WnD6" Ids="AlDSY87K2rgPGvZe43yRa3,MH9kwjXlVhGO8rbawAnS1L" />
             <Link Id="TsXAFohTptKL4ZQ9y5KVcP" Ids="KDsD9TZwK8nMJ1I7CyCne6,AlDSY87K2rgPGvZe43yRa3" />
             <Link Id="QLYvM69ppHmPvYbDVjLFwU" Ids="JoQYO1RJ7C0O9q5m1uewpI,KDsD9TZwK8nMJ1I7CyCne6" IsHidden="true" />
+            <Link Id="QvmjGe3Q92PLu4wqWU9zwc" Ids="J1c1CMuFlfAOwQg9ECUGwZ,MQ8sNe0IjZuQRkB2WHWWpb" />
+            <Link Id="TRqKzTD4O6vPsGQcbwBWnd" Ids="AEtz8okYgkSL99abqMyKHn,J1c1CMuFlfAOwQg9ECUGwZ" />
+            <Link Id="OqxwvGnRCiXN5E8sZyHvRf" Ids="IyHitFyO32OP4PpvxVQtHc,AEtz8okYgkSL99abqMyKHn" IsHidden="true" />
+            <Link Id="HrE4XMADMYjLJe1NvS2XHL" Ids="HHASQTnKgUoP5Go2kQGziC,LOxppUA0iVQPNpJRkakRnJ" />
+            <Link Id="S92blLXPwRKLBYVVpUvJhY" Ids="AFh8ZLO35FnNHORJTXh8Wu,HHASQTnKgUoP5Go2kQGziC" />
+            <Link Id="DPtxNWQEIVzL9DjjHtAifk" Ids="D429gvNnorGNvVKmBSiitM,AFh8ZLO35FnNHORJTXh8Wu" IsHidden="true" />
           </Patch>
         </Node>
         <!--
@@ -5236,6 +5256,8 @@
                 <Pin Id="K2GVMdjDtXLMOc7lKb5OXo" Name="SendColorDepthPacked" Kind="InputPin" />
                 <Pin Id="Htp3Y4OMt8ONvbrIJsrX5P" Name="SendInfrared" Kind="InputPin" />
                 <Pin Id="ScsyA0NMa1aPrkYv5arwYa" Name="SendSkeleton" Kind="InputPin" />
+                <Pin Id="EzBUrI3KRVQMAKSM8r2UnZ" Name="ProcessingMode" Kind="InputPin" />
+                <Pin Id="Bksu1xsiHaVOciNGB83d44" Name="DeviceOrientation" Kind="InputPin" />
                 <Pin Id="URy4FOpPslJLBN6P8OKwhW" Name="RequestDepthCamData" Kind="InputPin" />
                 <Pin Id="Gua7DskAZ5UQDtKR0XaXGN" Name="Device Transform" Kind="InputPin" />
               </Node>
@@ -5257,7 +5279,7 @@
                   <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
                 </p:ValueBoxSettings>
               </Pad>
-              <Pad Id="JLvZcCobo80NpnRMoA5pHZ" Comment="" Bounds="1466,142,35,15" ShowValueBox="true" isIOBox="true" Value="False">
+              <Pad Id="JLvZcCobo80NpnRMoA5pHZ" Comment="" Bounds="1436,142,35,15" ShowValueBox="true" isIOBox="true" Value="False">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
                   <FullNameCategoryReference ID="Primitive" />
@@ -5280,7 +5302,7 @@
                   <Choice Kind="TypeFlag" Name="String" />
                 </p:TypeAnnotation>
               </Pad>
-              <Pad Id="Sum5nPgqh4fOvgHVlyyiNn" Comment="" Bounds="1532,142,35,15" ShowValueBox="true" isIOBox="true" Value="False">
+              <Pad Id="Sum5nPgqh4fOvgHVlyyiNn" Comment="" Bounds="1622,142,35,15" ShowValueBox="true" isIOBox="true" Value="False">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
                   <CategoryReference Kind="Category" Name="Primitive" />
@@ -5294,8 +5316,8 @@
               <ControlPoint Id="F1iXQWhqFwTL0Ll20zmSXP" Bounds="1068,123" />
               <ControlPoint Id="DzOzgLwUgBMNmYaV41m7kb" Bounds="1124,123" />
               <ControlPoint Id="EqykpGFUWkJOALphI7bwPL" Bounds="1178,123" />
-              <ControlPoint Id="ASwFBLJ9FhpLwgyBPI0GFS" Bounds="1466,123" />
-              <ControlPoint Id="JVXfFqJmVAUNVIFtVgCa0s" Bounds="1532,123" />
+              <ControlPoint Id="ASwFBLJ9FhpLwgyBPI0GFS" Bounds="1436,123" />
+              <ControlPoint Id="JVXfFqJmVAUNVIFtVgCa0s" Bounds="1622,123" />
               <Node Bounds="914,747,145,19" Id="LvrfYyjhEw0P0f21kCdAAw">
                 <p:NodeReference LastCategoryFullName="Trackinghub.AzureKinect" LastDependency="VL.IO.Trackinghub.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -5371,7 +5393,7 @@
               </Node>
               <Pad Id="B7NxVD9JujmLj8mAE50Dla" Comment="On Received" Bounds="298,785,35,15" ShowValueBox="true" isIOBox="true" />
               <ControlPoint Id="Qow31tHCGXbQa3Z0HhIbB2" Bounds="283,862,63,0" />
-              <ControlPoint Id="IPBJkVnM1raOWt0KZ76zz1" Bounds="1668,123" />
+              <ControlPoint Id="IPBJkVnM1raOWt0KZ76zz1" Bounds="1758,123" />
               <Node Bounds="-46,749,119,19" Id="V2P6tgI2x7oPyroEBM2jhA">
                 <p:NodeReference LastCategoryFullName="Trackinghub.AzureKinect" LastDependency="VL.IO.Trackinghub.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -5600,6 +5622,11 @@
                   <Choice Kind="TypeFlag" Name="Integer32" />
                 </p:TypeAnnotation>
               </Pad>
+              <ControlPoint Id="NpqeMIb8bIVMUJuqFepTXh" Bounds="1490,162" />
+              <ControlPoint Id="ESaLIcv91aiPI0puhgphbp" Bounds="1509,219" />
+              <ControlPoint Id="NRBiLfbQf82Oi0ct2PtfIE" Bounds="1537,235" />
+              <Pad Id="EDkZSmNbXsFMyz2sLa0KMK" Comment="DeviceOrientation" Bounds="1509,235,35,15" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="Hm16APqPdbDLLKUCp0PxCp" Comment="ProcessingMode" Bounds="1489,184,35,15" ShowValueBox="true" isIOBox="true" />
             </Canvas>
             <ProcessDefinition Id="QrIeI99Qp5oOv2NHeO8SWC">
               <Fragment Id="OsiDwh0iqY8OWqwzGTgtcE" Patch="VcsdPa0ZFsNNyV29DX9NSH" Enabled="true" />
@@ -5610,7 +5637,7 @@
             <Link Id="JbpZEW3b8c3PeuwLvlqsN4" Ids="C44VvfBYddWLaR52o8uOaQ,UsmCPvdlyEDO1KalGTYVjM" />
             <Link Id="EGaqSypNAsxOT1v01IwTqh" Ids="JLvZcCobo80NpnRMoA5pHZ,ScsyA0NMa1aPrkYv5arwYa" />
             <Link Id="Q4F1TDgi9SpOhVx1yd8JFG" Ids="Jltk4oA0OC2P5KOZTC1RZg,EzChUDN4nGFOf9zlpvkBU1" />
-            <Link Id="QFsZeKgRbjtMIPAvVOd5Ts" Ids="Sum5nPgqh4fOvgHVlyyiNn,URy4FOpPslJLBN6P8OKwhW" />
+            <Link Id="QFsZeKgRbjtMIPAvVOd5Ts" Ids="Sum5nPgqh4fOvgHVlyyiNn,NRBiLfbQf82Oi0ct2PtfIE,URy4FOpPslJLBN6P8OKwhW" />
             <Link Id="K2NXOIYeeA8Nbo2Ct6PaWd" Ids="CorjtnMe8PAPVtdVnUPPwr,IR6YadfxfSiNCu7yqZ2BqE" />
             <Link Id="N72doLP49pXPAixhQc8KhN" Ids="Hie6I4g81RyNX9q6VapKRl,CorjtnMe8PAPVtdVnUPPwr" IsHidden="true" />
             <Link Id="Mn9kjKq3jJnQK101lH3QV6" Ids="FMdeqdu6ZD4MRBgsHJJTxv,FIM6NDK4LNyPo52O8LaSMh" />
@@ -5712,6 +5739,8 @@
               <Pin Id="EuTRq822bfnO2XrWiAGVLf" Name="ColorDepthPacked" Kind="InputPin" Bounds="607,169" />
               <Pin Id="SIjIVNwPWPiLIjv0UFCewt" Name="SendInfrared" Kind="InputPin" Bounds="639,161" />
               <Pin Id="NxKvLn9ylEeMY5SzN7vE6s" Name="Skeleton" Kind="InputPin" Bounds="659,159" />
+              <Pin Id="DTiqoMItJzrQCXdeZhpIDo" Name="ProcessingMode" Kind="InputPin" />
+              <Pin Id="HVhg0dq1OoOPDtFoRUz5Hk" Name="DeviceOrientation" Kind="InputPin" />
               <Pin Id="QtsoLrp8QYqLuMwlQpsAH2" Name="Request DepthCamData" Kind="InputPin" Bounds="733,143" />
               <Pin Id="IOR1lLdpMduNteVfDUoX3C" Name="Device Transform" Kind="InputPin" Bounds="784,325" />
               <Pin Id="GREspjs6BatMqtT7JhdKE6" Name="DepthCamData" Kind="OutputPin" Bounds="856,554" />
@@ -5739,6 +5768,12 @@
             <Link Id="Or5ko7Ee133N0Yu9oaAqVF" Ids="NW9HoNNtbbNPHJ3NJPR4u9,NCrmxj5zUVKP7dXPVDNdDl" />
             <Link Id="H8Tx55pZmJaQUaoqdRaE9h" Ids="HWHTppGG0G3QD0x7PNBoxv,NW9HoNNtbbNPHJ3NJPR4u9" />
             <Link Id="IvtKRiWtvjSL6rFoElHr1A" Ids="Au8ogViR2B9LAi56BIG3au,EUV7udzsLxMQOPLBBe38qp" />
+            <Link Id="VWCk5OEmaBYNJzXrTpQDJO" Ids="DTiqoMItJzrQCXdeZhpIDo,NpqeMIb8bIVMUJuqFepTXh" IsHidden="true" />
+            <Link Id="Lge0O3ZIkHSMd4Q7SssSjJ" Ids="HVhg0dq1OoOPDtFoRUz5Hk,ESaLIcv91aiPI0puhgphbp" IsHidden="true" />
+            <Link Id="MOSNAzlna4dLuqUd1sn4Q4" Ids="NpqeMIb8bIVMUJuqFepTXh,EzBUrI3KRVQMAKSM8r2UnZ" />
+            <Link Id="GKiE2foq14aMS5vMxgLfAX" Ids="ESaLIcv91aiPI0puhgphbp,Bksu1xsiHaVOciNGB83d44" />
+            <Link Id="Lupq4MoylNZPwXc5dl33EP" Ids="ESaLIcv91aiPI0puhgphbp,EDkZSmNbXsFMyz2sLa0KMK" />
+            <Link Id="P1eAPqfqVssPFeJlJ4jvxE" Ids="NpqeMIb8bIVMUJuqFepTXh,Hm16APqPdbDLLKUCp0PxCp" />
           </Patch>
         </Node>
         <!--
@@ -10993,14 +11028,14 @@
                 <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
               </p:ValueBoxSettings>
             </Pad>
-            <Node Bounds="276,526,285,26" Id="F82R7HEwDdSQAHGgjHOhWa">
+            <Node Bounds="276,526,305,26" Id="F82R7HEwDdSQAHGgjHOhWa">
               <p:NodeReference LastCategoryFullName="Trackinghub.DeviceRemote" LastDependency="VL.IO.Trackinghub.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Split" />
                 <CategoryReference Kind="RecordType" Name="DeviceRemote" NeedsToBeDirectParent="true" />
               </p:NodeReference>
               <Pin Id="PqpFE7DR5jfNNHW93gjcQZ" Name="Input" Kind="StateInputPin" />
-              <Pin Id="SNNcQBzdPklNT55fT52fta" Name="Output" Kind="OutputPin" IsHidden="true" />
+              <Pin Id="SNNcQBzdPklNT55fT52fta" Name="Output" Kind="OutputPin" />
               <Pin Id="VGExoiN2bnDLrTdZw0yAwP" Name="DeviceEnabled" Kind="OutputPin" />
               <Pin Id="Irsp9PZy4nbP9LgOBJ0Mmh" Name="DeviceIndex" Kind="OutputPin" />
               <Pin Id="Qtomp8fGAb6PDefiFnGHCQ" Name="DepthMode" Kind="OutputPin" />

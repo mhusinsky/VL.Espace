@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="N0XHDbgZ1FrM1garClaFU2" LanguageVersion="2024.6.7" Version="0.128">
-  <NugetDependency Id="SxiiQsfkL0sOhbZYGehXBQ" Location="VL.CoreLib" Version="2024.6.7" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="N0XHDbgZ1FrM1garClaFU2" LanguageVersion="2025.7.0-0032-g78ac44060f" Version="0.128">
+  <NugetDependency Id="SxiiQsfkL0sOhbZYGehXBQ" Location="VL.CoreLib" Version="2025.7.0-0032-g78ac44060f" />
   <Patch Id="CcZiX7hg3YrOS797X2LhlF">
     <Canvas Id="L6JS2TjG72kMufThDdpjIk" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -342,7 +342,7 @@
             <Pin Id="P5t5gTm1mYJPRgptumHlNz" Name="Firmware Info" Kind="OutputPin" />
             <Pin Id="Hdqlw43Fq1ALBw86VQo9T2" Name="Device Enabled" Kind="OutputPin" />
           </Node>
-          <Pad Id="LoFgC7tgg9WPbmrS8mC9jz" Comment="Port" Bounds="682,447,35,15" ShowValueBox="true" isIOBox="true" Value="6666">
+          <Pad Id="LoFgC7tgg9WPbmrS8mC9jz" Comment="Port" Bounds="682,432,35,15" ShowValueBox="true" isIOBox="true" Value="6666">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -363,6 +363,24 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="UijCRYiIPs8Nabfnvo1TGD" Bounds="407,691,116,41" ShowValueBox="true" isIOBox="true" Value="One server runs for each IP .">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="CEVzrXAHlraLVRn1zkU2go" Bounds="877,457,248,57" ShowValueBox="true" isIOBox="true" Value="Device Name needs to be unique for each server. Internally it is used to name senders and receivers">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="Rb23rXICQA9L56QPsfkc0F" Bounds="757,425,560,19" ShowValueBox="true" isIOBox="true" Value="Start port of all senders. Internally, 10 more ports (with increasing numbers) are used">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -430,7 +448,7 @@
     </Node>
   </Patch>
   <NugetDependency Id="R64ILvuxIk7LlVQxCJ4LdM" Location="VL.IO.NetMQ" Version="0.4.2-alpha" />
-  <NugetDependency Id="Bm9qVTfGdhwNAeaHJSxuYy" Location="VL.Devices.AzureKinect" Version="1.5.0" />
+  <NugetDependency Id="Bm9qVTfGdhwNAeaHJSxuYy" Location="VL.Devices.AzureKinect" Version="1.4.3" />
   <NugetDependency Id="P7CNSn9SZCILcOAQvgNJfH" Location="VL.Espace.Azurekinect" Version="0.0.0" />
   <NugetDependency Id="Feh0Sr4OX0iOgkKvJlOY6Z" Location="VL.Espace" Version="0.0.0" />
 </Document>

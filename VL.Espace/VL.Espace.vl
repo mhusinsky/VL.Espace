@@ -2485,7 +2485,7 @@
         </p:NodeReference>
         <Patch Id="MBszfmEJ8UJPqtar8yRgAG">
           <Canvas Id="EiZsHv30uUDO7GJDtIUqkt" CanvasType="Group">
-            <Node Bounds="138,232,85,19" Id="BbwAFtzxN9JMpuaZpmT2an">
+            <Node Bounds="99,232,125,19" Id="BbwAFtzxN9JMpuaZpmT2an">
               <p:NodeReference LastCategoryFullName="IO.NetMQ" LastDependency="VL.IO.NetMQ.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Subscriber" />
@@ -2502,18 +2502,20 @@
               <Pin Id="UflT5X7oLPvMq0D0apaFoL" Name="Topics" Kind="InputPin" />
               <Pin Id="MY8ZoSuGQlhMMDIYg4bxby" Name="Data" Kind="OutputPin" />
               <Pin Id="D4IlPwxGi8SMmGcdjScE48" Name="On Data" Kind="OutputPin" />
+              <Pin Id="Orokkuu8YfnNuPY6g3dBvL" Name="Low Watermark" Kind="InputPin" DefaultValue="1" />
+              <Pin Id="J3wUfbJ9QUkL96AtPqTiOo" Name="High Watermark" Kind="InputPin" DefaultValue="1" />
             </Node>
             <Pad Id="C3j5LlLnBNILmFhKTwHgWN" Comment="Port" Bounds="186,130,33,19" ShowValueBox="true" isIOBox="true" Value="5558">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Integer32" />
               </p:TypeAnnotation>
             </Pad>
-            <Pad Id="V2vhZVxZcm4NwZlInWB1yt" Comment="Bind" Bounds="200,216,35,15" ShowValueBox="true" isIOBox="true" Value="False">
+            <Pad Id="V2vhZVxZcm4NwZlInWB1yt" Comment="Bind" Bounds="161,216,35,15" ShowValueBox="true" isIOBox="true" Value="False">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
             </Pad>
-            <Node Bounds="138,276,80,19" Id="L7CKwuzN7R1PBmHpNB85Uy">
+            <Node Bounds="98,276,80,19" Id="L7CKwuzN7R1PBmHpNB85Uy">
               <p:NodeReference LastCategoryFullName="Collections.Sequence" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="FirstOrDefault" />
@@ -2565,7 +2567,7 @@
               </p:ValueBoxSettings>
             </Pad>
             <ControlPoint Id="B6vsMjoPwkkLzA9IytxMjd" Bounds="488,98" />
-            <Node Bounds="213,308,73,26" Id="BcnenkdeCIqPNOXIN7FhUJ">
+            <Node Bounds="173,308,73,26" Id="BcnenkdeCIqPNOXIN7FhUJ">
               <p:NodeReference LastCategoryFullName="IO.NetMQ.PubSubMessage" LastDependency="VL.IO.NetMQ.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="ClassType" Name="PubSubMessage" NeedsToBeDirectParent="true" />
@@ -3453,6 +3455,8 @@
                   <Pin Id="IThh3fWiqcgLIQ5aQUzeGt" Name="Port" Kind="InputPin" />
                   <Pin Id="Fx12mpFF2DpOdCpEJcEDBC" Name="Bind" Kind="InputPin" DefaultValue="True" />
                   <Pin Id="PekYvyhevgvMIWm7sSq9Pc" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="IIRm1WJwCwRMrmKCMpp3Za" Name="Low Watermark" Kind="InputPin" IsHidden="true" />
+                  <Pin Id="Cla59gSVnWlNaqs6kQMxnz" Name="High Watermark" Kind="InputPin" IsHidden="true" />
                 </Node>
                 <Patch Id="LXdjgCW3j5IM29s3vgw5R4" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="PLWZnP9klfcNSjB5s5Y7nI" Name="Update" ParticipatingElements="EiL4N0uxdbzNh2zrz25XdL" ManuallySortedPins="true">
@@ -3766,7 +3770,7 @@
         </p:NodeReference>
         <Patch Id="BDRWdm16jwVOerafQiRBEC" IsGeneric="true">
           <Canvas Id="Sgx3inVV9WxP1ImT2IV4oQ" CanvasType="Group">
-            <Node Bounds="171,183,110,19" Id="U5O9odIWBv5PWmX99O5tdZ">
+            <Node Bounds="171,183,125,19" Id="U5O9odIWBv5PWmX99O5tdZ">
               <p:NodeReference LastCategoryFullName="IO.NetMQ" LastDependency="VL.IO.NetMQ.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Subscriber" />
@@ -3783,13 +3787,15 @@
               <Pin Id="SaA4Pg67uMdLTWXuAes6C9" Name="Topics" Kind="InputPin" />
               <Pin Id="Tao2yRb1BopMJCWphUeWJf" Name="Data" Kind="OutputPin" />
               <Pin Id="GRPxyShiq5KQNIcnpYIX4W" Name="On Data" Kind="OutputPin" />
+              <Pin Id="IWwT9rbnbpcNjxM3cDMCTE" Name="Low Watermark" Kind="InputPin" DefaultValue="1" />
+              <Pin Id="DLINMHoNw08OhkA9icN0Ff" Name="High Watermark" Kind="InputPin" DefaultValue="1" />
             </Node>
             <Pad Id="EGZHtNlSWAMOswL6smMVMV" Comment="Port" Bounds="192,128,33,19" ShowValueBox="true" isIOBox="true" Value="5558">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Integer32" />
               </p:TypeAnnotation>
             </Pad>
-            <Pad Id="MGYtTixrPBSNbfzfUnRf7O" Comment="Bind" Bounds="308,147,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <Pad Id="MGYtTixrPBSNbfzfUnRf7O" Comment="Bind" Bounds="233,162,35,15" ShowValueBox="true" isIOBox="true" Value="False">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
@@ -3798,7 +3804,7 @@
             <ControlPoint Id="TXCBiSZ9PPCPrVwKY6hrsN" Bounds="278,95" />
             <ControlPoint Id="FhBdIzTy5K7NjZzmRGyaq9" Bounds="220,95" />
             <ControlPoint Id="RPMUTAT7uSWLkg8Ukf3gZq" Bounds="173,95" />
-            <ControlPoint Id="EoiiHIGKq0wQIUtxRkPNmv" Bounds="279,638" />
+            <ControlPoint Id="EoiiHIGKq0wQIUtxRkPNmv" Bounds="293,638" />
             <ControlPoint Id="DXxyiXlO6UNQG2KsVC40c4" Bounds="408,98" />
             <Node Bounds="159,370,275,196" Id="CXRsDEhXtpMO9aR1G8h9ka">
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
@@ -4370,6 +4376,8 @@
                 <Pin Id="FCcpsGcihiTMtjDUnuSme1" Name="Port" Kind="InputPin" />
                 <Pin Id="UgxzGJ9WGRWMmyFjBi4e0t" Name="Bind" Kind="InputPin" />
                 <Pin Id="KON0JaUI6ejOHREn0z7eQb" Name="Output" Kind="OutputPin" />
+                <Pin Id="PcbnJtjMhwsLT1xhYwLxM9" Name="Low Watermark" Kind="InputPin" IsHidden="true" />
+                <Pin Id="UEL2Xi7vGWqNAxa0BHqX96" Name="High Watermark" Kind="InputPin" IsHidden="true" />
               </Node>
               <ControlPoint Id="Sy4KsdJAG60LEEIt2U2LRW" Bounds="67,122" />
               <ControlPoint Id="NzPilm3HTqUMqO00XLmAy6" Bounds="88,145" />
@@ -5531,7 +5539,7 @@
                 <Pin Id="BzldbuBlJoNLZ4CmUgAItV" Name="Output" Kind="OutputPin" />
                 <Pin Id="N7SfmBgk6nvN6znKfJOiqS" Name="On Received" Kind="OutputPin" />
               </Node>
-              <ControlPoint Id="DVAMSzkBR0SMr1WrfdGQ76" Bounds="1770,808" />
+              <ControlPoint Id="DVAMSzkBR0SMr1WrfdGQ76" Bounds="1772,808" />
               <Node Bounds="1945,717,25,19" Id="JmM9NTxpJ92LW5oTq5Oht4">
                 <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -5574,20 +5582,20 @@
               <Pad Id="K9SfNeyDbojNtdJbDxy49g" Comment="" Bounds="1356,142,35,15" ShowValueBox="true" isIOBox="true" />
               <ControlPoint Id="LwaqagluMsKNNR8DWSyNJ4" Bounds="906,55" />
               <Pad Id="QgxNMwXkokmNCxCIalNwiD" Comment="Device Enabled" Bounds="906,78,35,35" ShowValueBox="true" isIOBox="true" />
-              <Pad Id="Au8ogViR2B9LAi56BIG3au" Comment="DeviceIndex" Bounds="953,153,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+              <Pad Id="Au8ogViR2B9LAi56BIG3au" Comment="DeviceIndex" Bounds="951,144,35,15" ShowValueBox="true" isIOBox="true" Value="0">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Integer32" />
                 </p:TypeAnnotation>
               </Pad>
-              <ControlPoint Id="GWO1iOMpGB2MLvOyKMrlHq" Bounds="947,118" />
-              <ControlPoint Id="HWHTppGG0G3QD0x7PNBoxv" Bounds="997,178" />
-              <ControlPoint Id="ILcDYiWw0WKP1ZCAXT9Lyt" Bounds="1036,225" />
-              <Pad Id="AREwygRwP51MwOImZ6iqWJ" Comment="FPS" Bounds="1039,253,35,15" ShowValueBox="true" isIOBox="true" Value="2">
+              <ControlPoint Id="GWO1iOMpGB2MLvOyKMrlHq" Bounds="951,123" />
+              <ControlPoint Id="HWHTppGG0G3QD0x7PNBoxv" Bounds="997,175" />
+              <ControlPoint Id="ILcDYiWw0WKP1ZCAXT9Lyt" Bounds="1036,232" />
+              <Pad Id="AREwygRwP51MwOImZ6iqWJ" Comment="FPS" Bounds="1036,253,35,15" ShowValueBox="true" isIOBox="true" Value="2">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Integer32" />
                 </p:TypeAnnotation>
               </Pad>
-              <Pad Id="NW9HoNNtbbNPHJ3NJPR4u9" Comment="DepthMode" Bounds="998,203,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+              <Pad Id="NW9HoNNtbbNPHJ3NJPR4u9" Comment="DepthMode" Bounds="997,196,35,15" ShowValueBox="true" isIOBox="true" Value="1">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Integer32" />
                 </p:TypeAnnotation>
@@ -5919,6 +5927,8 @@
                 <Pin Id="GhUk0opbNR3NgpjaJR61t3" Name="Topics" Kind="InputPin" />
                 <Pin Id="TKDVCNrvotkQRFBvERyiQT" Name="Data" Kind="OutputPin" />
                 <Pin Id="D2ZzsWyxvhzQLTKIk0axdk" Name="On Data" Kind="OutputPin" />
+                <Pin Id="NX0P54IQFKPNTK9YU55eTG" Name="Low Watermark" Kind="InputPin" IsHidden="true" />
+                <Pin Id="JSc3ysKYvyMLg1HwkL8gFG" Name="High Watermark" Kind="InputPin" IsHidden="true" />
               </Node>
               <Pad Id="TtG9x7JX4qDMMR3HMLcN9z" Comment="On Data" Bounds="359,247,35,35" ShowValueBox="true" isIOBox="true" Value="False">
                 <p:ValueBoxSettings>
@@ -6263,6 +6273,8 @@
                 <Pin Id="Lbh73hEXh2OO3kMonFIGbH" Name="Port" Kind="InputPin" />
                 <Pin Id="VxOSRrpRu0RPeeQCxmkulN" Name="Bind" Kind="InputPin" />
                 <Pin Id="RHZ6lc1mqDMNfNMTqp7dkl" Name="Output" Kind="OutputPin" />
+                <Pin Id="Pt0XnhHlqd5OZKYp0RZvzK" Name="Low Watermark" Kind="InputPin" IsHidden="true" />
+                <Pin Id="GViXGPVA5MHNCGGwwfZlzO" Name="High Watermark" Kind="InputPin" IsHidden="true" />
               </Node>
               <ControlPoint Id="HS9lTOvJgv4L79OglXnbUV" Bounds="112,107" />
               <ControlPoint Id="O0i47SHPdqqMpWVu7Jcf83" Bounds="133,130" />
@@ -8370,7 +8382,7 @@
                   <Pin Id="Qlzc1jsx9NOOsJn9HtaoC3" Name="Input" Kind="StateInputPin" />
                   <Pin Id="OnMmsnaj7wWN7pNHFW9pZ8" Name="Result" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="318,260,65,19" Id="NrWgSPhv1ycMKBXoJl8Zfr">
+                <Node Bounds="318,260,105,19" Id="NrWgSPhv1ycMKBXoJl8Zfr">
                   <p:NodeReference LastCategoryFullName="IO.NetMQ" LastDependency="VL.IO.NetMQ.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="Publisher" />
@@ -8381,6 +8393,8 @@
                   <Pin Id="LncyoPXgnIsLzXbyyQXjGq" Name="Port" Kind="InputPin" />
                   <Pin Id="C4DIGerzvf0M2j9FhGzIlJ" Name="Bind" Kind="InputPin" DefaultValue="True" />
                   <Pin Id="C9FhyfFdLz4OfZ5xtfIzQ3" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="BuNsZ6C4b3qNNWtJo3bF5S" Name="Low Watermark" Kind="InputPin" DefaultValue="1" />
+                  <Pin Id="AOcGF3eSnUkL1pSCCdDtPv" Name="High Watermark" Kind="InputPin" DefaultValue="1" />
                 </Node>
                 <Patch Id="JV6aMvx0JjVPXlmkFeHcP6" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="DF1cb2bnbWKM6E6ejrDwsD" Name="Update" ManuallySortedPins="true">
@@ -9288,6 +9302,8 @@
                   <Pin Id="LMscK7texvaNqpsor5Iaes" Name="Port" Kind="InputPin" />
                   <Pin Id="Qrm24nHqkKIPEFJVzCkk2b" Name="Bind" Kind="InputPin" DefaultValue="True" />
                   <Pin Id="DUSCKr0b4cRLlo6gPKsZeN" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="AvEXgSAGKpmMAakiwt7CCF" Name="Low Watermark" Kind="InputPin" IsHidden="true" />
+                  <Pin Id="CHDy4OJ8JVaQYJITpKcOgF" Name="High Watermark" Kind="InputPin" IsHidden="true" />
                 </Node>
                 <Node Bounds="849,1379,72,19" Id="Lw9pUjeFeIHLSwdhoG3skx">
                   <p:NodeReference LastCategoryFullName="Animation.Time" LastDependency="VL.CoreLib.vl">
@@ -10587,7 +10603,7 @@
                   <Pin Id="BfaqnsWoNPZPA2en7SId6P" Name="Input 2" Kind="InputPin" />
                   <Pin Id="LPZhiQD7gOLOeP5DtBXfWT" Name="Output" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="262,331,65,19" Id="LEMndkMOBC6OJ1zhMUWADz">
+                <Node Bounds="262,331,105,19" Id="LEMndkMOBC6OJ1zhMUWADz">
                   <p:NodeReference LastCategoryFullName="IO.NetMQ" LastDependency="VL.IO.NetMQ.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="Publisher" />
@@ -10598,6 +10614,8 @@
                   <Pin Id="OFxvC7q4cJtNUzAmLdCYBc" Name="Port" Kind="InputPin" />
                   <Pin Id="UojZ73Rpi4IOn8qj448wGA" Name="Bind" Kind="InputPin" DefaultValue="True" />
                   <Pin Id="T0aQJ7yaNUOL9kdbnm7Mtp" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="D1il4VC7eGuOdfM09Ptfp8" Name="Low Watermark" Kind="InputPin" DefaultValue="1" />
+                  <Pin Id="J8QmmSt9TgVPRxmWJ0kmfQ" Name="High Watermark" Kind="InputPin" DefaultValue="1" />
                 </Node>
                 <Node Bounds="283,832,72,19" Id="Qw6WTMNJURRO4CFMjRAWOZ">
                   <p:NodeReference LastCategoryFullName="Animation.Time" LastDependency="VL.CoreLib.vl">
@@ -10808,6 +10826,8 @@
                   <Pin Id="VFAF6Uc36cRQTQp6dyFnUR" Name="Port" Kind="InputPin" />
                   <Pin Id="A0ckDiOAfJ9P9ekHVtd5sP" Name="Bind" Kind="InputPin" DefaultValue="True" />
                   <Pin Id="SxvWPe4Az93QPy97iAmMq2" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="DxkQNjJPIqLPZRNJXHU3Xz" Name="Low Watermark" Kind="InputPin" IsHidden="true" />
+                  <Pin Id="TfJZpDtyl6NOHrwxzlNE4M" Name="High Watermark" Kind="InputPin" IsHidden="true" />
                 </Node>
                 <Patch Id="QblfGF3PzZcP5m7Qdh0Cl6" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="GLp4AE3NLS8MA47eb2e8C4" Name="Update" ManuallySortedPins="true">
@@ -10961,6 +10981,8 @@
               <Pin Id="IRrnFauUAjVLeiVb3i8sj3" Name="Topics" Kind="InputPin" />
               <Pin Id="IIqJkyY9QRPN0xJOTH6gKr" Name="Data" Kind="OutputPin" />
               <Pin Id="Py51Yn3ayRaNoFPJiVfm7j" Name="On Data" Kind="OutputPin" />
+              <Pin Id="HFiNFpxVjoEQF4glU8LlOT" Name="Low Watermark" Kind="InputPin" IsHidden="true" />
+              <Pin Id="S7bDNcopjmPNN8FHORAOZo" Name="High Watermark" Kind="InputPin" IsHidden="true" />
             </Node>
             <Pad Id="T2K6GlFdTPTNJfjzt1IOFl" Comment="Bind" Bounds="359,357,35,15" ShowValueBox="true" isIOBox="true" Value="True">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">

@@ -223,7 +223,7 @@
             <Pin Id="RustVD1Q7l2OwdSqCtH5B4" Name="Count" Kind="InputPin" DefaultValue="1" />
             <Pin Id="KRlsOBE6mYTLhBLbWX4HNm" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="T6BDSBCwy97P0uABVll53E" Comment="Index" Bounds="387,377,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+          <Pad Id="T6BDSBCwy97P0uABVll53E" Comment="Index" Bounds="387,377,35,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -293,7 +293,7 @@
               <Item></Item>
             </p:Value>
           </Pad>
-          <Node Bounds="520,374,52,19" Id="Q5sY5RI64rmMOs2vvOpdUQ">
+          <Node Bounds="573,374,52,19" Id="Q5sY5RI64rmMOs2vvOpdUQ">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -304,8 +304,8 @@
             <Pin Id="OObjoPyi9fhNTCEJkpotu0" Name="Index" Kind="InputPin" />
             <Pin Id="REVj5YQ4ggDLBT94gSQmAv" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="Vk0gGh1l8cMMyOFnxXHmTZ" Comment="" Bounds="535,413,124,15" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="690,583,85,19" Id="IAnLZAVDm0iPC0D8W6syIx">
+          <Pad Id="Vk0gGh1l8cMMyOFnxXHmTZ" Comment="" Bounds="588,413,124,15" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="686,573,85,19" Id="IAnLZAVDm0iPC0D8W6syIx">
             <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastDependency="VL.Devices.AzureKinect.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="IMUData" />
@@ -318,7 +318,7 @@
             <Pin Id="PVky8cJE5B2Pd8ngEuT0hW" Name="Gyro Timestamp" Kind="OutputPin" />
             <Pin Id="B6WSsYrN7dSNFnO759zgWg" Name="Temperature" Kind="OutputPin" />
           </Node>
-          <Pad Id="Hhf07l4LbfQMSURKMyTTIe" Comment="Temperature" Bounds="772,622,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="Hhf07l4LbfQMSURKMyTTIe" Comment="Temperature" Bounds="768,612,35,15" ShowValueBox="true" isIOBox="true" />
           <Pad Id="U4LED2G3yT9OHLx7E57Wi2" Bounds="16,-170,354,66" ShowValueBox="true" isIOBox="true" Value="Patch is meant to be a console application. All server processes are fully reactive, therefore Mainloop FPS only influence the console output frequency">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
@@ -353,6 +353,24 @@
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="HquZKOXdlo0LXVjFu3eLBS" Comment="Device Enabled" Bounds="736,533,53,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="Mv4sxmGISSHMTidSSlgSLs" Bounds="629,360,346,40" ShowValueBox="true" isIOBox="true" Value="Only one remote controller is allowed at the moment. Receivers will all get the same enabled data sources.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="UijCRYiIPs8Nabfnvo1TGD" Bounds="407,691,116,41" ShowValueBox="true" isIOBox="true" Value="One server runs for each IP .">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="J82KbVtooxcPqc7Jg5iGee" Name="Create" ParticipatingElements="OlNKBViGycjQO3aKYwkRGk,VyG793E5a79LcYakk2fOdn" />
         <Patch Id="RzirAPsFwFdQdkqMoKRkt0" Name="Update" />
@@ -389,7 +407,6 @@
         <Link Id="AZWqGHLgMLiMsZARb5sXNT" Ids="PCieyNmxX6tNIb7Z3nnKeB,EPM9fJFxlsmNGfvhCYpE1A" />
         <Link Id="G6LT84D4MRFNYAihJT66Fx" Ids="PkiZE6UCO0LNrjq1rWCB8k,Nroc9thsdKYLkE46zsJS5G" />
         <Link Id="JSGZBjpQSKqN6NtO0IdLWs" Ids="EGqXa9dWTnFMEBmStlNwQs,MtarzY8BVEIOOk8Ryw3C5R" />
-        <Link Id="N0QyuuPxaLHPGZ6eGcUtsh" Ids="KRlsOBE6mYTLhBLbWX4HNm,JdUpETd6xzPNs3Jc0WslP1" />
         <Link Id="QqfGsqKWAS5NC6PUCm64Vy" Ids="JdUpETd6xzPNs3Jc0WslP1,Hlq6jvLbFvWPhGDvSFX7Ht" />
         <Link Id="L8aYxYYzQoxLRup6yAxwvQ" Ids="KRlsOBE6mYTLhBLbWX4HNm,SAQ3HPy2dMhMHbHmTMsSiF" />
         <Link Id="RsU3pCksMHINRhwtifvJ6t" Ids="KRlsOBE6mYTLhBLbWX4HNm,MyVzUHwFDkLNnGY9ist8zz" />
@@ -408,6 +425,7 @@
         <Link Id="QtZFik9sNlrOUN6IU00O6E" Ids="Hdqlw43Fq1ALBw86VQo9T2,HquZKOXdlo0LXVjFu3eLBS" />
         <Link Id="CxfETjjyWcmOsUDpU3xx8D" Ids="LoFgC7tgg9WPbmrS8mC9jz,Ttv61Qk1d94NJFbcqQ1Sp3" />
         <Link Id="T0acO5Oh42VLIJge7ntguQ" Ids="CzrL8fvSZYPNalEXWKjWrO,HKhh60F9YEFNnaUHwMkxJN" />
+        <Link Id="SJSCJhglwStO17geqkf9qH" Ids="OrHrBUuMocfNF3sIYFx7j6,JdUpETd6xzPNs3Jc0WslP1" />
       </Patch>
     </Node>
   </Patch>

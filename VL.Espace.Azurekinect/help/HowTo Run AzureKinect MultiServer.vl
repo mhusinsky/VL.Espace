@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="N0XHDbgZ1FrM1garClaFU2" LanguageVersion="2025.7.0-0032-g78ac44060f" Version="0.128">
-  <NugetDependency Id="SxiiQsfkL0sOhbZYGehXBQ" Location="VL.CoreLib" Version="2025.7.0-0032-g78ac44060f" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="N0XHDbgZ1FrM1garClaFU2" LanguageVersion="2024.6.7" Version="0.128">
+  <NugetDependency Id="SxiiQsfkL0sOhbZYGehXBQ" Location="VL.CoreLib" Version="2024.6.7" />
   <Patch Id="CcZiX7hg3YrOS797X2LhlF">
     <Canvas Id="L6JS2TjG72kMufThDdpjIk" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -24,7 +24,7 @@
             <Pin Id="FKIWrNmS6J8N4mI9pEuvFQ" Name="Value" Kind="InputPin" />
             <Pin Id="El79rrtnLPIMTPcELL8vJz" Name="Apply" Kind="InputPin" />
           </Node>
-          <Pad Id="Q3z9tvGLgH0NbM7Ll2CcTl" Bounds="85,465,172,23" ShowValueBox="true" isIOBox="true" Value="Started Kinect Sender version:  ">
+          <Pad Id="Q3z9tvGLgH0NbM7Ll2CcTl" Bounds="85,465,200,16" ShowValueBox="true" isIOBox="true" Value="Started AzureKinect Sender version:  ">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="String" />
               <FullNameCategoryReference ID="Primitive" />
@@ -71,7 +71,7 @@
             <Pin Id="H4fNFxht6VIPXpzxF0IBXy" Name="Type" Kind="OutputPin" />
             <Pin Id="Tja4gvnvl4NQILBQ3MPrwJ" Name="Is Up" Kind="OutputPin" />
           </Node>
-          <Pad Id="PwRrhFSjIEJLK8DdBJGzUV" Comment="" Bounds="115,497,83,15" ShowValueBox="true" isIOBox="true" Value="250116">
+          <Pad Id="PwRrhFSjIEJLK8DdBJGzUV" Comment="" Bounds="115,497,83,15" ShowValueBox="true" isIOBox="true" Value="250128">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -213,21 +213,6 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="356,403,63,26" Id="FpvFn7pPh44NzT2FxZZdnl">
-            <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="GetSpread" />
-            </p:NodeReference>
-            <Pin Id="K8ouMb9mRLfLe47kqIGTJt" Name="Input" Kind="StateInputPin" />
-            <Pin Id="Nzhw37QC9ADLUNA8ohKKIr" Name="Index" Kind="InputPin" />
-            <Pin Id="RustVD1Q7l2OwdSqCtH5B4" Name="Count" Kind="InputPin" DefaultValue="1" />
-            <Pin Id="KRlsOBE6mYTLhBLbWX4HNm" Name="Output" Kind="StateOutputPin" />
-          </Node>
-          <Pad Id="T6BDSBCwy97P0uABVll53E" Comment="Index" Bounds="387,377,35,15" ShowValueBox="true" isIOBox="true" Value="1">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Integer32" />
-            </p:TypeAnnotation>
-          </Pad>
           <Node Bounds="558,629,933,238" Id="IzolRkqV9VAPsmcE0HMPZR">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
@@ -288,23 +273,6 @@
             </Patch>
             <ControlPoint Id="JdUpETd6xzPNs3Jc0WslP1" Bounds="627,635" Alignment="Top" />
           </Node>
-          <Pad Id="SAQ3HPy2dMhMHbHmTMsSiF" Comment="" Bounds="358,463,132,34" ShowValueBox="true" isIOBox="true">
-            <p:Value>
-              <Item></Item>
-            </p:Value>
-          </Pad>
-          <Node Bounds="573,374,52,19" Id="Q5sY5RI64rmMOs2vvOpdUQ">
-            <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
-              <Choice Kind="OperationCallFlag" Name="GetSlice" />
-            </p:NodeReference>
-            <Pin Id="MyVzUHwFDkLNnGY9ist8zz" Name="Input" Kind="StateInputPin" />
-            <Pin Id="DBdH9bEGFHQQTKQPixyWqB" Name="Default Value" Kind="InputPin" />
-            <Pin Id="OObjoPyi9fhNTCEJkpotu0" Name="Index" Kind="InputPin" />
-            <Pin Id="REVj5YQ4ggDLBT94gSQmAv" Name="Result" Kind="OutputPin" />
-          </Node>
-          <Pad Id="Vk0gGh1l8cMMyOFnxXHmTZ" Comment="" Bounds="588,413,124,15" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="686,573,85,19" Id="IAnLZAVDm0iPC0D8W6syIx">
             <p:NodeReference LastCategoryFullName="Devices.AzureKinect" LastDependency="VL.Devices.AzureKinect.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -342,7 +310,7 @@
             <Pin Id="P5t5gTm1mYJPRgptumHlNz" Name="Firmware Info" Kind="OutputPin" />
             <Pin Id="Hdqlw43Fq1ALBw86VQo9T2" Name="Device Enabled" Kind="OutputPin" />
           </Node>
-          <Pad Id="LoFgC7tgg9WPbmrS8mC9jz" Comment="Port" Bounds="682,432,35,15" ShowValueBox="true" isIOBox="true" Value="6666">
+          <Pad Id="LoFgC7tgg9WPbmrS8mC9jz" Comment="Port" Bounds="682,446,35,15" ShowValueBox="true" isIOBox="true" Value="6666">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -353,7 +321,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="HquZKOXdlo0LXVjFu3eLBS" Comment="Device Enabled" Bounds="736,533,53,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="Mv4sxmGISSHMTidSSlgSLs" Bounds="629,360,346,40" ShowValueBox="true" isIOBox="true" Value="Only one remote controller is allowed at the moment. Receivers will all get the same enabled data sources.">
+          <Pad Id="Mv4sxmGISSHMTidSSlgSLs" Bounds="566,375,346,40" ShowValueBox="true" isIOBox="true" Value="The Remote works on a latest-takes-precedence basis. Normally only one Remote makes sense.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -362,7 +330,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="UijCRYiIPs8Nabfnvo1TGD" Bounds="407,691,116,41" ShowValueBox="true" isIOBox="true" Value="One server runs for each IP .">
+          <Pad Id="UijCRYiIPs8Nabfnvo1TGD" Bounds="301,377,227,62" ShowValueBox="true" isIOBox="true" Value="You can restrict your server to run on certain NICs (defined by the IP addresses)">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -389,6 +357,23 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Pad Id="PvIXTbqW6bIL0skY1Xb2do" Comment="Host" Bounds="573,446,49,15" ShowValueBox="true" isIOBox="true" Value="0.0.0.0">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="292,87,65,19" Id="JwkLnIqCqoiPayY5Gs3MEA">
+            <p:NodeReference LastCategoryFullName="IO.Net" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="IPs (Ethernet)" />
+            </p:NodeReference>
+            <Pin Id="PtFVJfG3DjzNeW4wnf4L3x" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="HnwJXe3zL0sP69qmtfCJBI" Name="Update" Kind="InputPin" />
+            <Pin Id="SdCO3mxbrWXMF9BCQFACsK" Name="Address" Kind="OutputPin" />
+            <Pin Id="HO7vlyeWu5LQNIxPDIJq2a" Name="Name" Kind="OutputPin" />
+            <Pin Id="SYtJJbscijELNMZrqooRLk" Name="Description" Kind="OutputPin" />
+            <Pin Id="LtFI53aNNarQK4C93FHFPB" Name="Is Up" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="J82KbVtooxcPqc7Jg5iGee" Name="Create" ParticipatingElements="OlNKBViGycjQO3aKYwkRGk,VyG793E5a79LcYakk2fOdn" />
         <Patch Id="RzirAPsFwFdQdkqMoKRkt0" Name="Update" />
@@ -419,16 +404,11 @@
         <Link Id="B9kQBurdyRYPf0XQ7f5xB0" Ids="JkkdWXcTB1kMgwDH8s6Tng,EPM9fJFxlsmNGfvhCYpE1A" IsFeedback="true" />
         <Link Id="TIGuywaBRD1Lfy7KiXr5An" Ids="GJ9XC4CvTmjLc9Ac46S41k,JkkdWXcTB1kMgwDH8s6Tng" />
         <Link Id="VyG793E5a79LcYakk2fOdn" Ids="EPM9fJFxlsmNGfvhCYpE1A,OrHrBUuMocfNF3sIYFx7j6" />
-        <Link Id="EQUNN0ApjcBMXr2ioah6AW" Ids="OrHrBUuMocfNF3sIYFx7j6,K8ouMb9mRLfLe47kqIGTJt" />
-        <Link Id="JtCBwaCD3M3NvZEaNVlBjX" Ids="T6BDSBCwy97P0uABVll53E,Nzhw37QC9ADLUNA8ohKKIr" />
         <Link Id="Jsjid6sqLfqPGDOFt7kz8f" Ids="JkkdWXcTB1kMgwDH8s6Tng,FDLohevq6BEOy4q4GxGCtF" />
         <Link Id="AZWqGHLgMLiMsZARb5sXNT" Ids="PCieyNmxX6tNIb7Z3nnKeB,EPM9fJFxlsmNGfvhCYpE1A" />
         <Link Id="G6LT84D4MRFNYAihJT66Fx" Ids="PkiZE6UCO0LNrjq1rWCB8k,Nroc9thsdKYLkE46zsJS5G" />
         <Link Id="JSGZBjpQSKqN6NtO0IdLWs" Ids="EGqXa9dWTnFMEBmStlNwQs,MtarzY8BVEIOOk8Ryw3C5R" />
         <Link Id="QqfGsqKWAS5NC6PUCm64Vy" Ids="JdUpETd6xzPNs3Jc0WslP1,Hlq6jvLbFvWPhGDvSFX7Ht" />
-        <Link Id="L8aYxYYzQoxLRup6yAxwvQ" Ids="KRlsOBE6mYTLhBLbWX4HNm,SAQ3HPy2dMhMHbHmTMsSiF" />
-        <Link Id="RsU3pCksMHINRhwtifvJ6t" Ids="KRlsOBE6mYTLhBLbWX4HNm,MyVzUHwFDkLNnGY9ist8zz" />
-        <Link Id="IYGqbMih1VDQKyVJXwjJWN" Ids="REVj5YQ4ggDLBT94gSQmAv,Vk0gGh1l8cMMyOFnxXHmTZ" />
         <Link Id="Jop8H6iLA1lN1aN3iob477" Ids="B6WSsYrN7dSNFnO759zgWg,Hhf07l4LbfQMSURKMyTTIe" />
         <Link Id="AHCK9kFQHfUO13vCzMZFjZ" Ids="EGqXa9dWTnFMEBmStlNwQs,I35XkdY1QRrPhbQMjiCEww" />
         <Link Id="JKICu0m6UmvLy9xuoseqle" Ids="Hhf07l4LbfQMSURKMyTTIe,BhyPAVm0dZnOjyoqxvVFoe" />
@@ -436,7 +416,6 @@
         <Link Id="SFijKQyEKAYNVS5W5obib6" Ids="MTgTtwcpu3LMBDgjQvtqAm,Pc1IwWydLTLLDIp6DrkOYB" />
         <Link Id="DYBLpDuVX7POPKkTJ70zvK" Ids="JiBCBBCQCOhMAnmuswtHDf,RE0ZKmUtMUvPr9adTmPQwT" />
         <Link Id="App1dzCazb7P2tK7noW1a5" Ids="M5YVVnsBciBLzuePe0vHHd,FRiW0sGyV0PMzOSyMJ25YK" />
-        <Link Id="VtZqCThagacMfFHMToEHpR" Ids="REVj5YQ4ggDLBT94gSQmAv,Hb6Xf2O8qVPO8mJr2Iogkg" />
         <Link Id="IFqLYQay4svNfvSDVJ7MIf" Ids="LoFgC7tgg9WPbmrS8mC9jz,IHnFpRov9wGP7re3jsp6p5" />
         <Link Id="MmPGlqpgf63MVpzj8eLt2Z" Ids="CzrL8fvSZYPNalEXWKjWrO,NxlnVF9c9BGMiZyJEl1u3v" />
         <Link Id="PdGf5D0tS9JMFBgdSK9j3y" Ids="HJ0RbNT97rRNA8ZinR1dBn,DSeOrFskQRnLyMrYZ37Rnt" />
@@ -444,11 +423,12 @@
         <Link Id="CxfETjjyWcmOsUDpU3xx8D" Ids="LoFgC7tgg9WPbmrS8mC9jz,Ttv61Qk1d94NJFbcqQ1Sp3" />
         <Link Id="T0acO5Oh42VLIJge7ntguQ" Ids="CzrL8fvSZYPNalEXWKjWrO,HKhh60F9YEFNnaUHwMkxJN" />
         <Link Id="SJSCJhglwStO17geqkf9qH" Ids="OrHrBUuMocfNF3sIYFx7j6,JdUpETd6xzPNs3Jc0WslP1" />
+        <Link Id="Mo3pw84HcfJNyqol0ifSgA" Ids="PvIXTbqW6bIL0skY1Xb2do,Hb6Xf2O8qVPO8mJr2Iogkg" />
       </Patch>
     </Node>
   </Patch>
   <NugetDependency Id="R64ILvuxIk7LlVQxCJ4LdM" Location="VL.IO.NetMQ" Version="0.4.2-alpha" />
-  <NugetDependency Id="Bm9qVTfGdhwNAeaHJSxuYy" Location="VL.Devices.AzureKinect" Version="1.4.3" />
+  <NugetDependency Id="Bm9qVTfGdhwNAeaHJSxuYy" Location="VL.Devices.AzureKinect" Version="1.5.0" />
   <NugetDependency Id="P7CNSn9SZCILcOAQvgNJfH" Location="VL.Espace.Azurekinect" Version="0.0.0" />
   <NugetDependency Id="Feh0Sr4OX0iOgkKvJlOY6Z" Location="VL.Espace" Version="0.0.0" />
 </Document>

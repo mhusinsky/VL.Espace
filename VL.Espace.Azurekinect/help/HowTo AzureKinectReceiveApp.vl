@@ -1940,6 +1940,8 @@
             <Pin Id="V3f8okYvJ4MPuc36aMcPYH" Name="ColorDepthPacked" Kind="InputPin" />
             <Pin Id="QXpiY4XoKQVNuyLcZJvfnt" Name="SendInfrared" Kind="InputPin" DefaultValue="True" />
             <Pin Id="KsLMnXVUbmUMJD7048dCu9" Name="Skeleton" Kind="InputPin" />
+            <Pin Id="FJ9XWd0QdLDOwwREOkIBrq" Name="ProcessingMode" Kind="InputPin" />
+            <Pin Id="OZQQZYALkgQP9V8sMBcGtD" Name="DeviceOrientation" Kind="InputPin" />
             <Pin Id="VfqJjXYxuVgOeNJSvTvQlv" Name="Request DepthCamData" Kind="InputPin" />
             <Pin Id="KvDZMJ5IVqQLWYVvmiHV6P" Name="Device Transform" Kind="InputPin" />
             <Pin Id="VxFTKXd7xanQOPjW9OaCSC" Name="DepthCamData" Kind="OutputPin" />
@@ -2489,6 +2491,84 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Pad Id="KBzj1M6CrsqQHoAsOTmA8N" Comment="ProcessingMode" Bounds="277,-135,79,95" ShowValueBox="true" isIOBox="true">
+            <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Spread" />
+              <p:TypeArguments>
+                <TypeReference>
+                  <Choice Kind="ImmutableTypeFlag" Name="String" />
+                </TypeReference>
+              </p:TypeArguments>
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:showentryindex p:Type="Boolean">true</p:showentryindex>
+            </p:ValueBoxSettings>
+            <p:Value>
+              <Item>Gpu</Item>
+              <Item>Cpu</Item>
+              <Item>Cuda</Item>
+              <Item>TensorRT</Item>
+              <Item>DirectMl</Item>
+            </p:Value>
+          </Pad>
+          <Pad Id="IAswKMHi6pXQZ6niVOfUNO" Comment="DeviceOrientation" Bounds="372,-119,122,80" ShowValueBox="true" isIOBox="true">
+            <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Spread" />
+              <p:TypeArguments>
+                <TypeReference>
+                  <Choice Kind="ImmutableTypeFlag" Name="String" />
+                </TypeReference>
+              </p:TypeArguments>
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:showentryindex p:Type="Boolean">true</p:showentryindex>
+            </p:ValueBoxSettings>
+            <p:Value>
+              <Item>Default</Item>
+              <Item>Clockwise90</Item>
+              <Item>CounterClockwise90</Item>
+              <Item>Flip180</Item>
+            </p:Value>
+          </Pad>
+          <Pad Id="TfZu1bfejL5OUOv24nv7t7" Comment="DepthMode" Bounds="607,-135,140,95" ShowValueBox="true" isIOBox="true">
+            <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Spread" />
+              <p:TypeArguments>
+                <TypeReference>
+                  <Choice Kind="ImmutableTypeFlag" Name="String" />
+                </TypeReference>
+              </p:TypeArguments>
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:showentryindex p:Type="Boolean">true</p:showentryindex>
+            </p:ValueBoxSettings>
+            <p:Value>
+              <Item>NFOV_2x2Binned</Item>
+              <Item>NFOV_Unbinned</Item>
+              <Item>WFOV_2x2Binned</Item>
+              <Item>WFOV_Unbinned</Item>
+              <Item>PassiveIR</Item>
+            </p:Value>
+          </Pad>
+          <Pad Id="GAzAwhTbcnvLUOl53cF3aa" Comment="FPS" Bounds="769,-105,75,65" ShowValueBox="true" isIOBox="true">
+            <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Spread" />
+              <p:TypeArguments>
+                <TypeReference>
+                  <Choice Kind="ImmutableTypeFlag" Name="String" />
+                </TypeReference>
+              </p:TypeArguments>
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:showentryindex p:Type="Boolean">true</p:showentryindex>
+            </p:ValueBoxSettings>
+            <p:Value>
+              <Item>FPS5</Item>
+              <Item>FPS15</Item>
+              <Item>FPS30</Item>
+            </p:Value>
+          </Pad>
+          <Overlay Id="MMI8CWgWFM6NNSlcV5tizW" Name="AzureKinect Configuration Enums" Bounds="197,-233,759,212" />
         </Canvas>
         <Patch Id="C95OvoPFFsENGzyOXNMU46" Name="Create" />
         <Patch Id="JbJjeDG7UkUPZOAbSm9INO" Name="Update" ParticipatingElements="JrLfbXkTtKZNPvfIGUxez8" />

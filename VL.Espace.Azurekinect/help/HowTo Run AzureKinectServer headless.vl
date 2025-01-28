@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="Rw8WNx7Oj3PMFBRmaXtQA8">
         <Canvas Id="RnO5Q28rQHmONCFRMjcO2L" CanvasType="Group">
-          <Node Bounds="78,664,58,26" Id="OlNKBViGycjQO3aKYwkRGk">
+          <Node Bounds="93,709,58,26" Id="OlNKBViGycjQO3aKYwkRGk">
             <p:NodeReference LastCategoryFullName="System.Console" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="ClassType" Name="Console" />
@@ -24,13 +24,13 @@
             <Pin Id="FKIWrNmS6J8N4mI9pEuvFQ" Name="Value" Kind="InputPin" />
             <Pin Id="El79rrtnLPIMTPcELL8vJz" Name="Apply" Kind="InputPin" />
           </Node>
-          <Pad Id="Q3z9tvGLgH0NbM7Ll2CcTl" Bounds="81,436,227,17" ShowValueBox="true" isIOBox="true" Value="Started VL.Espace AzureKinect Server version:  ">
+          <Pad Id="Q3z9tvGLgH0NbM7Ll2CcTl" Bounds="96,481,227,17" ShowValueBox="true" isIOBox="true" Value="Started VL.Espace AzureKinect Server version:  ">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="String" />
               <FullNameCategoryReference ID="Primitive" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="78,602,65,19" Id="Bl3lH4i1w48PkwwkJw3Rbc">
+          <Node Bounds="93,647,65,19" Id="Bl3lH4i1w48PkwwkJw3Rbc">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="+" />
@@ -40,7 +40,7 @@
             <Pin Id="Uk3QG3qFbkKMEoyFvCuSis" Name="Output" Kind="OutputPin" />
             <Pin Id="U2er8d7JlBwPp3y24SqquS" Name="Input 3" Kind="InputPin" />
           </Node>
-          <Pad Id="GjCfr82RrlSOOtZqSV7LxI" Comment="Apply" Bounds="133,643,35,15" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="GjCfr82RrlSOOtZqSV7LxI" Comment="Apply" Bounds="148,688,35,15" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               <FullNameCategoryReference ID="Primitive" />
@@ -49,7 +49,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="35,164,79,19" Id="TPdL72UyGY3ODR7xocoCa8">
+          <Node Bounds="95,209,79,19" Id="TPdL72UyGY3ODR7xocoCa8">
             <p:NodeReference LastCategoryFullName="System" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="KeepAppAlive" />
@@ -58,12 +58,12 @@
             <Pin Id="IeDRNQGMjIFM3tKYAfkXiB" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="M3uG7eMukBwQPcRYSAXQDk" Name="Is Alive" Kind="InputPin" />
           </Node>
-          <Pad Id="PwRrhFSjIEJLK8DdBJGzUV" Comment="" Bounds="111,461,83,15" ShowValueBox="true" isIOBox="true" Value="250126">
+          <Pad Id="PwRrhFSjIEJLK8DdBJGzUV" Comment="" Bounds="126,506,83,15" ShowValueBox="true" isIOBox="true" Value="250126">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="157,162,78,19" Id="PIEtzMrqg0SNCaQ0eEUYeu">
+          <Node Bounds="217,207,78,19" Id="PIEtzMrqg0SNCaQ0eEUYeu">
             <p:NodeReference LastCategoryFullName="System.Application" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="MainLoop" />
@@ -79,16 +79,16 @@
             <Pin Id="KOrIfBpger2PAF3wRSHqC4" Name="Wait Accuracy" Kind="InputPin" IsHidden="true" />
             <Pin Id="MEhQWHJv1weNqEz8EXOnVN" Name="Wait Accuracy" Kind="OutputPin" IsHidden="true" />
           </Node>
-          <Pad Id="EVWCHdP34txOu63tU9DbpC" Comment="Max FPS" Bounds="159,148,52,15" ShowValueBox="true" isIOBox="true" Value="2">
+          <Pad Id="EVWCHdP34txOu63tU9DbpC" Comment="Max FPS" Bounds="219,193,52,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Overlay Id="TuNYCTAYTGoLrAHaLPQey2" Name="App Config" Bounds="4,4,836,208" />
-          <Pad Id="OrHrBUuMocfNF3sIYFx7j6" SlotId="JXzqt5tDzTFMUlwl9nZka0" Bounds="240,303">
+          <Overlay Id="TuNYCTAYTGoLrAHaLPQey2" Name="App Config" Bounds="64,49,836,208" />
+          <Pad Id="OrHrBUuMocfNF3sIYFx7j6" SlotId="JXzqt5tDzTFMUlwl9nZka0" Bounds="255,348">
             <p:Value />
           </Pad>
-          <Pad Id="U4LED2G3yT9OHLx7E57Wi2" Bounds="18,58,385,58" ShowValueBox="true" isIOBox="true" Value="Patch is meant to be a console application. All server processes are fully reactive, therefore Mainloop FPS only influences the console output frequency, not the sending rate">
+          <Pad Id="U4LED2G3yT9OHLx7E57Wi2" Bounds="78,103,385,58" ShowValueBox="true" isIOBox="true" Value="Patch is meant to be a console application. Encoding and sending is fully reactive, therefore Mainloop FPS only influences the console output frequency, not the sending rate">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -97,7 +97,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="366,395,153,19" Id="B63l4Gfpp6oOqyMn7bkcdI">
+          <Node Bounds="426,440,153,19" Id="B63l4Gfpp6oOqyMn7bkcdI">
             <p:NodeReference LastCategoryFullName="Espace.AzureKinect" LastDependency="VL.Espace.AzureKinect.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="AzureKinectDeviceAndRemote" />
@@ -111,27 +111,18 @@
             <Pin Id="P5t5gTm1mYJPRgptumHlNz" Name="Firmware Info" Kind="OutputPin" />
             <Pin Id="Hdqlw43Fq1ALBw86VQo9T2" Name="Device Enabled" Kind="OutputPin" />
           </Node>
-          <Pad Id="LoFgC7tgg9WPbmrS8mC9jz" Comment="Port" Bounds="476,320,35,15" ShowValueBox="true" isIOBox="true" Value="6666">
+          <Pad Id="LoFgC7tgg9WPbmrS8mC9jz" Comment="Port" Bounds="536,365,35,15" ShowValueBox="true" isIOBox="true" Value="6666">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="CzrL8fvSZYPNalEXWKjWrO" Comment="Device Name" Bounds="528,371,71,15" ShowValueBox="true" isIOBox="true" Value="AzureKinect">
+          <Pad Id="CzrL8fvSZYPNalEXWKjWrO" Comment="Device Name" Bounds="588,416,71,15" ShowValueBox="true" isIOBox="true" Value="AzureKinect">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="HquZKOXdlo0LXVjFu3eLBS" Comment="Device Enabled" Bounds="530,428,53,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="CEVzrXAHlraLVRn1zkU2go" Bounds="674,357,260,62" ShowValueBox="true" isIOBox="true" Value="Device name is arbitrary but needs to be unique for each device/server. Internally it is used to name senders and receivers">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Pad Id="Rb23rXICQA9L56QPsfkc0F" Bounds="546,302,277,40" ShowValueBox="true" isIOBox="true" Value="Start port of all senders. Internally, 10 more ports (with increasing numbers) are used">
+          <Pad Id="HquZKOXdlo0LXVjFu3eLBS" Comment="Device Enabled" Bounds="590,473,53,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="CEVzrXAHlraLVRn1zkU2go" Bounds="734,409,260,62" ShowValueBox="true" isIOBox="true" Value="Device name is arbitrary but needs to be unique for each device/server. Internally it is used to name senders and receivers">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -140,12 +131,21 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="OFoelOJuUaMOYe36T8Mf7H" Comment="" Bounds="240,272,67,15" ShowValueBox="true" isIOBox="true" Value="0.0.0.0">
+          <Pad Id="Rb23rXICQA9L56QPsfkc0F" Bounds="606,347,277,40" ShowValueBox="true" isIOBox="true" Value="Start port of all senders. Internally, 10 more ports (with increasing numbers) are used">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="OFoelOJuUaMOYe36T8Mf7H" Comment="" Bounds="255,317,67,15" ShowValueBox="true" isIOBox="true" Value="0.0.0.0">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="178,521,65,19" Id="ClB8wqkj2a9PeReUdXMNTh">
+          <Node Bounds="193,566,65,19" Id="ClB8wqkj2a9PeReUdXMNTh">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="+" />
@@ -156,7 +156,7 @@
             <Pin Id="MwYd5e59VFRMJQweoXn4zL" Name="Input 3" Kind="InputPin" DefaultValue="  : " />
             <Pin Id="OSqd6mSGtefOcuD16Vd71S" Name="Input 4" Kind="InputPin" />
           </Node>
-          <Node Bounds="138,565,45,19" Id="SRWfNi65UO3LJpHyOYl6fn">
+          <Node Bounds="153,610,45,19" Id="SRWfNi65UO3LJpHyOYl6fn">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="+" />
@@ -166,14 +166,14 @@
             <Pin Id="PvB3sDizfdaLBksRpjTtkn" Name="Output" Kind="OutputPin" />
             <Pin Id="MxI3G1gCIHjOwoueOYhVCt" Name="Input 3" Kind="InputPin" />
           </Node>
-          <Node Bounds="158,477,39,19" Id="QLWz3qfshJFNepdMsd1eZV">
+          <Node Bounds="173,522,39,19" Id="QLWz3qfshJFNepdMsd1eZV">
             <p:NodeReference LastCategoryFullName="Primitive.String" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="CRLF" />
             </p:NodeReference>
             <Pin Id="FbWMFjjXzt3OFPP3Dad0sp" Name="CRLF" Kind="OutputPin" />
           </Node>
-          <Node Bounds="366,542,165,19" Id="IPZ9yrp5liMPUuvJgyjmUR">
+          <Node Bounds="426,587,165,19" Id="IPZ9yrp5liMPUuvJgyjmUR">
             <p:NodeReference LastCategoryFullName="Trackinghub.AzureKinect" LastDependency="VL.IO.Trackinghub.AzureKinect.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="AzureKinectServer" />
@@ -185,8 +185,8 @@
             <Pin Id="HKhh60F9YEFNnaUHwMkxJN" Name="Device Name" Kind="InputPin" />
             <Pin Id="EGqXa9dWTnFMEBmStlNwQs" Name="Info" Kind="OutputPin" />
           </Node>
-          <Pad Id="MtarzY8BVEIOOk8Ryw3C5R" Comment="Info" Bounds="383,585,687,15" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="366,688,161,19" Id="UX72YtX3uWdLYWZRN7GWlF">
+          <Pad Id="MtarzY8BVEIOOk8Ryw3C5R" Comment="Info" Bounds="443,630,687,15" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="426,733,161,19" Id="UX72YtX3uWdLYWZRN7GWlF">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="+" />
@@ -196,7 +196,7 @@
             <Pin Id="MTgTtwcpu3LMBDgjQvtqAm" Name="Output" Kind="OutputPin" />
             <Pin Id="UQ8xGBIjDk3PFNYrIDUfq7" Name="Input 3" Kind="InputPin" />
           </Node>
-          <Node Bounds="366,719,58,26" Id="Cu9dVUrSHsqLTEBKfIQMSe">
+          <Node Bounds="426,764,58,26" Id="Cu9dVUrSHsqLTEBKfIQMSe">
             <p:NodeReference LastCategoryFullName="System.Console" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="WriteLine" />
@@ -204,15 +204,15 @@
             <Pin Id="Pc1IwWydLTLLDIp6DrkOYB" Name="Value" Kind="InputPin" />
             <Pin Id="UzYeybxjBqFL2onicd580f" Name="Apply" Kind="InputPin" DefaultValue="True" />
           </Node>
-          <Node Bounds="522,645,39,19" Id="Pf2ieVmlUL6PpjRRa41BJI">
+          <Node Bounds="582,690,39,19" Id="Pf2ieVmlUL6PpjRRa41BJI">
             <p:NodeReference LastCategoryFullName="Primitive.String" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="CRLF" />
             </p:NodeReference>
             <Pin Id="JiBCBBCQCOhMAnmuswtHDf" Name="CRLF" Kind="OutputPin" />
           </Node>
-          <Pad Id="HEHxQToJmeSMrSoD70N98D" Comment="Firmware Info" Bounds="540,465,136,63" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="Ix26M5YFQX4MVy1G1fO79O" Bounds="535,548,322,19" ShowValueBox="true" isIOBox="true" Value="The server takes care of publishing all requested data">
+          <Pad Id="HEHxQToJmeSMrSoD70N98D" Comment="Firmware Info" Bounds="600,510,136,63" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="Ix26M5YFQX4MVy1G1fO79O" Bounds="595,593,322,19" ShowValueBox="true" isIOBox="true" Value="The server takes care of publishing all requested data">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -221,7 +221,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="444,645,45,19" Id="UahDorNSEP8NuTuOx5j9b4">
+          <Node Bounds="504,690,45,19" Id="UahDorNSEP8NuTuOx5j9b4">
             <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
@@ -232,7 +232,7 @@
             <Pin Id="JkvME9ypP9UNZyMAhGy5zz" Name="Input 2" Kind="InputPin" />
             <Pin Id="HTZDGBmCKYiL3HKy5SQ3bY" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="VuJHiDQCYmjPVhvJrUv7q4" Bounds="315,269,184,38" ShowValueBox="true" isIOBox="true" Value="IP the server is listening on. &#xD;&#xA;(0.0.0.0 means all NICs)">
+          <Pad Id="VuJHiDQCYmjPVhvJrUv7q4" Bounds="330,314,184,38" ShowValueBox="true" isIOBox="true" Value="IP the server is listening on. &#xD;&#xA;(0.0.0.0 means all NICs)">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -241,7 +241,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="QHoYiTl9gNhO1LHxzHAFJX" Bounds="25,776,322,19" ShowValueBox="true" isIOBox="true" Value="See AzureKinectReceiver help patch for a counterpart">
+          <Pad Id="QHoYiTl9gNhO1LHxzHAFJX" Bounds="85,821,322,19" ShowValueBox="true" isIOBox="true" Value="See AzureKinectReceiver help patch for a counterpart">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -250,7 +250,16 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="JmzwRd7Uhx0QXKYpMRG806" Bounds="439,60,313,59" ShowValueBox="true" isIOBox="true" Value="If you export the patch as a standalone application, don't forget to set windows graphic setting for this app to a high-performance GPU.">
+          <Pad Id="JmzwRd7Uhx0QXKYpMRG806" Bounds="499,105,313,59" ShowValueBox="true" isIOBox="true" Value="If you export the patch as a standalone application, don't forget to set windows graphic setting for this app to a high-performance GPU.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="PhAyKUuHbhwLGTHEqRytWq" Bounds="594,814,251,64" ShowValueBox="true" isIOBox="true" Value="Note: Due to a bug in AzureKinect.Body, the skeleton tracking will continue even when the device is disabled.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>

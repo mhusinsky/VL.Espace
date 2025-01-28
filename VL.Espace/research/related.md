@@ -15,14 +15,26 @@
   * https://github.com/Mirevi/MotionHub
 
 
-## Depth image compression
-* https://github.com/catid/Zdepth
-  * used in moetsi Sensor Stream Pipe
-  * based on MS
-* https://github.com/catid/Zdepth
-  * lossy version of Zdepth
-* MS Fast Lossless Image compression
-  * https://www.microsoft.com/en-us/research/publication/fast-lossless-depth-image-compression/
+## image compression
+* Depth image specific
+  * https://github.com/catid/Zdepth
+    * used in moetsi Sensor Stream Pipe
+    * based on MS
+  * https://github.com/catid/Zdepth
+    * lossy version of Zdepth
+  * MS Fast Lossless Image compression
+    * https://www.microsoft.com/en-us/research/publication/fast-lossless-depth-image-compression/
+* Generic Compression Methods
+  * K4os.Compression: Ships with VVVV
+    * https://github.com/K4os/compression
+  * -> compare to Snappy
+* JPEG Compression
+  * currently using Skia compressor
+  Alternatives?
+    * https://github.com/subalterngames/fast_image_encoder
+    * ImageSharp. (Is a dependency of Azurekinect package in an old version. Should this be cut out for better version management and usage in different packages?)
+    * https://libjpeg-turbo.org/
+
 
 ## Motion Tracking
 ### body

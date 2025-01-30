@@ -58,19 +58,6 @@
             <Pin Id="IeDRNQGMjIFM3tKYAfkXiB" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="M3uG7eMukBwQPcRYSAXQDk" Name="Is Alive" Kind="InputPin" />
           </Node>
-          <Node Bounds="182,88,85,19" Id="IP7eeRQQdcwLP9haTYxVW6">
-            <p:NodeReference LastCategoryFullName="IO.Net" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="IPs" />
-            </p:NodeReference>
-            <Pin Id="Q9Rcstuj7h5MmhHE19PWgs" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="Cn2ezvjezu4LFHeMQ638tK" Name="Update" Kind="InputPin" />
-            <Pin Id="HcEKXa0tUTEO1tOMke1JPf" Name="Address" Kind="OutputPin" />
-            <Pin Id="Mzn5mCpZMnZPcyZ12laifO" Name="Name" Kind="OutputPin" />
-            <Pin Id="OxsZf0x1e0LNvz7H95R6zU" Name="Description" Kind="OutputPin" />
-            <Pin Id="H4fNFxht6VIPXpzxF0IBXy" Name="Type" Kind="OutputPin" />
-            <Pin Id="Tja4gvnvl4NQILBQ3MPrwJ" Name="Is Up" Kind="OutputPin" />
-          </Node>
           <Pad Id="PwRrhFSjIEJLK8DdBJGzUV" Comment="" Bounds="115,497,83,15" ShowValueBox="true" isIOBox="true" Value="250128">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
@@ -362,7 +349,7 @@
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="292,87,65,19" Id="JwkLnIqCqoiPayY5Gs3MEA">
+          <Node Bounds="182,87,65,19" Id="JwkLnIqCqoiPayY5Gs3MEA">
             <p:NodeReference LastCategoryFullName="IO.Net" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="IPs (Ethernet)" />
@@ -374,6 +361,33 @@
             <Pin Id="SYtJJbscijELNMZrqooRLk" Name="Description" Kind="OutputPin" />
             <Pin Id="LtFI53aNNarQK4C93FHFPB" Name="Is Up" Kind="OutputPin" />
           </Node>
+          <Pad Id="SP97dbidHW5QMYPRTAylAa" Bounds="462,234,325,68" ShowValueBox="true" isIOBox="true" Value="This patch is a special case of the normal usecase.&#xD;&#xA;See &quot;AzureKinectServer headless&quot; how you would do it usually.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="IljWULbFCMrPy7XzvksU2X" Bounds="246,94,69,19" ShowValueBox="true" isIOBox="true" Value="(Ethernet)">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="TIVDqbNS2GfPcCdOTHpiSs" Bounds="316,94,290,36" ShowValueBox="true" isIOBox="true" Value="We might only want to make this available Ethernet and omit WIFI">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="J82KbVtooxcPqc7Jg5iGee" Name="Create" ParticipatingElements="OlNKBViGycjQO3aKYwkRGk,VyG793E5a79LcYakk2fOdn" />
         <Patch Id="RzirAPsFwFdQdkqMoKRkt0" Name="Update" />
@@ -398,8 +412,6 @@
         <Link Id="SepBNoQUqWlPYMhyT3ygR1" Ids="B3owVNyO2NBO5ndG6OC9Rn,U6d16iWkaQCMsRjBXl27Jw" />
         <Link Id="N0Gh7lhvumhLg9TMV6Vojm" Ids="KeoKDJdT6WvNZNyPuMEI0E,U2er8d7JlBwPp3y24SqquS" />
         <Link Id="NslCyLyoFFBM5kmzWghd46" Ids="Dgs8xGv3y88MqmOZYVIGRt,OSqd6mSGtefOcuD16Vd71S" />
-        <Link Id="TSPG9AvUMrXQRWv45wJ398" Ids="Tja4gvnvl4NQILBQ3MPrwJ,NVoMfQJZjZjMpUGctBC5eD" />
-        <Link Id="DcIoEwqGpZpM7wiVF7WsUM" Ids="HcEKXa0tUTEO1tOMke1JPf,CN40el89XmFLLV19HXXLBE" />
         <Link Id="ShJ8ANpiCzMQUDSdWz0qTT" Ids="MdwuA3zSp1JNtPg6rJhM3z,FY7XBzuY99SO2ae1kZL281" />
         <Link Id="B9kQBurdyRYPf0XQ7f5xB0" Ids="JkkdWXcTB1kMgwDH8s6Tng,EPM9fJFxlsmNGfvhCYpE1A" IsFeedback="true" />
         <Link Id="TIGuywaBRD1Lfy7KiXr5An" Ids="GJ9XC4CvTmjLc9Ac46S41k,JkkdWXcTB1kMgwDH8s6Tng" />
@@ -424,10 +436,12 @@
         <Link Id="T0acO5Oh42VLIJge7ntguQ" Ids="CzrL8fvSZYPNalEXWKjWrO,HKhh60F9YEFNnaUHwMkxJN" />
         <Link Id="SJSCJhglwStO17geqkf9qH" Ids="OrHrBUuMocfNF3sIYFx7j6,JdUpETd6xzPNs3Jc0WslP1" />
         <Link Id="Mo3pw84HcfJNyqol0ifSgA" Ids="PvIXTbqW6bIL0skY1Xb2do,Hb6Xf2O8qVPO8mJr2Iogkg" />
+        <Link Id="RNI7y3Ys2E7NfHoBO9HGYP" Ids="SdCO3mxbrWXMF9BCQFACsK,CN40el89XmFLLV19HXXLBE" />
+        <Link Id="FXRjBkb5NYcOXMpyaAxXmI" Ids="LtFI53aNNarQK4C93FHFPB,NVoMfQJZjZjMpUGctBC5eD" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="R64ILvuxIk7LlVQxCJ4LdM" Location="VL.IO.NetMQ" Version="0.4.2-alpha" />
+  <NugetDependency Id="R64ILvuxIk7LlVQxCJ4LdM" Location="VL.IO.NetMQ" Version="0.4.3-alpha" />
   <NugetDependency Id="Bm9qVTfGdhwNAeaHJSxuYy" Location="VL.Devices.AzureKinect" Version="1.5.0" />
   <NugetDependency Id="P7CNSn9SZCILcOAQvgNJfH" Location="VL.Espace.Azurekinect" Version="0.0.0" />
   <NugetDependency Id="Feh0Sr4OX0iOgkKvJlOY6Z" Location="VL.Espace" Version="0.0.0" />

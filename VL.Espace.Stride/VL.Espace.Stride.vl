@@ -477,7 +477,7 @@
               </Node>
               <ControlPoint Id="JKPnadTmD1MMBf1amq0nvA" Bounds="158,1249" />
               <ControlPoint Id="OlVWUdZHvcMNrstc4jgU4w" Bounds="717,199" />
-              <Node Bounds="610,363,70,19" Id="M1U15lw5xVPNHL8FQ8mzmD">
+              <Node Bounds="610,393,70,19" Id="M1U15lw5xVPNHL8FQ8mzmD">
                 <p:NodeReference LastCategoryFullName="Stride.Rendering.ShaderFX.Variables" LastDependency="VL.Stride.Runtime.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SV_VertexId" />
@@ -734,7 +734,7 @@
                   <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
                 </p:ValueBoxSettings>
               </Pad>
-              <ControlPoint Id="RcNaQnBmYgpMfTSSoGtNfb" Bounds="357,218" />
+              <ControlPoint Id="RcNaQnBmYgpMfTSSoGtNfb" Bounds="439,212" />
               <Pad Id="C32jWbeajhJN1qipuFLTtK" Comment="" Bounds="374,1212,40,15" ShowValueBox="true" isIOBox="true" Value="1, 1, 1, 1">
                 <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="RGBA" />
@@ -760,8 +760,8 @@
                 <Pin Id="SsjVZFztXtgL605C6szxh9" Name="Value" Kind="InputPin" />
                 <Pin Id="HKDNzPvN0KgPhtOTOvzJy3" Name="Output" Kind="OutputPin" />
               </Node>
-              <ControlPoint Id="HJQcKKjPHyVNzLlPKETt4I" Bounds="872,243" />
-              <Pad Id="QmdhjquZQ9iLmnahJM1ea3" Comment="Afterlife" Bounds="398,945,35,15" ShowValueBox="true" isIOBox="true" Value="0.002">
+              <ControlPoint Id="HJQcKKjPHyVNzLlPKETt4I" Bounds="872,228" />
+              <Pad Id="QmdhjquZQ9iLmnahJM1ea3" Comment="Afterlife" Bounds="395,945,35,15" ShowValueBox="true" isIOBox="true" Value="0.002">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Float32" />
                 </p:TypeAnnotation>
@@ -2786,10 +2786,21 @@
               <Pin Id="Dpss2VcJrd4PVVF6S92Ftr" Name="Resource Format" Kind="OutputPin" />
               <Pin Id="CWFsReqcG1aNCDP6qPY67Z" Name="Exists" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="JVQpCoUUQmwMZXgCCzGHXa" Bounds="343,109" />
+            <ControlPoint Id="JVQpCoUUQmwMZXgCCzGHXa" Bounds="343,73" />
             <ControlPoint Id="JOD7dUNB3q5Ofn59DQl9Gu" Bounds="64,475" />
             <ControlPoint Id="BV3IrPCWqZ8NatUfiqQKGo" Bounds="171,474" />
             <ControlPoint Id="MhRYBpdEsDMQD3W6qXaxsL" Bounds="612,512" />
+            <Node Bounds="341,90,91,19" Id="L7Ld6fWEIwpLv0yRZnHSXp">
+              <p:NodeReference LastCategoryFullName="Stride.Textures" LastDependency="VL.Stride.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="ImageToTexture" />
+              </p:NodeReference>
+              <Pin Id="J9nFIIJBPY1OmwsXzvSEM6" Name="Node Context" Kind="InputPin" IsHidden="true" />
+              <Pin Id="HwcENMGmW90P8nhdcoDDeO" Name="Image" Kind="InputPin" />
+              <Pin Id="J8jSaUgkdYiNltCWhBAIAX" Name="Is SRgb" Kind="InputPin" DefaultValue="False" />
+              <Pin Id="Fe2c0RzAYLsQMI2wmvOuzE" Name="Output" Kind="OutputPin" />
+              <Pin Id="RggNN8zAAP8O4nWIFdob3e" Name="Changed" Kind="OutputPin" />
+            </Node>
           </Canvas>
           <Patch Id="IQXM8MdczlSLDE2DFJhPk2" Name="Create" />
           <Patch Id="OKB5LaOibUwNSGJbAZvhCB" Name="Update">
@@ -2820,7 +2831,6 @@
           <Link Id="ClZl6Mmr2gmL9tFpxBLRl0" Ids="IzGrJD7zR8ENoxkd6TWGGX,JNASBopx6puM5jzKftzAzq" />
           <Link Id="OoLtWGMk1fYP81GuCcM1AF" Ids="FeThXxNtrU0MUJUu7Hs60w,GjJRFi0x9AULz6Lclt0Rwg" />
           <Link Id="MbZZEuVEUxrOCI7IRDlI7w" Ids="NmdfzCSFMNBLykfqlvvZVD,E57haf6RpnALbTVsQe4d2H" />
-          <Link Id="QGJE9OKyvpKPgNB63InVL5" Ids="JVQpCoUUQmwMZXgCCzGHXa,P5GyDHa0o4wNxOBucXvesq" />
           <Link Id="TOYxWX6iMaUPLHUcxv7XH0" Ids="Muu9BvvanwGOpP8QMUlLA5,JVQpCoUUQmwMZXgCCzGHXa" IsHidden="true" />
           <Link Id="PipRMKw6sErMj86AUcNrTM" Ids="EoE7uzYfZThN8lzULWmfxu,JOD7dUNB3q5Ofn59DQl9Gu" />
           <Link Id="BBsktDPzEc7QdcPPgLyHM5" Ids="JOD7dUNB3q5Ofn59DQl9Gu,UVNcphjGqznNpjDCHnIvFz" IsHidden="true" />
@@ -2829,7 +2839,9 @@
           <Link Id="MvSUqqvif8pMo8Pk6EBcUe" Ids="MhRYBpdEsDMQD3W6qXaxsL,KBuHxU9m4jLMYIaEcWm5rk" />
           <Link Id="UXsMXKN5tlQOYNmEq1Culo" Ids="F00k6bYOG91OAxeufdjW0A,MhRYBpdEsDMQD3W6qXaxsL" IsHidden="true" />
           <Link Id="RxEBjaIGqVyPix5o7zVhur" Ids="QfkkE54vuCqOu2Cw4mJW73,TMvLS7ura0fO5mtK47NR4G" />
-          <Link Id="QpRUXsRPVIoPdB72zGeRLI" Ids="JVQpCoUUQmwMZXgCCzGHXa,TVPn8BTAkhvPcma3UFYYQr" />
+          <Link Id="TvTZ6tkD1DsOC7Mipnwj0o" Ids="Fe2c0RzAYLsQMI2wmvOuzE,P5GyDHa0o4wNxOBucXvesq" />
+          <Link Id="KpflZjviM9NLx6ihXpR0BD" Ids="Fe2c0RzAYLsQMI2wmvOuzE,TVPn8BTAkhvPcma3UFYYQr" />
+          <Link Id="Udn5bG7v2wXNMVlJCjDkkc" Ids="JVQpCoUUQmwMZXgCCzGHXa,HwcENMGmW90P8nhdcoDDeO" />
         </Patch>
       </Node>
       <Canvas Id="KXpEDvqgz95PqsHTWyyglZ" Name="Kinect2" Position="228,403">

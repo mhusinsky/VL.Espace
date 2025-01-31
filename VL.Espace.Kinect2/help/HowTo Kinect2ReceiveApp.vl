@@ -1836,6 +1836,7 @@
           <Node Bounds="311,303,439,19" Id="UQBLLO6xvcsPCoFrIKwXgL">
             <p:NodeReference LastCategoryFullName="Espace.Kinect2" LastDependency="VL.Espace.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Espace" />
               <Choice Kind="ProcessAppFlag" Name="Kinect2Receiver" />
             </p:NodeReference>
             <Pin Id="MhybGPrvZOhP5suDA3QPhX" Name="Node Context" Kind="InputPin" IsHidden="true" />
@@ -1917,10 +1918,8 @@
           <Node Bounds="282,415,93,19" Id="SIJqZ6ONTCCOw7M1Qziw6y">
             <p:NodeReference LastCategoryFullName="Espace.Stride.Kinect2" LastDependency="VL.Espace.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="Category" Name="Stride" />
-              <CategoryReference Kind="Category" Name="Kinect2" NeedsToBeDirectParent="true">
-                <p:OuterCategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
-              </CategoryReference>
+              <CategoryReference Kind="Category" Name="Espace" />
+              <CategoryReference Kind="Category" Name="Kinect2" />
               <Choice Kind="ProcessAppFlag" Name="DisplaySkeletons" />
             </p:NodeReference>
             <Pin Id="MJXOIiWQZulPoFAf7FbCO4" Name="Node Context" Kind="InputPin" IsHidden="true" />
@@ -2112,6 +2111,15 @@
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
           </Pad>
+          <Pad Id="QOUo9jQd2F7PKgUvEhq2YQ" Bounds="644,515,40,19" ShowValueBox="true" isIOBox="true" Value="WIP!!">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="C95OvoPFFsENGzyOXNMU46" Name="Create" />
         <Patch Id="JbJjeDG7UkUPZOAbSm9INO" Name="Update" />
@@ -2166,7 +2174,7 @@
   </Patch>
   <NugetDependency Id="TH1qNaCp7znOBOSS30xNwv" Location="VL.CoreLib" Version="2024.6.7" />
   <NugetDependency Id="M6vGWL6Fkp2MtqCTrK1icq" Location="VL.Stride" Version="2024.6.7" />
-  <NugetDependency Id="TJfPrSd6kbzOziZm4KizT5" Location="VL.IO.NetMQ" Version="0.4.2-alpha" />
+  <NugetDependency Id="TJfPrSd6kbzOziZm4KizT5" Location="VL.IO.NetMQ" Version="0.4.3-alpha" />
   <NugetDependency Id="Odvc2N7jPW5P7mG1Yi10dG" Location="VL.Skia" Version="2024.6.7" />
   <NugetDependency Id="EORGGQzCSBoQBhGuSQvZOs" Location="VL.Stride.TextureFX" Version="2024.6.7" />
   <NugetDependency Id="FC9i5xR9SkDQdLFg4FB1yO" Location="VL.Espace.Stride" Version="0.0.0" />

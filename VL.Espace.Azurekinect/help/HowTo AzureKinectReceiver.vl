@@ -1601,89 +1601,6 @@
           <Link Id="MdeBW0XskAlN6sWdtTp7gL" Ids="Ks6ilP8zbBQQakylMdY99l,MgUefS9R9SwMMv1WbHQd2I" IsHidden="true" />
         </Patch>
       </Node>
-      <!--
-
-    ************************ DepthCameraDataTexture ************************
-
--->
-      <Node Name="DepthCameraDataTexture" Bounds="200,300" Id="GkTcuiZGuUbNZ5PMssqhdw">
-        <p:NodeReference>
-          <Choice Kind="ContainerDefinition" Name="Process" />
-          <CategoryReference Kind="Category" Name="Primitive" />
-        </p:NodeReference>
-        <Patch Id="KUjeJm3slAdMYQD5ODR2NQ">
-          <Canvas Id="FL5EckHqACwLINAPVul0mS" CanvasType="Group">
-            <Node Bounds="132,236,352,115" Id="QvQdpQ2RjhnLv1TsJJIVUF">
-              <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
-                <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
-                <Choice Kind="ProcessStatefulRegion" Name="Cache" />
-                <CategoryReference Kind="Category" Name="Primitive" />
-              </p:NodeReference>
-              <Pin Id="AjxOfSjnO8MO7TNBOOzoH5" Name="Force" Kind="InputPin" />
-              <Pin Id="Khtf5W2NHRQMrK6a4Y9JOE" Name="Dispose Cached Outputs" Kind="InputPin" />
-              <Pin Id="HHwzK7fxOpTMxMmVv98HNd" Name="Has Changed" Kind="OutputPin" />
-              <ControlPoint Id="MZ9tJgJhffEN5fKf7LjWj1" Bounds="146,345" Alignment="Bottom" />
-              <ControlPoint Id="BvCmcUFirHlL5Bz3J3w5y2" Bounds="146,242" Alignment="Top" />
-              <Patch Id="Ml8f1Uk3DOKN4pvbMl8boK" ManuallySortedPins="true">
-                <Patch Id="InaUj0W9OqxPqEIjWC0BTK" Name="Create" ManuallySortedPins="true" />
-                <Patch Id="EyYz7UeEXm6M8BiReChe4i" Name="Then" ManuallySortedPins="true" />
-                <Node Bounds="144,312,205,19" Id="C6N96yOoqRoOJ05nmioAek">
-                  <p:NodeReference LastCategoryFullName="Stride.Textures" LastDependency="VL.Stride.Runtime.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <CategoryReference Kind="Category" Name="Stride" />
-                    <CategoryReference Kind="Category" Name="Textures" />
-                    <Choice Kind="ProcessAppFlag" Name="ImmutableTexture2D" />
-                  </p:NodeReference>
-                  <Pin Id="T9pWzFbujqtQaZZE3lEwyP" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                  <Pin Id="FtvFpnSVeKLN3gGwmXBzty" Name="Initial Data" Kind="InputPin" />
-                  <Pin Id="TbiMulmoNpoPLzL6BtFmUl" Name="Size" Kind="InputPin" />
-                  <Pin Id="DNRTc5WxEcwN3veKoJhVvV" Name="Format" Kind="InputPin" />
-                  <Pin Id="AXcwfgqONM6PcjAKhVGkQO" Name="Recreate On Inital Data Change" Kind="InputPin" />
-                  <Pin Id="M9D6Z7e5AaGNksRsFMc04x" Name="Recreate" Kind="InputPin" DefaultValue="False" />
-                  <Pin Id="TIF24KD2ZbUMPv0u2lAY54" Name="Output" Kind="OutputPin" />
-                  <Pin Id="O8zKJvNGCqQO72cKcYip30" Name="Has Changed" Kind="OutputPin" />
-                </Node>
-                <Node Bounds="144,259,81,19" Id="PO1WDfT5Q9BLAzg0buDfqK">
-                  <p:NodeReference LastCategoryFullName="Trackinghub.AzureKinect.DepthCameraData" LastDependency="VL.IO.Trackinghub.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <CategoryReference Kind="RecordType" Name="DepthCameraData" NeedsToBeDirectParent="true" />
-                    <Choice Kind="OperationCallFlag" Name="Split" />
-                  </p:NodeReference>
-                  <Pin Id="JsJgbzOegvZOdJSuT2gsV6" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="A9ZGKNzGcQdMEM68VS7cuU" Name="Output" Kind="OutputPin" IsHidden="true" />
-                  <Pin Id="OO32LHo0gQrNxM4W5XYw6W" Name="XYTable" Kind="OutputPin" />
-                  <Pin Id="AIZhbWqLCnMMQoziOLHHnA" Name="CameraResolution" Kind="OutputPin" />
-                </Node>
-                <Pad Id="KwJXSl82dSCNm6CbHG2FKi" Comment="Format" Bounds="246,296,172,15" ShowValueBox="true" isIOBox="true" Value="R32G32_Float">
-                  <p:TypeAnnotation LastCategoryFullName="Stride.API.Graphics" LastDependency="VL.Stride.Runtime.vl">
-                    <Choice Kind="TypeFlag" Name="PixelFormat" />
-                  </p:TypeAnnotation>
-                </Pad>
-              </Patch>
-            </Node>
-            <ControlPoint Id="DxToC9cQpe6P9fbAF7tsD9" Bounds="146,206" />
-            <ControlPoint Id="CUFbMDwkQMmMv8c2xys24O" Bounds="148,375" />
-          </Canvas>
-          <Patch Id="OHNVe00HhNVOWzv0N9k55j" Name="Create" />
-          <Patch Id="VpQjCVgf3IQPXfSUApUWOX" Name="Update">
-            <Pin Id="UeBbz2Em0UTLwGe7GJuGpI" Name="DepthCameraData" Kind="InputPin" />
-            <Pin Id="EKwB3GKy89FPIOvSsk3aa8" Name="Output" Kind="OutputPin" Bounds="28,465" />
-          </Patch>
-          <ProcessDefinition Id="RVDjp4PYAiiLisp26DcYWH">
-            <Fragment Id="P1LgVlmzhWDMRHpWZSfUrH" Patch="OHNVe00HhNVOWzv0N9k55j" Enabled="true" />
-            <Fragment Id="MP2tmHi66o7MoYKCTuYg47" Patch="VpQjCVgf3IQPXfSUApUWOX" Enabled="true" />
-          </ProcessDefinition>
-          <Link Id="LNuZgUHianMLmRbaVu5Nhd" Ids="TIF24KD2ZbUMPv0u2lAY54,MZ9tJgJhffEN5fKf7LjWj1" />
-          <Link Id="OnARiJ8vsOPMN9kAXvO5vf" Ids="DxToC9cQpe6P9fbAF7tsD9,BvCmcUFirHlL5Bz3J3w5y2" />
-          <Link Id="SFDaS7PsAjaNOusKrDNDhi" Ids="BvCmcUFirHlL5Bz3J3w5y2,JsJgbzOegvZOdJSuT2gsV6" />
-          <Link Id="HHseIvdIMagLFGrZH3revi" Ids="AIZhbWqLCnMMQoziOLHHnA,TbiMulmoNpoPLzL6BtFmUl" />
-          <Link Id="TbmCsE22PHwO8Bbai5NgPp" Ids="OO32LHo0gQrNxM4W5XYw6W,FtvFpnSVeKLN3gGwmXBzty" />
-          <Link Id="MVUCAzY44pcMQzhjUabrys" Ids="KwJXSl82dSCNm6CbHG2FKi,DNRTc5WxEcwN3veKoJhVvV" />
-          <Link Id="Sk3bXkj8h0jLrVuGW1iTZK" Ids="UeBbz2Em0UTLwGe7GJuGpI,DxToC9cQpe6P9fbAF7tsD9" IsHidden="true" />
-          <Link Id="TdCr4y2QuarMmpJpB1On03" Ids="MZ9tJgJhffEN5fKf7LjWj1,CUFbMDwkQMmMv8c2xys24O" />
-          <Link Id="VoDgOxImLOGMNhhvK2Clr5" Ids="CUFbMDwkQMmMv8c2xys24O,EKwB3GKy89FPIOvSsk3aa8" IsHidden="true" />
-        </Patch>
-      </Node>
     </Canvas>
     <!--
 
@@ -1864,8 +1781,9 @@
               <Patch Id="HRlOgAX2pDwM6gdo6jw1B9" Name="Create" ManuallySortedPins="true" />
               <Patch Id="T8mKvMmmniAPXNlmp592vf" Name="Then" ManuallySortedPins="true" />
               <Node Bounds="949,430,216,26" Id="Uq855svcBlCOVlHsubKRAz">
-                <p:NodeReference LastCategoryFullName="Main.DeviceTransform" LastDependency="VL.IO.Trackinghub.vl">
+                <p:NodeReference LastCategoryFullName="Espace.DeviceTransform" LastDependency="VL.Espace.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="Category" Name="Espace" />
                   <CategoryReference Kind="RecordType" Name="DeviceTransform" />
                   <Choice Kind="OperationCallFlag" Name="Create" />
                 </p:NodeReference>
@@ -1895,8 +1813,7 @@
               <Node Bounds="529,920,231,19" Id="ViWK6GYxEaxMvEbBzlH707">
                 <p:NodeReference LastCategoryFullName="Espace.Stride.AzureKinect" LastDependency="VL.Espace.Stride.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="Category" Name="Stride" />
-                  <CategoryReference Kind="Category" Name="AzureKinect" />
+                  <CategoryReference Kind="Category" Name="Espace" />
                   <Choice Kind="ProcessAppFlag" Name="PointCloudMeshRenderer" />
                 </p:NodeReference>
                 <Pin Id="Ha8HCk40N0XLY9AKdQAIqv" Name="Node Context" Kind="InputPin" IsHidden="true" />
@@ -1929,8 +1846,9 @@
             </Patch>
           </Node>
           <Node Bounds="261,522,439,19" Id="SAHxLYi835ZOqXJgMlDK0v">
-            <p:NodeReference LastCategoryFullName="Trackinghub.AzureKinect" LastDependency="VL.IO.Trackinghub.vl">
+            <p:NodeReference LastCategoryFullName="Espace.AzureKinect" LastDependency="VL.Espace.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Espace" />
               <Choice Kind="ProcessAppFlag" Name="AzureKinectReceiver" />
             </p:NodeReference>
             <Pin Id="UHQDnF1OHbjPlQVZx1MG0o" Name="Node Context" Kind="InputPin" IsHidden="true" />
@@ -2038,7 +1956,6 @@
           <Node Bounds="162,883,93,19" Id="TzdpSiMRG2cLkOrZrU5UXd">
             <p:NodeReference LastCategoryFullName="Espace.Stride.AzureKinect" LastDependency="VL.Espace.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="Category" Name="Stride" />
               <CategoryReference Kind="Category" Name="AzureKinect" NeedsToBeDirectParent="true">
                 <p:OuterCategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
               </CategoryReference>
@@ -2147,10 +2064,12 @@
             <Pin Id="DK1aYMuifznQXeRNhXW8qo" Name="State Output" Kind="OutputPin" />
             <Pin Id="MDkujHUW7o7N1LCT2O5pyE" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="571,832,134,19" Id="SG8SzuhCvCXOTHtknlG7oU">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="AzureKinectReceiveApp.vl">
+          <Node Bounds="604,835,134,19" Id="SG8SzuhCvCXOTHtknlG7oU">
+            <p:NodeReference LastCategoryFullName="Espace.Stride" LastDependency="VL.Espace.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessNode" Name="DepthCameraDataTexture" />
+              <CategoryReference Kind="Category" Name="Espace" />
+              <CategoryReference Kind="Category" Name="Stride" />
+              <Choice Kind="ProcessAppFlag" Name="DepthCameraDataTexture" />
             </p:NodeReference>
             <Pin Id="HDTKlJnZAzgLUANwH7rQEI" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="JVr9Vaz4SQvPZ5K66bKPD1" Name="DepthCameraData" Kind="InputPin" />
@@ -2204,7 +2123,8 @@
           <Node Bounds="656,766,125,19" Id="U1wMO6sxSnULx7qzMotL9C">
             <p:NodeReference LastCategoryFullName="Espace.Stride" LastDependency="VL.Espace.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <FullNameCategoryReference ID="Espace.Stride" />
+              <CategoryReference Kind="Category" Name="Espace" />
+              <CategoryReference Kind="Category" Name="Stride" />
               <Choice Kind="ProcessAppFlag" Name="OneEuroFilterCS" />
             </p:NodeReference>
             <Pin Id="O2W0CajtHItNLri93kI5BK" Name="Node Context" Kind="InputPin" IsHidden="true" />
@@ -2283,7 +2203,7 @@
             </p:Value>
           </Pad>
           <Overlay Id="FpfYmeFYOkNQFlwrKdUoQx" Name="AzureKinect Configuration Enums" Bounds="198,-213,759,212" />
-          <Pad Id="NmJxK3Z8WuCMDaGOiblEwE" Bounds="63,145,658,85" ShowValueBox="true" isIOBox="true" Value="The receiver needs a running server as  a counterpart. &#xD;&#xA;&#xD;&#xA;It contains a RemoteControl that allows to configure the sender for what parts of the data is published, as well as the receivers and decompressors for the data.">
+          <Pad Id="NmJxK3Z8WuCMDaGOiblEwE" Bounds="63,145,661,75" ShowValueBox="true" isIOBox="true" Value="The receiver needs a running server as  a counterpart. &#xD;&#xA;&#xD;&#xA;Receiver contains a RemoteControl that allows to configure the sender for what parts of the data is published, as well as the receivers and decompressors for the data.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -2369,7 +2289,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Overlay Id="MZQGDoMfBsNP6LsNJTZ5fB" Name="Optional: DeviceTransform" Bounds="883,74,491,443" />
-          <Pad Id="IUsg9fdQ1gDPxwz89HR1q8" Bounds="886,126,466,94" ShowValueBox="true" isIOBox="true" Value="Normally, the camera considers itself to be at the origin and tracked subjects (e.g. skeletons) are relative to this. A DeviceTransform can be used to adjust the camera pose in space. The pose set here is sent to the server, where the skeletons are immediately transformed accordingly, so that every receiver gets the adjusted skeletons.">
+          <Pad Id="IUsg9fdQ1gDPxwz89HR1q8" Bounds="886,126,466,94" ShowValueBox="true" isIOBox="true" Value="Normally, the camera considers itself to be at the origin and tracked subjects (e.g. skeletons) are relative to this. A DeviceTransform can be used to adjust the camera pose in space. The pose set here is sent to the server, where the skeletons are immediately transformed accordingly before sending, so that every receiver gets the same transformed skeletons.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -2440,6 +2360,15 @@
           <Overlay Id="JpI37o4WgwdMM5nPs3rHqQ" Name="" Bounds="52,352,796,140">
             <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
           </Overlay>
+          <Pad Id="RynnhaNd2EPO6PsTPHzhS3" Bounds="419,144,231,19" ShowValueBox="true" isIOBox="true" Value="HowTo AzureKinectServer headless.vl">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="C95OvoPFFsENGzyOXNMU46" Name="Create" />
         <Patch Id="JbJjeDG7UkUPZOAbSm9INO" Name="Update" ParticipatingElements="Hb9An8XRTT9QIGdvdqOfo9" />

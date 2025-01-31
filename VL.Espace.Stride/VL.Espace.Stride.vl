@@ -8,7 +8,7 @@
     ************************ ImageQuadRenderEntity ************************
 
 -->
-      <Node Name="ImageQuadRenderEntity" Bounds="230,178" Id="KLbFvgVLlGGP0QYFKFcYMG">
+      <Node Name="ImageQuadRenderEntity" Bounds="228,178" Id="KLbFvgVLlGGP0QYFKFcYMG">
         <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -79,7 +79,7 @@
             <ControlPoint Id="Uib6NWWNZWaMMAFiC6Ow8W" Bounds="489,179" />
             <ControlPoint Id="CE5MpdLBL5LNAUqKUSZVKj" Bounds="489,650" />
             <Node Bounds="602,379,96,19" Id="RqT7vBKyFdBOSMky7g1YGR">
-              <p:NodeReference LastCategoryFullName="Trackinghub.Stride" LastDependency="VL.IO.Trackinghub.GUI.vl">
+              <p:NodeReference LastCategoryFullName="Espace.Stride" LastDependency="VL.Espace.Stride.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="ReceivedIndicator" />
               </p:NodeReference>
@@ -194,7 +194,7 @@
     ************************ Ballman ************************
 
 -->
-      <Node Name="Ballman" Bounds="240,262" Id="RlNpYzlWt9GQQsxrGRW08e">
+      <Node Name="Ballman" Bounds="228,262" Id="RlNpYzlWt9GQQsxrGRW08e">
         <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -366,7 +366,7 @@
           <Link Id="L9h0LouTacONMwAXHLOBMN" Ids="Ccy5Y8b2z3rPvjkWGTIpd4,SMknpSTQzBNNZtC1wX7wci" />
         </Patch>
       </Node>
-      <Canvas Id="JFe7g0MgDzaMzHm8p0sZOV" Name="AzureKinect" Position="230,350">
+      <Canvas Id="JFe7g0MgDzaMzHm8p0sZOV" Name="AzureKinect" Position="481,462">
         <!--
 
     ************************ PointCloudMeshRenderer ************************
@@ -873,9 +873,10 @@
                   <Patch Id="CaWp0dbFTGYNb7qMnG7VGN" Name="Update" ManuallySortedPins="true" />
                   <Patch Id="LMXcDLKK0wrOVMZEfTLrS7" Name="Dispose" ManuallySortedPins="true" />
                   <Node Bounds="225,237,192,26" Id="LTzcGwpp20OLT8LnVsqowl">
-                    <p:NodeReference LastCategoryFullName="Main.Skeleton" LastDependency="VL.IO.Trackinghub.vl">
+                    <p:NodeReference LastCategoryFullName="Espace.Skeleton" LastDependency="VL.Espace.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="RecordType" Name="Skeleton" NeedsToBeDirectParent="true" />
+                      <CategoryReference Kind="Category" Name="Espace" />
+                      <CategoryReference Kind="RecordType" Name="Skeleton" />
                       <Choice Kind="OperationCallFlag" Name="Split" />
                     </p:NodeReference>
                     <Pin Id="JxrXuuRmD2GPFDjOYhICMe" Name="Input" Kind="StateInputPin" />
@@ -923,9 +924,8 @@
                   <Node Bounds="681,266,108,19" Id="FM1ta1DZnYWNM3XEEhgffJ">
                     <p:NodeReference LastCategoryFullName="Espace.AzureKinect" LastDependency="VL.Espace.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="Category" Name="AzureKinect" NeedsToBeDirectParent="true">
-                        <p:OuterCategoryReference Kind="Category" Name="Espace" NeedsToBeDirectParent="true" />
-                      </CategoryReference>
+                      <CategoryReference Kind="Category" Name="Espace" />
+                      <CategoryReference Kind="Category" Name="AzureKinect" />
                       <Choice Kind="ProcessAppFlag" Name="Boxman" />
                     </p:NodeReference>
                     <Pin Id="Q6LHbalHl0INYavk2H235u" Name="Node Context" Kind="InputPin" IsHidden="true" />
@@ -1193,7 +1193,7 @@
     ************************ ReceivedIndicator ************************
 
 -->
-      <Node Name="ReceivedIndicator" Bounds="492,184" Id="OTEmoLu1AzSPh5a6ucclJz">
+      <Node Name="ReceivedIndicator" Bounds="481,184" Id="OTEmoLu1AzSPh5a6ucclJz">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -1305,7 +1305,7 @@
     ************************ TextureQuadRenderEntity ************************
 
 -->
-      <Node Name="TextureQuadRenderEntity" Bounds="230,214" Id="O8qjkS5RWjoObXlpccEs9B">
+      <Node Name="TextureQuadRenderEntity" Bounds="228,214" Id="O8qjkS5RWjoObXlpccEs9B">
         <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -1443,7 +1443,7 @@
     ************************ SpoutSources ************************
 
 -->
-      <Node Name="SpoutSources" Bounds="494,257" Id="LyAseFdZdH7QXhxjGvI0PL">
+      <Node Name="SpoutSources" Bounds="481,257" Id="LyAseFdZdH7QXhxjGvI0PL">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -1709,7 +1709,7 @@
     ************************ ImagesToSpout ************************
 
 -->
-      <Node Name="ImagesToSpout" Bounds="493,313" Id="PBe2OaLMs5yOzxZbUIgGgu">
+      <Node Name="ImagesToSpout" Bounds="482,294" Id="PBe2OaLMs5yOzxZbUIgGgu">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -2167,7 +2167,7 @@
     ************************ DepthCameraDataTexture ************************
 
 -->
-      <Node Name="DepthCameraDataTexture" Bounds="494,362" Id="F2ZWKMGChOKLtVgqqRTEVt">
+      <Node Name="DepthCameraDataTexture" Bounds="481,362" Id="F2ZWKMGChOKLtVgqqRTEVt">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <CategoryReference Kind="Category" Name="Primitive" />
@@ -2223,7 +2223,7 @@
               </Patch>
             </Node>
             <ControlPoint Id="FcCw1fgqoKmNowqKziF0cp" Bounds="146,206" />
-            <ControlPoint Id="Gn7YCrWBgFYL2jhdNLMexO" Bounds="148,375" />
+            <ControlPoint Id="Gn7YCrWBgFYL2jhdNLMexO" Bounds="146,375" />
           </Canvas>
           <Patch Id="IENs9bE3MC0LlaJgMp9bQk" Name="Create" />
           <Patch Id="CBeXitdUdiMLAq58votF8E" Name="Update">
@@ -2250,7 +2250,7 @@
     ************************ OneEuroFilterCS ************************
 
 -->
-      <Node Name="OneEuroFilterCS" Bounds="252,508" Id="PHy0Z8pexuFMMFLdkR18eT">
+      <Node Name="OneEuroFilterCS" Bounds="228,404" Id="PHy0Z8pexuFMMFLdkR18eT">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" />
         </p:NodeReference>
@@ -2619,7 +2619,7 @@
     ************************ UnpackR5G6B5A16CS ************************
 
 -->
-      <Node Name="UnpackR5G6B5A16CS" Bounds="252,569" Id="RQqhqm0vRYrNBwurF4FPB8">
+      <Node Name="UnpackR5G6B5A16CS" Bounds="228,465" Id="RQqhqm0vRYrNBwurF4FPB8">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" />
         </p:NodeReference>
@@ -2844,7 +2844,7 @@
           <Link Id="Udn5bG7v2wXNMVlJCjDkkc" Ids="JVQpCoUUQmwMZXgCCzGHXa,HwcENMGmW90P8nhdcoDDeO" />
         </Patch>
       </Node>
-      <Canvas Id="KXpEDvqgz95PqsHTWyyglZ" Name="Kinect2" Position="228,403">
+      <Canvas Id="KXpEDvqgz95PqsHTWyyglZ" Name="Kinect2" Position="481,515">
         <!--
 
     ************************ DisplaySkeletons ************************
@@ -3209,7 +3209,7 @@
     ************************ GeneratePointCloud ************************
 
 -->
-        <Node Name="GeneratePointCloud" Bounds="255,413" Id="S9q1wTkOJdyQXxnILtfs2m">
+        <Node Name="GeneratePointCloud" Bounds="214,308" Id="S9q1wTkOJdyQXxnILtfs2m">
           <p:NodeReference>
             <Choice Kind="ContainerDefinition" />
           </p:NodeReference>

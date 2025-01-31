@@ -304,7 +304,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="R64ILvuxIk7LlVQxCJ4LdM" Location="VL.IO.NetMQ" Version="0.4.2-alpha" />
+  <NugetDependency Id="R64ILvuxIk7LlVQxCJ4LdM" Location="VL.IO.NetMQ" Version="0.4.3-alpha" />
   <NugetDependency Id="Bm9qVTfGdhwNAeaHJSxuYy" Location="VL.Devices.AzureKinect" Version="1.5.0" />
   <NugetDependency Id="P7CNSn9SZCILcOAQvgNJfH" Location="VL.Espace.Azurekinect" Version="0.0.0" />
   <NugetDependency Id="Feh0Sr4OX0iOgkKvJlOY6Z" Location="VL.Espace" Version="0.0.0" />

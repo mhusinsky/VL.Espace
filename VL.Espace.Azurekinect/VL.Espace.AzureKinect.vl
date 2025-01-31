@@ -7,12 +7,12 @@
     ************************ FromDeviceSkeleton ************************
 
 -->
-      <Node Name="FromDeviceSkeleton" Bounds="75,383,616,366" Id="UFxT7sBgFBpLBzHraPtFy7">
+      <Node Name="FromDeviceSkeleton" Bounds="75,381,616,366" Id="UFxT7sBgFBpLBzHraPtFy7">
         <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
           <Choice Kind="OperationDefinition" Name="Operation" />
         </p:NodeReference>
         <Patch Id="UB6Xf6BBageMzwBibQhf91">
-          <Node Bounds="87,474,463,26" Id="OwLAxLjGQ6XQdGP9hAEBeT">
+          <Node Bounds="87,472,463,26" Id="OwLAxLjGQ6XQdGP9hAEBeT">
             <p:NodeReference LastCategoryFullName="Devices.AzureKinect.Skeleton" LastDependency="VL.Devices.AzureKinect.Body.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="ClassType" Name="Skeleton" NeedsToBeDirectParent="true" />
@@ -29,8 +29,8 @@
             <Pin Id="DSC19E6CbpYLNHyzVqhRee" Name="Joint Types" Kind="OutputPin" />
             <Pin Id="SvGFlUUfPnVQXoW1vLoa0v" Name="Joint Confidence Levels" Kind="OutputPin" />
           </Node>
-          <ControlPoint Id="P2PFKXDrm0ZNJHafwRKnhm" Bounds="89,401" />
-          <Node Bounds="87,517,55,19" Id="TgHx8vlXQLnLIrimOF6OP2">
+          <ControlPoint Id="P2PFKXDrm0ZNJHafwRKnhm" Bounds="89,399" />
+          <Node Bounds="87,515,55,19" Id="TgHx8vlXQLnLIrimOF6OP2">
             <p:NodeReference LastCategoryFullName="System.Conversion" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="ToString" />
@@ -38,8 +38,8 @@
             <Pin Id="ApXA5DBtRvUOfduMdy8Gxi" Name="Input" Kind="InputPin" />
             <Pin Id="LuaP1Xmq9zHNogI1xhy3KW" Name="Result" Kind="OutputPin" />
           </Node>
-          <ControlPoint Id="CeLOnyRrW4vOF38UJ7yeQs" Bounds="162,401" />
-          <Node Bounds="544,545,135,19" Id="RIBlMtMk4goOArwkGj62JW">
+          <ControlPoint Id="CeLOnyRrW4vOF38UJ7yeQs" Bounds="162,399" />
+          <Node Bounds="544,543,135,19" Id="RIBlMtMk4goOArwkGj62JW">
             <p:NodeReference LastCategoryFullName="Trackinghub.AzureKinect" LastDependency="VL.IO.Trackinghub.AzureKinect.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="JointConfidenceLevelToInt" />
@@ -47,7 +47,7 @@
             <Pin Id="NHkxcXc2D78NoWAE3KSLYM" Name="Input" Kind="InputPin" />
             <Pin Id="T6707bOPiINLFkkno46s3D" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="159,609,390,19" Id="LfKvQulUVWwMKYZt4gXVdO">
+          <Node Bounds="159,607,390,19" Id="LfKvQulUVWwMKYZt4gXVdO">
             <p:NodeReference LastCategoryFullName="Main.Skeleton" LastDependency="VL.IO.Trackinghub.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="CreateJointsWithDeviceTransform" />
@@ -75,7 +75,7 @@
               <Choice Kind="TypeFlag" Name="DeviceTransform" />
             </p:TypeAnnotation>
           </Pin>
-          <Node Bounds="87,687,152,26" Id="Mva41fyhAHdLyur5ZUhT0f">
+          <Node Bounds="87,685,152,26" Id="Mva41fyhAHdLyur5ZUhT0f">
             <p:NodeReference LastCategoryFullName="Espace.Skeleton" LastDependency="VL.Espace.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="RecordType" Name="Skeleton" NeedsToBeDirectParent="true">
@@ -91,13 +91,13 @@
           </Node>
           <Link Id="LEEfpjyT2OkLNXIfjV4Rr8" Ids="NY0jIgGoE8ONNgjsAechWG,A6S4f40oCe4M4qziJAsJUn" />
           <Link Id="EW3pOpVZ3AHN3Sl8CcOvG2" Ids="LuaP1Xmq9zHNogI1xhy3KW,O51nc9lzZuoNmD9mbvNrKX" />
-          <Pad Id="SUOZb3jsR9SPT7tkmszwaw" Comment="Type" Bounds="163,665,140,15" ShowValueBox="true" isIOBox="true" Value="AzureKinect">
+          <Pad Id="SUOZb3jsR9SPT7tkmszwaw" Comment="Type" Bounds="163,663,140,15" ShowValueBox="true" isIOBox="true" Value="AzureKinect">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
           <Link Id="Dy2hv13yPW7LqPWsAfd1UZ" Ids="SUOZb3jsR9SPT7tkmszwaw,VGfDKxDRppxMIzA2GxIAwk" />
-          <ControlPoint Id="BAotXGCJtNbMV5KQgQA69t" Bounds="89,732,105,0" />
+          <ControlPoint Id="BAotXGCJtNbMV5KQgQA69t" Bounds="89,730,105,0" />
           <Link Id="IPAdZQh6H2bM0ZU8anxrk4" Ids="DHQk8oV1iQ6MqUulu9Yeq3,BAotXGCJtNbMV5KQgQA69t" />
           <Pin Id="QDZGcsU3qrwLoSdEQMcbPH" Name="Output" Kind="OutputPin" Bounds="366,470" />
           <Link Id="Q4KHgtOQaCoNO1Bvl4dAia" Ids="BAotXGCJtNbMV5KQgQA69t,QDZGcsU3qrwLoSdEQMcbPH" IsHidden="true" />
@@ -108,37 +108,37 @@
     ************************ JointConfidenceLevelToInt ************************
 
 -->
-      <Node Name="JointConfidenceLevelToInt" Bounds="741,392,550,589" Id="QR6kI44pDhCMSlDn6sFcqL">
+      <Node Name="JointConfidenceLevelToInt" Bounds="742,381,550,589" Id="QR6kI44pDhCMSlDn6sFcqL">
         <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
           <Choice Kind="OperationDefinition" Name="Operation" />
         </p:NodeReference>
         <Patch Id="J0ST4NrLYn7LHHjlEzXjwO">
-          <Node Bounds="793,448,486,490" Id="RKbjWhLb4XgMXvnspfO9eu">
+          <Node Bounds="794,437,486,490" Id="RKbjWhLb4XgMXvnspfO9eu">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="Nd3CE2TMP1oNEhLCk3ZNED" Name="Break" Kind="OutputPin" />
-            <ControlPoint Id="JrT8FzpXBW6LWndZy3B4oe" Bounds="811,454" Alignment="Top" />
-            <ControlPoint Id="Lh2az5PobCMMk9Pab4BozZ" Bounds="941,932" Alignment="Bottom" />
+            <ControlPoint Id="JrT8FzpXBW6LWndZy3B4oe" Bounds="812,443" Alignment="Top" />
+            <ControlPoint Id="Lh2az5PobCMMk9Pab4BozZ" Bounds="942,921" Alignment="Bottom" />
             <Patch Id="OkG2VF2LbqGQS1mFk2tCrR" ManuallySortedPins="true">
               <Patch Id="Gse1qQhFQdSPht1i9Mncsa" Name="Create" ManuallySortedPins="true" />
               <Patch Id="Km71IWgcgH4PkkR7IspMIP" Name="Update" ManuallySortedPins="true" />
               <Patch Id="C2KQPG6PibSLGlTQh3ZnDI" Name="Dispose" ManuallySortedPins="true" />
-              <Node Bounds="925,529,82,84" Id="VB5q2Hec8kFPeRVpuvLKkA">
+              <Node Bounds="926,518,82,84" Id="VB5q2Hec8kFPeRVpuvLKkA">
                 <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <Choice Kind="ApplicationStatefulRegion" Name="If" />
                   <CategoryReference Kind="Category" Name="Primitive" />
                 </p:NodeReference>
                 <Pin Id="I1wQwesmx8lMBeMSj0AVXu" Name="Condition" Kind="InputPin" />
-                <ControlPoint Id="OsIejACKBwQMWov9i2t8Os" Bounds="941,607" Alignment="Bottom" />
-                <ControlPoint Id="D80lfaO8F6oLMzOowdyMe0" Bounds="942,535" Alignment="Top" />
+                <ControlPoint Id="OsIejACKBwQMWov9i2t8Os" Bounds="942,596" Alignment="Bottom" />
+                <ControlPoint Id="D80lfaO8F6oLMzOowdyMe0" Bounds="943,524" Alignment="Top" />
                 <Patch Id="O2R2i0KEJfcL8kolfmoW2r" ManuallySortedPins="true">
                   <Patch Id="HVmv7LghHV7PtOC1vNvQSi" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="CFUyFazQsL4NXGdCOOExUD" Name="Then" ManuallySortedPins="true" />
-                  <Pad Id="Hq9P8wJ1dBtP9tqwFwsnFp" Bounds="941,569,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+                  <Pad Id="Hq9P8wJ1dBtP9tqwFwsnFp" Bounds="942,558,35,15" ShowValueBox="true" isIOBox="true" Value="0">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="ImmutableTypeFlag" Name="Integer32" />
                       <FullNameCategoryReference ID="Primitive" />
@@ -146,19 +146,19 @@
                   </Pad>
                 </Patch>
               </Node>
-              <Node Bounds="925,629,83,81" Id="Fbm9geQpFwWMjHf0GM9rFP">
+              <Node Bounds="926,618,82,81" Id="Fbm9geQpFwWMjHf0GM9rFP">
                 <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <Choice Kind="ApplicationStatefulRegion" Name="If" />
                   <CategoryReference Kind="Category" Name="Primitive" />
                 </p:NodeReference>
                 <Pin Id="PGlbDbRB7apOQTEDnYeuco" Name="Condition" Kind="InputPin" />
-                <ControlPoint Id="PlcC8GkKtBhOHZcp4Fu6SU" Bounds="941,635" Alignment="Top" />
-                <ControlPoint Id="UPf9UZDRjPLN7fCtZpxHOF" Bounds="941,704" Alignment="Bottom" />
+                <ControlPoint Id="PlcC8GkKtBhOHZcp4Fu6SU" Bounds="942,624" Alignment="Top" />
+                <ControlPoint Id="UPf9UZDRjPLN7fCtZpxHOF" Bounds="942,693" Alignment="Bottom" />
                 <Patch Id="VbdIUPuwtQ2LGbOOCZcLjR" ManuallySortedPins="true">
                   <Patch Id="NW89joCIVDZQRHNmdDeqG4" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="NM5vLG27IEpONlpVaA4FUr" Name="Then" ManuallySortedPins="true" />
-                  <Pad Id="DFN9nV2LjldPRgRmOkNn4d" Bounds="941,669,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+                  <Pad Id="DFN9nV2LjldPRgRmOkNn4d" Bounds="942,658,35,15" ShowValueBox="true" isIOBox="true" Value="1">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="ImmutableTypeFlag" Name="Integer32" />
                       <FullNameCategoryReference ID="Primitive" />
@@ -166,19 +166,19 @@
                   </Pad>
                 </Patch>
               </Node>
-              <Node Bounds="925,723,83,84" Id="LT93Jzrs7PDO7QIAEb8Sjg">
+              <Node Bounds="926,712,82,84" Id="LT93Jzrs7PDO7QIAEb8Sjg">
                 <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <Choice Kind="ApplicationStatefulRegion" Name="If" />
                   <CategoryReference Kind="Category" Name="Primitive" />
                 </p:NodeReference>
                 <Pin Id="TThy0CY3MOlQGDf3uATEb2" Name="Condition" Kind="InputPin" />
-                <ControlPoint Id="TXt4F1dG72ILmDx8nmgv36" Bounds="941,729" Alignment="Top" />
-                <ControlPoint Id="ULtmfz9AF1mPoWzfzCW5L1" Bounds="941,801" Alignment="Bottom" />
+                <ControlPoint Id="TXt4F1dG72ILmDx8nmgv36" Bounds="942,718" Alignment="Top" />
+                <ControlPoint Id="ULtmfz9AF1mPoWzfzCW5L1" Bounds="942,790" Alignment="Bottom" />
                 <Patch Id="FPM9Ys9olRNPfiwOaktVWs" ManuallySortedPins="true">
                   <Patch Id="GUas7XGUFbGLpsyeleatXG" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="EEDQ6AlonEoMXZOqfSmQJW" Name="Then" ManuallySortedPins="true" />
-                  <Pad Id="VaXU9RB6WfOMdzoQUAQHh1" Bounds="941,762,35,15" ShowValueBox="true" isIOBox="true" Value="2">
+                  <Pad Id="VaXU9RB6WfOMdzoQUAQHh1" Bounds="942,751,35,15" ShowValueBox="true" isIOBox="true" Value="2">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="ImmutableTypeFlag" Name="Integer32" />
                       <FullNameCategoryReference ID="Primitive" />
@@ -186,7 +186,7 @@
                   </Pad>
                 </Patch>
               </Node>
-              <Pad Id="Ce1oB2EBE3zLCbQWIEzVNY" Bounds="1014,568,45,19" ShowValueBox="true" isIOBox="true" Value=" none">
+              <Pad Id="Ce1oB2EBE3zLCbQWIEzVNY" Bounds="1015,557,45,19" ShowValueBox="true" isIOBox="true" Value=" none">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="String" />
                 </p:TypeAnnotation>
@@ -195,7 +195,7 @@
                   <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
                 </p:ValueBoxSettings>
               </Pad>
-              <Pad Id="QdaPbhzm6ZyNXqMiCyzecJ" Bounds="1014,664,89,19" ShowValueBox="true" isIOBox="true" Value="low/inferred">
+              <Pad Id="QdaPbhzm6ZyNXqMiCyzecJ" Bounds="1015,653,89,19" ShowValueBox="true" isIOBox="true" Value="low/inferred">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="String" />
                 </p:TypeAnnotation>
@@ -204,7 +204,7 @@
                   <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
                 </p:ValueBoxSettings>
               </Pad>
-              <Pad Id="SqaCVyCCNpdM0lAWsVendt" Bounds="1014,768,112,19" ShowValueBox="true" isIOBox="true" Value="medium/tracked">
+              <Pad Id="SqaCVyCCNpdM0lAWsVendt" Bounds="1015,757,112,19" ShowValueBox="true" isIOBox="true" Value="medium/tracked">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="String" />
                 </p:TypeAnnotation>
@@ -213,7 +213,7 @@
                   <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
                 </p:ValueBoxSettings>
               </Pad>
-              <Pad Id="DvALyFYvOGxMEXV0zaNz1t" Bounds="945,489,120,19" ShowValueBox="true" isIOBox="true" Value="confidence level">
+              <Pad Id="DvALyFYvOGxMEXV0zaNz1t" Bounds="946,478,120,19" ShowValueBox="true" isIOBox="true" Value="confidence level">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="String" />
                 </p:TypeAnnotation>
@@ -222,7 +222,7 @@
                   <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
                 </p:ValueBoxSettings>
               </Pad>
-              <Node Bounds="875,493,25,19" Id="PCuM1WPk2Q4N5XycHkEoFC">
+              <Node Bounds="876,482,25,19" Id="PCuM1WPk2Q4N5XycHkEoFC">
                 <p:NodeReference LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking.JointConfidenceLevel" LastDependency="Microsoft.Azure.Kinect.BodyTracking.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="AssemblyCategory" Name="JointConfidenceLevel" />
@@ -232,12 +232,12 @@
                 <Pin Id="Cf5xzEwcKufQVAEaqMq4ZH" Name="Input 2" Kind="InputPin" />
                 <Pin Id="LMA8bVeEMVjLbaJkbsZsmQ" Name="Result" Kind="OutputPin" />
               </Node>
-              <Pad Id="McumWaR6daNQczQOe2liJC" Comment="" Bounds="896,476,65,15" ShowValueBox="true" isIOBox="true" Value="None">
+              <Pad Id="McumWaR6daNQczQOe2liJC" Comment="" Bounds="897,465,65,15" ShowValueBox="true" isIOBox="true" Value="None">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastDependency="Microsoft.Azure.Kinect.BodyTracking.dll">
                   <Choice Kind="TypeFlag" Name="JointConfidenceLevel" />
                 </p:TypeAnnotation>
               </Pad>
-              <Node Bounds="817,631,25,19" Id="JIUNf5N9W5gOiD86Rvgwsb">
+              <Node Bounds="818,620,25,19" Id="JIUNf5N9W5gOiD86Rvgwsb">
                 <p:NodeReference LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking.JointConfidenceLevel" LastDependency="Microsoft.Azure.Kinect.BodyTracking.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="AssemblyCategory" Name="JointConfidenceLevel" />
@@ -247,12 +247,12 @@
                 <Pin Id="VK5hqcGn3PnOtb2rBpzsk5" Name="Input 2" Kind="InputPin" />
                 <Pin Id="VYDBq0duVU4MESvVnYpxa6" Name="Result" Kind="OutputPin" />
               </Node>
-              <Pad Id="NdJujtlhtZhQMgw0pzS6fs" Comment="" Bounds="838,614,65,15" ShowValueBox="true" isIOBox="true" Value="Low">
+              <Pad Id="NdJujtlhtZhQMgw0pzS6fs" Comment="" Bounds="839,603,65,15" ShowValueBox="true" isIOBox="true" Value="Low">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastDependency="Microsoft.Azure.Kinect.BodyTracking.dll">
                   <Choice Kind="TypeFlag" Name="JointConfidenceLevel" />
                 </p:TypeAnnotation>
               </Pad>
-              <Node Bounds="814,733,25,19" Id="HKHgK6qI9TTLsgIIIJ2IRs">
+              <Node Bounds="815,722,25,19" Id="HKHgK6qI9TTLsgIIIJ2IRs">
                 <p:NodeReference LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking.JointConfidenceLevel" LastDependency="Microsoft.Azure.Kinect.BodyTracking.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="AssemblyCategory" Name="JointConfidenceLevel" />
@@ -262,12 +262,12 @@
                 <Pin Id="VyW7qzBTwF9M9V7GzMvSd1" Name="Input 2" Kind="InputPin" />
                 <Pin Id="O6io8HBWMjXNhGkH8wjlfV" Name="Result" Kind="OutputPin" />
               </Node>
-              <Pad Id="TKVQUAsPjWYOPcSqPJShrA" Comment="" Bounds="835,716,65,15" ShowValueBox="true" isIOBox="true" Value="Medium">
+              <Pad Id="TKVQUAsPjWYOPcSqPJShrA" Comment="" Bounds="836,705,65,15" ShowValueBox="true" isIOBox="true" Value="Medium">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastDependency="Microsoft.Azure.Kinect.BodyTracking.dll">
                   <Choice Kind="TypeFlag" Name="JointConfidenceLevel" />
                 </p:TypeAnnotation>
               </Pad>
-              <Node Bounds="805,848,25,19" Id="JoxgbXk7FpELzV0xprgvrV">
+              <Node Bounds="806,837,25,19" Id="JoxgbXk7FpELzV0xprgvrV">
                 <p:NodeReference LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking.JointConfidenceLevel" LastDependency="Microsoft.Azure.Kinect.BodyTracking.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="AssemblyCategory" Name="JointConfidenceLevel" />
@@ -277,24 +277,24 @@
                 <Pin Id="Q02mE8npA4TNdQJ1ZLzx3w" Name="Input 2" Kind="InputPin" />
                 <Pin Id="I2bnqrjQ1hrM4aduAnKde5" Name="Result" Kind="OutputPin" />
               </Node>
-              <Pad Id="MvSkkWcz31sLkov306SAFt" Comment="" Bounds="840,831,65,15" ShowValueBox="true" isIOBox="true" Value="High">
+              <Pad Id="MvSkkWcz31sLkov306SAFt" Comment="" Bounds="841,820,65,15" ShowValueBox="true" isIOBox="true" Value="High">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastDependency="Microsoft.Azure.Kinect.BodyTracking.dll">
                   <Choice Kind="TypeFlag" Name="JointConfidenceLevel" />
                 </p:TypeAnnotation>
               </Pad>
-              <Node Bounds="925,830,89,84" Id="ESUYsp1PiMfOEcTsKGmzYJ">
+              <Node Bounds="926,819,82,84" Id="ESUYsp1PiMfOEcTsKGmzYJ">
                 <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <Choice Kind="ApplicationStatefulRegion" Name="If" />
                   <CategoryReference Kind="Category" Name="Primitive" />
                 </p:NodeReference>
                 <Pin Id="JXGquhE9IOHNJpCyCRuM2Y" Name="Condition" Kind="InputPin" />
-                <ControlPoint Id="RWjMWm8SUpgLlt9MtASNzw" Bounds="941,836" Alignment="Top" />
-                <ControlPoint Id="VOC92bCaTpbQbX2kuIFc9H" Bounds="941,908" Alignment="Bottom" />
+                <ControlPoint Id="RWjMWm8SUpgLlt9MtASNzw" Bounds="942,825" Alignment="Top" />
+                <ControlPoint Id="VOC92bCaTpbQbX2kuIFc9H" Bounds="942,897" Alignment="Bottom" />
                 <Patch Id="LMpedcitMO8PDTEQdMfpry" ManuallySortedPins="true">
                   <Patch Id="BmN5DIZx6AWMgGxXo0mDZL" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="Ck7S9UFWzQ9MsJWROA94ii" Name="Then" ManuallySortedPins="true" />
-                  <Pad Id="NHOwqBAllSfNCYgvzMXqYm" Bounds="941,869,35,15" ShowValueBox="true" isIOBox="true" Value="3">
+                  <Pad Id="NHOwqBAllSfNCYgvzMXqYm" Bounds="942,858,35,15" ShowValueBox="true" isIOBox="true" Value="3">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="ImmutableTypeFlag" Name="Integer32" />
                       <FullNameCategoryReference ID="Primitive" />
@@ -302,7 +302,7 @@
                   </Pad>
                 </Patch>
               </Node>
-              <Pad Id="S8yUPod62LHL6wwwK98Nyg" Bounds="1020,875,112,19" ShowValueBox="true" isIOBox="true" Value="High">
+              <Pad Id="S8yUPod62LHL6wwwK98Nyg" Bounds="1021,864,112,19" ShowValueBox="true" isIOBox="true" Value="High">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="String" />
                 </p:TypeAnnotation>
@@ -311,7 +311,7 @@
                   <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
                 </p:ValueBoxSettings>
               </Pad>
-              <Pad Id="AoNJdFNOCTqNWG2hOyMXl7" Bounds="1019,898,241,19" ShowValueBox="true" isIOBox="true" Value="(available but not used by AzureKinect)">
+              <Pad Id="AoNJdFNOCTqNWG2hOyMXl7" Bounds="1020,887,241,19" ShowValueBox="true" isIOBox="true" Value="(available but not used by AzureKinect)">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="String" />
                 </p:TypeAnnotation>
@@ -347,11 +347,11 @@
           <Link Id="QEPwj3UKAvPQF3iuJT7gD9" Ids="I2bnqrjQ1hrM4aduAnKde5,JXGquhE9IOHNJpCyCRuM2Y" />
           <Link Id="BYw77ogT9GzNwU6x1hfMY7" Ids="O6io8HBWMjXNhGkH8wjlfV,TThy0CY3MOlQGDf3uATEb2" />
           <Link Id="TzP5YBHRnzNN7bsSqE9drq" Ids="BKxFP1M0ZlmPQseayIGPjn,JrT8FzpXBW6LWndZy3B4oe" />
-          <ControlPoint Id="BKxFP1M0ZlmPQseayIGPjn" Bounds="811,410" />
+          <ControlPoint Id="BKxFP1M0ZlmPQseayIGPjn" Bounds="812,399" />
           <Pin Id="OmzhOuiuYYrMeMpdFbuerg" Name="Input" Kind="InputPin" Bounds="111,1109" />
           <Link Id="RhGJ90TaVmlOiM3vjoVeNj" Ids="OmzhOuiuYYrMeMpdFbuerg,BKxFP1M0ZlmPQseayIGPjn" IsHidden="true" />
           <Link Id="DXwC5CSW3lLNccYfE6sZK0" Ids="Lh2az5PobCMMk9Pab4BozZ,LBvbUW5JkLMNMuVtj4NHUD" />
-          <ControlPoint Id="LBvbUW5JkLMNMuVtj4NHUD" Bounds="941,964" />
+          <ControlPoint Id="LBvbUW5JkLMNMuVtj4NHUD" Bounds="942,953" />
           <Pin Id="E9whbjEVbq4OdWveCJjOrT" Name="Output" Kind="OutputPin" Bounds="244,1619" />
           <Link Id="NGxQCIDSZ85MxWxewp76Ll" Ids="LBvbUW5JkLMNMuVtj4NHUD,E9whbjEVbq4OdWveCJjOrT" IsHidden="true" />
         </Patch>
@@ -598,7 +598,7 @@
                 </Patch>
               </Node>
               <ControlPoint Id="ESI3VsKxUTBOOPfIOWq2H5" Bounds="512,382" />
-              <Node Bounds="263,132,165,19" Id="ApRUObiaZOUNpMKAJTPPGM">
+              <Node Bounds="263,132,165,26" Id="ApRUObiaZOUNpMKAJTPPGM">
                 <p:NodeReference LastCategoryFullName="Espace.Skeleton" LastDependency="VL.Espace.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="RecordType" Name="Skeleton" NeedsToBeDirectParent="true">
@@ -914,7 +914,7 @@
                   </p:TypeArguments>
                 </p:TypeAnnotation>
               </Pad>
-              <Pad Id="Vuh6BChHB3TP8qGmq1032e" Bounds="520,-252,93,116" ShowValueBox="true" isIOBox="true">
+              <Pad Id="Vuh6BChHB3TP8qGmq1032e" Bounds="520,-284,93,116" ShowValueBox="true" isIOBox="true">
                 <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Spread" />
                   <p:TypeArguments>
@@ -933,7 +933,7 @@
                   <Item>AnkleLeft</Item>
                 </p:Value>
               </Pad>
-              <Pad Id="NIpKKjB0eBAQMzvnDqSrGm" Bounds="682,-251,93,95" ShowValueBox="true" isIOBox="true">
+              <Pad Id="NIpKKjB0eBAQMzvnDqSrGm" Bounds="682,-284,93,95" ShowValueBox="true" isIOBox="true">
                 <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Spread" />
                   <p:TypeArguments>
@@ -952,7 +952,7 @@
                   <Item>AnkleRight</Item>
                 </p:Value>
               </Pad>
-              <Pad Id="EHyxqEZHq87Nyjb76AKLaH" Bounds="834,-250,93,110" ShowValueBox="true" isIOBox="true">
+              <Pad Id="EHyxqEZHq87Nyjb76AKLaH" Bounds="834,-284,93,110" ShowValueBox="true" isIOBox="true">
                 <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Spread" />
                   <p:TypeArguments>
@@ -973,7 +973,7 @@
                   <Item>Head</Item>
                 </p:Value>
               </Pad>
-              <Pad Id="BhBq1VjIjp6LP3LazOBUz2" Bounds="969,-257,93,164" ShowValueBox="true" isIOBox="true">
+              <Pad Id="BhBq1VjIjp6LP3LazOBUz2" Bounds="969,-284,93,164" ShowValueBox="true" isIOBox="true">
                 <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Spread" />
                   <p:TypeArguments>
@@ -996,7 +996,7 @@
                   <Item>HandTipLeft</Item>
                 </p:Value>
               </Pad>
-              <Pad Id="NZKXijqBsN9M4uQdcLcOZp" Bounds="1117,-252,93,164" ShowValueBox="true" isIOBox="true">
+              <Pad Id="NZKXijqBsN9M4uQdcLcOZp" Bounds="1117,-284,93,164" ShowValueBox="true" isIOBox="true">
                 <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Spread" />
                   <p:TypeArguments>
@@ -1019,7 +1019,7 @@
                   <Item>HandTipRight</Item>
                 </p:Value>
               </Pad>
-              <Pad Id="JEEBSDanPc2PmTZQbrQj7U" Bounds="1317,-278,93,49" ShowValueBox="true" isIOBox="true">
+              <Pad Id="JEEBSDanPc2PmTZQbrQj7U" Bounds="1317,-284,93,49" ShowValueBox="true" isIOBox="true">
                 <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Spread" />
                   <p:TypeArguments>
@@ -1037,7 +1037,7 @@
                   <Item>Nose</Item>
                 </p:Value>
               </Pad>
-              <Pad Id="VBtWxxreiDjNb1M1897u7P" Bounds="1431,-280,93,49" ShowValueBox="true" isIOBox="true">
+              <Pad Id="VBtWxxreiDjNb1M1897u7P" Bounds="1431,-284,93,49" ShowValueBox="true" isIOBox="true">
                 <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Spread" />
                   <p:TypeArguments>
@@ -1161,7 +1161,7 @@
             <Link Id="AKUB8ZG1WPvL2nquUfl1jm" Ids="B0qmU4nphbWMAYDgtUHPL4,HDcMrADPpEyPnMvdp4qqaN" />
           </Patch>
         </Node>
-        <Pad Id="E3OGFUJ2ugvPvVD0CMdFzc" Bounds="361,250,349,41" ShowValueBox="true" isIOBox="true" Value="this one is just for reference. the actual boxman should be taken from vl.io.trackinghub">
+        <Pad Id="E3OGFUJ2ugvPvVD0CMdFzc" Bounds="361,250,349,41" ShowValueBox="true" isIOBox="true" Value="this one is just for reference. the actual boxman should be taken from VL.Espace">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -2420,12 +2420,12 @@
     ************************ IntToProcessingMode ************************
 
 -->
-      <Node Name="IntToProcessingMode" Bounds="1343,395,276,575" Id="DyMCiFjv6TuLUALqvdJdj9">
+      <Node Name="IntToProcessingMode" Bounds="1344,381,276,575" Id="DyMCiFjv6TuLUALqvdJdj9">
         <p:NodeReference>
           <Choice Kind="OperationDefinition" />
         </p:NodeReference>
         <Patch Id="TN8cRsaQeH7PZ1R3Au4aUs">
-          <Node Bounds="1357,462,25,19" Id="GHu3F1GhBgGNclmoNIh4k2">
+          <Node Bounds="1358,448,25,19" Id="GHu3F1GhBgGNclmoNIh4k2">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
@@ -2434,7 +2434,7 @@
             <Pin Id="QegcALptp9TNaWQEt2J1ZT" Name="Input 2" Kind="InputPin" />
             <Pin Id="NpXtFF3X2z3Mm6gcHr8Y3t" Name="Result" Kind="OutputPin" />
           </Node>
-          <ControlPoint Id="NdRmNZtV1M9MqQue7X9ZQk" Bounds="1359,413" />
+          <ControlPoint Id="NdRmNZtV1M9MqQue7X9ZQk" Bounds="1360,399" />
           <Link Id="C3wTWDO7HjRNQMsR92IXtL" Ids="NdRmNZtV1M9MqQue7X9ZQk,UZ14pQ4Q96PL9MH22snXcN" />
           <Pin Id="Egswb0L5UPmMN0SxIJZohz" Name="Input" Kind="InputPin">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -2442,25 +2442,25 @@
             </p:TypeAnnotation>
           </Pin>
           <Link Id="OmEY8MwAcqoOtwaFpzDVcu" Ids="Egswb0L5UPmMN0SxIJZohz,NdRmNZtV1M9MqQue7X9ZQk" IsHidden="true" />
-          <Pad Id="NRagA9VbOZvQHYAstfQZf1" Comment="" Bounds="1386,445,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+          <Pad Id="NRagA9VbOZvQHYAstfQZf1" Comment="" Bounds="1387,431,35,15" ShowValueBox="true" isIOBox="true" Value="0">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
           <Link Id="SKeJ08hYxmENXLVqkH7IfC" Ids="NRagA9VbOZvQHYAstfQZf1,QegcALptp9TNaWQEt2J1ZT" />
-          <Node Bounds="1465,478,142,64" Id="I6Yz3txSPpFOCUIjPSQoMs">
+          <Node Bounds="1466,464,142,64" Id="I6Yz3txSPpFOCUIjPSQoMs">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="F67TG0VsLTNQY5PaNlFnvq" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="RAluW5tQ0wvP1hcaKTR0dZ" Bounds="1481,536" Alignment="Bottom" />
-            <ControlPoint Id="QCWVUPPpQwdNIAmUhH9q7J" Bounds="1482,484" Alignment="Top" />
+            <ControlPoint Id="RAluW5tQ0wvP1hcaKTR0dZ" Bounds="1482,522" Alignment="Bottom" />
+            <ControlPoint Id="QCWVUPPpQwdNIAmUhH9q7J" Bounds="1483,470" Alignment="Top" />
             <Patch Id="ROJzwrUZxMJLPxjA7ZJFPf" ManuallySortedPins="true">
               <Patch Id="CJ6O4sGwoNlQTyoHqbyNAf" Name="Create" ManuallySortedPins="true" />
               <Patch Id="AOE3NsIqDoZNW8x8ZUpbCN" Name="Then" ManuallySortedPins="true" />
-              <Pad Id="ErJ6vWu903mLKkMBhpeXMQ" Comment="Mode" Bounds="1481,514,67,15" ShowValueBox="true" isIOBox="true">
+              <Pad Id="ErJ6vWu903mLKkMBhpeXMQ" Comment="Mode" Bounds="1482,500,67,15" ShowValueBox="true" isIOBox="true">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="TypeFlag" Name="TrackerProcessingMode" />
                 </p:TypeAnnotation>
@@ -2470,19 +2470,19 @@
           <Link Id="OBhcBojstStP0ZVLP9wcrl" Ids="QCWVUPPpQwdNIAmUhH9q7J,RAluW5tQ0wvP1hcaKTR0dZ" IsFeedback="true" />
           <Link Id="S95yJUYbXvjO9T70ERRk6x" Ids="NpXtFF3X2z3Mm6gcHr8Y3t,F67TG0VsLTNQY5PaNlFnvq" />
           <Link Id="PU4tQ3foejMLl3uYjs1GWI" Ids="ErJ6vWu903mLKkMBhpeXMQ,RAluW5tQ0wvP1hcaKTR0dZ" />
-          <Node Bounds="1465,568,142,94" Id="B5OawndI1LeQVFqOPaAAtb">
+          <Node Bounds="1466,554,142,94" Id="B5OawndI1LeQVFqOPaAAtb">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="QBhUlHp7S9cO1zoxwSXEnX" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="CSqRQ3h0wOOLl4szPQgCTg" Bounds="1481,656" Alignment="Bottom" />
-            <ControlPoint Id="BpktWrRQSkRLloG5mFMqet" Bounds="1481,574" Alignment="Top" />
+            <ControlPoint Id="CSqRQ3h0wOOLl4szPQgCTg" Bounds="1482,642" Alignment="Bottom" />
+            <ControlPoint Id="BpktWrRQSkRLloG5mFMqet" Bounds="1482,560" Alignment="Top" />
             <Patch Id="NhVi7cAKdMCPonRURSX7vM" ManuallySortedPins="true">
               <Patch Id="Vutk912RxAQL6xPo7ZMJvt" Name="Create" ManuallySortedPins="true" />
               <Patch Id="KsmyEV9dIUALh8iXtBmPqX" Name="Then" ManuallySortedPins="true" />
-              <Pad Id="NWqVMZNVGfeMHyj2YWdxDE" Comment="Mode" Bounds="1481,634,67,15" ShowValueBox="true" isIOBox="true" Value="Cpu">
+              <Pad Id="NWqVMZNVGfeMHyj2YWdxDE" Comment="Mode" Bounds="1482,620,67,15" ShowValueBox="true" isIOBox="true" Value="Cpu">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="TypeFlag" Name="TrackerProcessingMode" />
                 </p:TypeAnnotation>
@@ -2492,19 +2492,19 @@
           <Link Id="SODpSrOqWXyOCcJA5q1d0b" Ids="BpktWrRQSkRLloG5mFMqet,CSqRQ3h0wOOLl4szPQgCTg" IsFeedback="true" />
           <Link Id="A5t3aKlbiWsNjScaExtRcY" Ids="NWqVMZNVGfeMHyj2YWdxDE,CSqRQ3h0wOOLl4szPQgCTg" />
           <Link Id="Q9tjoy0TJ2iMI7PEuGE9SL" Ids="RAluW5tQ0wvP1hcaKTR0dZ,BpktWrRQSkRLloG5mFMqet" />
-          <Node Bounds="1465,678,142,64" Id="B7bFqWgAq3RLQMMG5EO2xh">
+          <Node Bounds="1466,664,142,64" Id="B7bFqWgAq3RLQMMG5EO2xh">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="OEXcF9SlttWO4GGNWXnBB6" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="UymMkSuEADQOSG7KRUNqD8" Bounds="1481,736,-154,0" Alignment="Bottom" />
-            <ControlPoint Id="TrAz6005DRlPETxJIGcf56" Bounds="1481,684,-154,0" Alignment="Top" />
+            <ControlPoint Id="UymMkSuEADQOSG7KRUNqD8" Bounds="1482,722,-154,0" Alignment="Bottom" />
+            <ControlPoint Id="TrAz6005DRlPETxJIGcf56" Bounds="1482,670,-154,0" Alignment="Top" />
             <Patch Id="MKW0rZOlRfqQaJHgtQ5EWy" ManuallySortedPins="true">
               <Patch Id="Mmu3cmdyKdhOaEThND5vlF" Name="Create" ManuallySortedPins="true" />
               <Patch Id="H1XzJ3j5wBJMeNoCCvljNh" Name="Then" ManuallySortedPins="true" />
-              <Pad Id="GDM7xmvahK0NCUBdPMb6VR" Comment="Mode" Bounds="1481,714,67,15" ShowValueBox="true" isIOBox="true" Value="Cuda">
+              <Pad Id="GDM7xmvahK0NCUBdPMb6VR" Comment="Mode" Bounds="1482,700,67,15" ShowValueBox="true" isIOBox="true" Value="Cuda">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="TypeFlag" Name="TrackerProcessingMode" />
                 </p:TypeAnnotation>
@@ -2514,19 +2514,19 @@
           <Link Id="KnGkDDiRu4PN2q27GOSant" Ids="TrAz6005DRlPETxJIGcf56,UymMkSuEADQOSG7KRUNqD8" IsFeedback="true" />
           <Link Id="JRVl8PDUSw3Ldp7V7UiR2Z" Ids="GDM7xmvahK0NCUBdPMb6VR,UymMkSuEADQOSG7KRUNqD8" />
           <Link Id="SdkejqfplbFPh0v2eB9XAW" Ids="CSqRQ3h0wOOLl4szPQgCTg,TrAz6005DRlPETxJIGcf56" />
-          <Node Bounds="1465,768,142,64" Id="HjWiM4EfRPdNbLhIAc3ICO">
+          <Node Bounds="1466,754,142,64" Id="HjWiM4EfRPdNbLhIAc3ICO">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="LtSXeH3ABf5NvJgvo6ACS4" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="Jb1blYMwfTyO03gi8rDmNn" Bounds="1481,826,-154,0" Alignment="Bottom" />
-            <ControlPoint Id="SezEygK0fJdM56zQy1nmv1" Bounds="1481,774,-154,0" Alignment="Top" />
+            <ControlPoint Id="Jb1blYMwfTyO03gi8rDmNn" Bounds="1482,812,-154,0" Alignment="Bottom" />
+            <ControlPoint Id="SezEygK0fJdM56zQy1nmv1" Bounds="1482,760,-154,0" Alignment="Top" />
             <Patch Id="O5HqcR3gC1VNXCW1kprPm9" ManuallySortedPins="true">
               <Patch Id="OBl7Jl2TSdQL0Kzs3yZCbD" Name="Create" ManuallySortedPins="true" />
               <Patch Id="QzAgXNZmN8ONGYakhVMW4m" Name="Then" ManuallySortedPins="true" />
-              <Pad Id="FfuDyBfuYCIMl2u2jHQSwd" Comment="Mode" Bounds="1481,804,67,15" ShowValueBox="true" isIOBox="true" Value="TensorRT">
+              <Pad Id="FfuDyBfuYCIMl2u2jHQSwd" Comment="Mode" Bounds="1482,790,67,15" ShowValueBox="true" isIOBox="true" Value="TensorRT">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="TypeFlag" Name="TrackerProcessingMode" />
                 </p:TypeAnnotation>
@@ -2536,19 +2536,19 @@
           <Link Id="QW7HlfPjAjYNTkkITnhAUg" Ids="SezEygK0fJdM56zQy1nmv1,Jb1blYMwfTyO03gi8rDmNn" IsFeedback="true" />
           <Link Id="PEAPHBioLZUP76MwkFNAH7" Ids="FfuDyBfuYCIMl2u2jHQSwd,Jb1blYMwfTyO03gi8rDmNn" />
           <Link Id="SAPJitGODDrMgvEnsyvLSa" Ids="UymMkSuEADQOSG7KRUNqD8,SezEygK0fJdM56zQy1nmv1" />
-          <Node Bounds="1465,858,142,64" Id="VbOxlC1jtHoMsBNnXkeUNG">
+          <Node Bounds="1466,844,142,64" Id="VbOxlC1jtHoMsBNnXkeUNG">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="MH5w55AzbNsPqMS41i5Oz7" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="L8t3C4CxmhePkbdXGZCzq0" Bounds="1481,916,-154,0" Alignment="Bottom" />
-            <ControlPoint Id="UXDLWXQiVcdMJW2fQOCX8l" Bounds="1481,864,-154,0" Alignment="Top" />
+            <ControlPoint Id="L8t3C4CxmhePkbdXGZCzq0" Bounds="1482,902,-154,0" Alignment="Bottom" />
+            <ControlPoint Id="UXDLWXQiVcdMJW2fQOCX8l" Bounds="1482,850,-154,0" Alignment="Top" />
             <Patch Id="M1X61o5AyoDN5UrDnyzxlS" ManuallySortedPins="true">
               <Patch Id="Ns0j3Kw4N01QXvS9Ag94aj" Name="Create" ManuallySortedPins="true" />
               <Patch Id="RcGL8PJtlkvPbQvYXpm0Wz" Name="Then" ManuallySortedPins="true" />
-              <Pad Id="LM6i6F2KbxLPmlLI82MsjM" Comment="Mode" Bounds="1481,894,67,15" ShowValueBox="true" isIOBox="true" Value="DirectML">
+              <Pad Id="LM6i6F2KbxLPmlLI82MsjM" Comment="Mode" Bounds="1482,880,67,15" ShowValueBox="true" isIOBox="true" Value="DirectML">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="TypeFlag" Name="TrackerProcessingMode" />
                 </p:TypeAnnotation>
@@ -2557,7 +2557,7 @@
           </Node>
           <Link Id="V5QsxLaQ8igNxyFqF0ODuo" Ids="UXDLWXQiVcdMJW2fQOCX8l,L8t3C4CxmhePkbdXGZCzq0" IsFeedback="true" />
           <Link Id="D5PiyJdMXErPn3PNlJ4MCW" Ids="LM6i6F2KbxLPmlLI82MsjM,L8t3C4CxmhePkbdXGZCzq0" />
-          <Node Bounds="1364,567,25,19" Id="KAsFuKK8G8iNtbksknH1Ja">
+          <Node Bounds="1365,553,25,19" Id="KAsFuKK8G8iNtbksknH1Ja">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
@@ -2566,14 +2566,14 @@
             <Pin Id="IkoTJ7znr6zLmc4XGL0oaU" Name="Input 2" Kind="InputPin" />
             <Pin Id="MylPk1BfNdUMAZrojm5X8U" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="LtcuZskfc9KMi4oiGesrAY" Comment="" Bounds="1393,550,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="LtcuZskfc9KMi4oiGesrAY" Comment="" Bounds="1394,536,35,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
           <Link Id="UQU1D0Ca1rANYjMZwhv7Nb" Ids="LtcuZskfc9KMi4oiGesrAY,IkoTJ7znr6zLmc4XGL0oaU" />
           <Link Id="Tv6OivYNEzrN38bob1ceAS" Ids="NdRmNZtV1M9MqQue7X9ZQk,A70RuT07va9PfvQDfd83D6" />
-          <Node Bounds="1359,682,25,19" Id="B2SiRKCPRFiQPUG0tQclbL">
+          <Node Bounds="1360,668,25,19" Id="B2SiRKCPRFiQPUG0tQclbL">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
@@ -2582,7 +2582,7 @@
             <Pin Id="DykLHVEDQd1QDSyq4cgFUS" Name="Input 2" Kind="InputPin" />
             <Pin Id="FGPew1hLtWuNBOHTw4Uonj" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="BU3bSM9s2WzMRP5qZMa4XQ" Comment="" Bounds="1388,665,35,15" ShowValueBox="true" isIOBox="true" Value="2">
+          <Pad Id="BU3bSM9s2WzMRP5qZMa4XQ" Comment="" Bounds="1389,651,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -2591,7 +2591,7 @@
           <Link Id="DYKyWIm296bNEy4dSpeB4D" Ids="NdRmNZtV1M9MqQue7X9ZQk,ARgYVj0YDHpOSEHWgC0W46" />
           <Link Id="POffG92bTMrP8AsN8bUT9U" Ids="MylPk1BfNdUMAZrojm5X8U,QBhUlHp7S9cO1zoxwSXEnX" />
           <Link Id="NmpKeUmKd0rNa6oGBxuTvq" Ids="FGPew1hLtWuNBOHTw4Uonj,OEXcF9SlttWO4GGNWXnBB6" />
-          <Node Bounds="1364,765,25,19" Id="O5RifKD6EiUM61zKk1qBOm">
+          <Node Bounds="1365,751,25,19" Id="O5RifKD6EiUM61zKk1qBOm">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
@@ -2600,7 +2600,7 @@
             <Pin Id="KWyK4V5Y8M4Lk9R6Tgtbvl" Name="Input 2" Kind="InputPin" />
             <Pin Id="Fc9znQB6ZFmQVUZgGLKF2v" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="FIMgW6V0h05OFa3PkPtWGc" Comment="" Bounds="1393,748,35,15" ShowValueBox="true" isIOBox="true" Value="3">
+          <Pad Id="FIMgW6V0h05OFa3PkPtWGc" Comment="" Bounds="1394,734,35,15" ShowValueBox="true" isIOBox="true" Value="3">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -2608,7 +2608,7 @@
           <Link Id="VJ4AbxvsWwnOhvjbfsapiK" Ids="FIMgW6V0h05OFa3PkPtWGc,KWyK4V5Y8M4Lk9R6Tgtbvl" />
           <Link Id="CwiVIJM4vE1NHVjrmPDObM" Ids="NdRmNZtV1M9MqQue7X9ZQk,C9mchZEqV5QQMNWogdx1cg" />
           <Link Id="ShtjHzYFItGQOVPcbLXp1G" Ids="Fc9znQB6ZFmQVUZgGLKF2v,LtSXeH3ABf5NvJgvo6ACS4" />
-          <Node Bounds="1355,855,25,19" Id="Bpx2AdFgZdyN9mFF4Vbcvx">
+          <Node Bounds="1356,841,25,19" Id="Bpx2AdFgZdyN9mFF4Vbcvx">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
@@ -2617,7 +2617,7 @@
             <Pin Id="TOk9lf3jSHOMleql8CuCpv" Name="Input 2" Kind="InputPin" />
             <Pin Id="FuR8EDDKwlSQTkYb8TdzzT" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="QpmwtKkOEenPSRi62BjGVI" Comment="" Bounds="1384,838,35,15" ShowValueBox="true" isIOBox="true" Value="4">
+          <Pad Id="QpmwtKkOEenPSRi62BjGVI" Comment="" Bounds="1385,824,35,15" ShowValueBox="true" isIOBox="true" Value="4">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -2627,10 +2627,10 @@
           <Link Id="J8qgLMqP7YnOrm5yYg8VHP" Ids="FuR8EDDKwlSQTkYb8TdzzT,MH5w55AzbNsPqMS41i5Oz7" />
           <Link Id="PKnp6k92xDwPPItuapBlYV" Ids="Jb1blYMwfTyO03gi8rDmNn,UXDLWXQiVcdMJW2fQOCX8l" />
           <Link Id="AjkQtPH4w70La7Qu4WSWjc" Ids="L8t3C4CxmhePkbdXGZCzq0,EiwxoJ3kfllLar918pUu2s" />
-          <ControlPoint Id="EiwxoJ3kfllLar918pUu2s" Bounds="1466,953" />
+          <ControlPoint Id="EiwxoJ3kfllLar918pUu2s" Bounds="1467,939" />
           <Pin Id="KmR50xceFpUOnfydeR9nMB" Name="Processing Mode" Kind="OutputPin" />
           <Link Id="Eu8ipy7M0I2QO0gg90kb4U" Ids="EiwxoJ3kfllLar918pUu2s,KmR50xceFpUOnfydeR9nMB" IsHidden="true" />
-          <Pad Id="LuuL0amtG5mO5AixLrKmP4" Comment="" Bounds="1482,449,67,15" ShowValueBox="true" isIOBox="true" Value="DirectML">
+          <Pad Id="LuuL0amtG5mO5AixLrKmP4" Comment="" Bounds="1483,435,67,15" ShowValueBox="true" isIOBox="true" Value="DirectML">
             <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastDependency="VL.Devices.AzureKinect.Body.vl">
               <Choice Kind="TypeFlag" Name="TrackerProcessingMode" />
             </p:TypeAnnotation>
@@ -2643,12 +2643,12 @@
     ************************ IntToSensorOrientation ************************
 
 -->
-      <Node Name="IntToSensorOrientation" Bounds="1688,394,342,538" Id="FeZTSSOdvwxOpf2w1DOuVy">
+      <Node Name="IntToSensorOrientation" Bounds="1692,378,342,538" Id="FeZTSSOdvwxOpf2w1DOuVy">
         <p:NodeReference>
           <Choice Kind="OperationDefinition" />
         </p:NodeReference>
         <Patch Id="FSd5vbKrRxAOBYmuoFetqw">
-          <Node Bounds="1700,461,25,19" Id="PaODIsDHSxwQJ1B6pCYSzN">
+          <Node Bounds="1704,445,25,19" Id="PaODIsDHSxwQJ1B6pCYSzN">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
@@ -2657,56 +2657,56 @@
             <Pin Id="MMJ5TQh9QGsLfi8pBYLJne" Name="Input 2" Kind="InputPin" />
             <Pin Id="BvmuGUesGoHLzLliGbv2P7" Name="Result" Kind="OutputPin" />
           </Node>
-          <ControlPoint Id="NOiH4RwbpdOQcO6H2dQABw" Bounds="1702,412" />
+          <ControlPoint Id="NOiH4RwbpdOQcO6H2dQABw" Bounds="1706,396" />
           <Pin Id="QGsJ33XdyS5NO7m0DrQn9T" Name="Input" Kind="InputPin">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pin>
-          <Pad Id="JO4FqKPsVwGPLw2zlDIFYB" Comment="" Bounds="1729,444,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+          <Pad Id="JO4FqKPsVwGPLw2zlDIFYB" Comment="" Bounds="1733,428,35,15" ShowValueBox="true" isIOBox="true" Value="0">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="1807,477,192,64" Id="Cayt2vtwK4aNzASxafvmWu">
+          <Node Bounds="1811,461,192,64" Id="Cayt2vtwK4aNzASxafvmWu">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="Jze3vMRMmd6PPvMHWAJaii" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="LRx3s26TDzdLoBKztPzezU" Bounds="1823,535" Alignment="Bottom" />
-            <ControlPoint Id="SLfoeXUfFeIMxb5MeO16Z2" Bounds="1823,483" Alignment="Top" />
+            <ControlPoint Id="LRx3s26TDzdLoBKztPzezU" Bounds="1827,519" Alignment="Bottom" />
+            <ControlPoint Id="SLfoeXUfFeIMxb5MeO16Z2" Bounds="1827,467" Alignment="Top" />
             <Patch Id="V0Ggo5hqpIXMsWhSMJwFJI" ManuallySortedPins="true">
               <Patch Id="DnTB8ZBFTTYMWMBYRuSzEL" Name="Create" ManuallySortedPins="true" />
               <Patch Id="NapO0Za0gUUQSlEkkIrYb1" Name="Then" ManuallySortedPins="true" />
-              <Pad Id="IEJkZ11E4CcO5LEN4Bexqj" Comment="Mode" Bounds="1823,513,117,15" ShowValueBox="true" isIOBox="true">
+              <Pad Id="IEJkZ11E4CcO5LEN4Bexqj" Comment="Mode" Bounds="1827,497,117,15" ShowValueBox="true" isIOBox="true">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="TypeFlag" Name="SensorOrientation" />
                 </p:TypeAnnotation>
               </Pad>
             </Patch>
           </Node>
-          <Node Bounds="1807,560,192,94" Id="NGhMashPdFIPaR1kSrkGBB">
+          <Node Bounds="1811,544,192,94" Id="NGhMashPdFIPaR1kSrkGBB">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="PU7ZC2LnhIfLJTy2lhrqZ6" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="JxMrC2QbRCZO6tiqaEKRxr" Bounds="1823,648" Alignment="Bottom" />
-            <ControlPoint Id="HbdsHpgVfszOXuYlBH9AEo" Bounds="1823,566" Alignment="Top" />
+            <ControlPoint Id="JxMrC2QbRCZO6tiqaEKRxr" Bounds="1827,632" Alignment="Bottom" />
+            <ControlPoint Id="HbdsHpgVfszOXuYlBH9AEo" Bounds="1827,550" Alignment="Top" />
             <Patch Id="JEo0OtcwqztMWiAbsmXumV" ManuallySortedPins="true">
               <Patch Id="NJveJOPQ4KKOn0DcCvwV0y" Name="Create" ManuallySortedPins="true" />
               <Patch Id="QmoTQ8o8odELPa6Tg7dAGR" Name="Then" ManuallySortedPins="true" />
-              <Pad Id="NRGfa3eF9SiL5LVAmRpGTU" Comment="Mode" Bounds="1823,606,117,15" ShowValueBox="true" isIOBox="true" Value="Clockwise90">
+              <Pad Id="NRGfa3eF9SiL5LVAmRpGTU" Comment="Mode" Bounds="1827,590,117,15" ShowValueBox="true" isIOBox="true" Value="Clockwise90">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="TypeFlag" Name="SensorOrientation" />
                 </p:TypeAnnotation>
               </Pad>
             </Patch>
           </Node>
-          <Node Bounds="1708,559,25,19" Id="CfQaJI24vr8LerXy6g8Vgu">
+          <Node Bounds="1712,543,25,19" Id="CfQaJI24vr8LerXy6g8Vgu">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
@@ -2715,7 +2715,7 @@
             <Pin Id="Of0QsQMCklNOhD13vad5lY" Name="Input 2" Kind="InputPin" />
             <Pin Id="Ndd3MHff7LdLd815Sfn2Aa" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="BGNtDIZd9KHPD7SZIrUzG7" Comment="" Bounds="1737,542,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="BGNtDIZd9KHPD7SZIrUzG7" Comment="" Bounds="1741,526,35,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -2731,26 +2731,26 @@
           <Link Id="SqMz1wNovFJM7RPr66A4gF" Ids="NOiH4RwbpdOQcO6H2dQABw,MQU2dH2CzwsN2qrznML9yd" />
           <Link Id="JyoRt27gxgVMBxfcd0q1i2" Ids="Ndd3MHff7LdLd815Sfn2Aa,PU7ZC2LnhIfLJTy2lhrqZ6" />
           <Link Id="EJOhUhq9mjWM7z8yJXW6E6" Ids="NRGfa3eF9SiL5LVAmRpGTU,JxMrC2QbRCZO6tiqaEKRxr" />
-          <Node Bounds="1807,677,192,94" Id="RJOvBNewFsRLBnYWCB57Pd">
+          <Node Bounds="1811,661,192,94" Id="RJOvBNewFsRLBnYWCB57Pd">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="FS2A03QVgy0OEtL2ugTop5" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="Ch3gxXUMYO9QTwcI31IItv" Bounds="1823,765" Alignment="Bottom" />
-            <ControlPoint Id="OxpYa1ui6G7ORRqe5i3mx8" Bounds="1823,683" Alignment="Top" />
+            <ControlPoint Id="Ch3gxXUMYO9QTwcI31IItv" Bounds="1827,749" Alignment="Bottom" />
+            <ControlPoint Id="OxpYa1ui6G7ORRqe5i3mx8" Bounds="1827,667" Alignment="Top" />
             <Patch Id="PuBlXuoc9h2Nxx0DCZTYFB" ManuallySortedPins="true">
               <Patch Id="OM4nIj9X6p3NrrqmAsr19A" Name="Create" ManuallySortedPins="true" />
               <Patch Id="Edt8J7Fb7hEMXgUnh7t6vL" Name="Then" ManuallySortedPins="true" />
-              <Pad Id="N4FgBlf5q9XNFPemFlQ3yQ" Comment="Mode" Bounds="1823,723,117,15" ShowValueBox="true" isIOBox="true" Value="CounterClockwise90">
+              <Pad Id="N4FgBlf5q9XNFPemFlQ3yQ" Comment="Mode" Bounds="1827,707,117,15" ShowValueBox="true" isIOBox="true" Value="CounterClockwise90">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="TypeFlag" Name="SensorOrientation" />
                 </p:TypeAnnotation>
               </Pad>
             </Patch>
           </Node>
-          <Node Bounds="1712,676,25,19" Id="UNShMUH7K34PCf6ydXejaF">
+          <Node Bounds="1716,660,25,19" Id="UNShMUH7K34PCf6ydXejaF">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
@@ -2759,7 +2759,7 @@
             <Pin Id="LNeuUejW5r0LcFXQGofbvq" Name="Input 2" Kind="InputPin" />
             <Pin Id="QgFFrNvLU0pPeZ4ESbOhhb" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="K989nI1oHgWP1lL2v7Me4d" Comment="" Bounds="1741,659,35,15" ShowValueBox="true" isIOBox="true" Value="2">
+          <Pad Id="K989nI1oHgWP1lL2v7Me4d" Comment="" Bounds="1745,643,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -2769,26 +2769,26 @@
           <Link Id="AKaJJA4FqrfMZCxNPjj0bo" Ids="QgFFrNvLU0pPeZ4ESbOhhb,FS2A03QVgy0OEtL2ugTop5" />
           <Link Id="FTan8nDPQfnOHuQNpFv86w" Ids="N4FgBlf5q9XNFPemFlQ3yQ,Ch3gxXUMYO9QTwcI31IItv" />
           <Link Id="S1P41ttx0vsMnWygmDW6K4" Ids="NOiH4RwbpdOQcO6H2dQABw,R0EpteA7rB4MGdedSxsd1O" />
-          <Node Bounds="1807,792,192,94" Id="RI6Vzzxcu3tNzZAmKRfK3C">
+          <Node Bounds="1811,776,192,94" Id="RI6Vzzxcu3tNzZAmKRfK3C">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="EgGOn0HVwvjN5jE57meBqd" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="K9cN3V7FVHaPXwOdNpfxGZ" Bounds="1823,880" Alignment="Bottom" />
-            <ControlPoint Id="SROhpSm6HdRMEe5N1pBX5t" Bounds="1823,798" Alignment="Top" />
+            <ControlPoint Id="K9cN3V7FVHaPXwOdNpfxGZ" Bounds="1827,864" Alignment="Bottom" />
+            <ControlPoint Id="SROhpSm6HdRMEe5N1pBX5t" Bounds="1827,782" Alignment="Top" />
             <Patch Id="HPSHfuWMf2wLRoHH5qzaHU" ManuallySortedPins="true">
               <Patch Id="E9fHaWSwkLzOypbxlDoaEn" Name="Create" ManuallySortedPins="true" />
               <Patch Id="NswHlLZSTXCNVfJzyXpdv0" Name="Then" ManuallySortedPins="true" />
-              <Pad Id="HiO2seW9XuMO7GOn7kaJ6S" Comment="Mode" Bounds="1823,838,117,15" ShowValueBox="true" isIOBox="true" Value="Flip180">
+              <Pad Id="HiO2seW9XuMO7GOn7kaJ6S" Comment="Mode" Bounds="1827,822,117,15" ShowValueBox="true" isIOBox="true" Value="Flip180">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.BodyTracking" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="TypeFlag" Name="SensorOrientation" />
                 </p:TypeAnnotation>
               </Pad>
             </Patch>
           </Node>
-          <Node Bounds="1712,791,25,19" Id="KFMH4J8ALc4Pew0oRkbcck">
+          <Node Bounds="1716,775,25,19" Id="KFMH4J8ALc4Pew0oRkbcck">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
@@ -2797,7 +2797,7 @@
             <Pin Id="F5KFrgmIG0wLsoGhmDq8TB" Name="Input 2" Kind="InputPin" />
             <Pin Id="Hcay62APzZmLlhO2Tl5ocw" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="GqnNKCaaOauQPnNfsqeDHg" Comment="" Bounds="1741,774,35,15" ShowValueBox="true" isIOBox="true" Value="3">
+          <Pad Id="GqnNKCaaOauQPnNfsqeDHg" Comment="" Bounds="1745,758,35,15" ShowValueBox="true" isIOBox="true" Value="3">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -2808,7 +2808,7 @@
           <Link Id="SifClGxa5O8MGdxwVe2Yg8" Ids="HiO2seW9XuMO7GOn7kaJ6S,K9cN3V7FVHaPXwOdNpfxGZ" />
           <Link Id="QEX39z9MOVjM3UCBXQzVvH" Ids="NOiH4RwbpdOQcO6H2dQABw,VJJDOpeRCc9OPb8gi6Wh61" />
           <Link Id="J7WYET4x2gWOFbnNLQMSMY" Ids="K9cN3V7FVHaPXwOdNpfxGZ,Hx8IBoeEif6LZ17CL2lHMy" />
-          <ControlPoint Id="Hx8IBoeEif6LZ17CL2lHMy" Bounds="1823,915" />
+          <ControlPoint Id="Hx8IBoeEif6LZ17CL2lHMy" Bounds="1827,899" />
           <Pin Id="EhQ6cZ56GjUPUymyYjQKlf" Name="Sensor Orientation" Kind="OutputPin" />
           <Link Id="BQVFfHcd4p7LFdodpWft5u" Ids="Hx8IBoeEif6LZ17CL2lHMy,EhQ6cZ56GjUPUymyYjQKlf" IsHidden="true" />
           <Link Id="U0qSrcaZWPxMBtfvDQi7pW" Ids="LRx3s26TDzdLoBKztPzezU,HbdsHpgVfszOXuYlBH9AEo" />
@@ -3039,12 +3039,12 @@
     ************************ IntToDepthMode ************************
 
 -->
-      <Node Name="IntToDepthMode" Bounds="2058,386,323,643" Id="FF5QZMcEpuZNH6EJtQIuHo">
+      <Node Name="IntToDepthMode" Bounds="2061,373,323,643" Id="FF5QZMcEpuZNH6EJtQIuHo">
         <p:NodeReference>
           <Choice Kind="OperationDefinition" />
         </p:NodeReference>
         <Patch Id="EbCRrUKxc55K95234Htaeb">
-          <Node Bounds="2070,453,25,19" Id="PgsX15BpbWiNPU6pV3xc29">
+          <Node Bounds="2073,440,25,19" Id="PgsX15BpbWiNPU6pV3xc29">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
@@ -3053,56 +3053,56 @@
             <Pin Id="ArgAHXEWQnrO8CROKXcc4l" Name="Input 2" Kind="InputPin" />
             <Pin Id="QkYbj9sm5RZQbcvBNeKgRl" Name="Result" Kind="OutputPin" />
           </Node>
-          <ControlPoint Id="U5dT5IXW2kzQHHKyUEBisl" Bounds="2072,404" />
+          <ControlPoint Id="U5dT5IXW2kzQHHKyUEBisl" Bounds="2075,391" />
           <Pin Id="RHcvxkKVVPcOmmalXvP9ew" Name="Input" Kind="InputPin">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pin>
-          <Pad Id="HaKbJpHacS2LJVqABbaDOX" Comment="" Bounds="2099,436,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+          <Pad Id="HaKbJpHacS2LJVqABbaDOX" Comment="" Bounds="2102,423,35,15" ShowValueBox="true" isIOBox="true" Value="0">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="2177,469,192,64" Id="MDVrQGoSEOqMKntGbRIiuT">
+          <Node Bounds="2180,456,192,64" Id="MDVrQGoSEOqMKntGbRIiuT">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="NW3Wch5D0ZPOa0kQ6e5Ogd" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="N17rVEqY0u6NAh38XryCdF" Bounds="2193,527" Alignment="Bottom" />
-            <ControlPoint Id="KwLebbi6e6TNkw2yQVx8er" Bounds="2193,475" Alignment="Top" />
+            <ControlPoint Id="N17rVEqY0u6NAh38XryCdF" Bounds="2196,514" Alignment="Bottom" />
+            <ControlPoint Id="KwLebbi6e6TNkw2yQVx8er" Bounds="2196,462" Alignment="Top" />
             <Patch Id="RjsGys33Hi9OUfRPHKy05w" ManuallySortedPins="true">
               <Patch Id="UWBiOF4SiDuOFMp7eUSS7y" Name="Create" ManuallySortedPins="true" />
               <Patch Id="HaI32LuANnePNbiLuSHAp4" Name="Then" ManuallySortedPins="true" />
-              <Pad Id="HFVdmrftorYOLyZRFyPDge" Comment="Mode" Bounds="2193,505,117,15" ShowValueBox="true" isIOBox="true" Value="NFOV_2x2Binned">
+              <Pad Id="HFVdmrftorYOLyZRFyPDge" Comment="Mode" Bounds="2196,492,117,15" ShowValueBox="true" isIOBox="true" Value="NFOV_2x2Binned">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.Sensor" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="TypeFlag" Name="DepthMode" />
                 </p:TypeAnnotation>
               </Pad>
             </Patch>
           </Node>
-          <Node Bounds="2177,552,192,94" Id="Fjk0b1lhO0XOVyiRMeMKcL">
+          <Node Bounds="2180,539,192,94" Id="Fjk0b1lhO0XOVyiRMeMKcL">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="ApRY9hhyndJOn15gQ1kx7g" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="CCTpkWeUbLuQTPJoTaB7UT" Bounds="2193,640" Alignment="Bottom" />
-            <ControlPoint Id="JUDMq6eUbFhOZADnL6axeH" Bounds="2193,558" Alignment="Top" />
+            <ControlPoint Id="CCTpkWeUbLuQTPJoTaB7UT" Bounds="2196,627" Alignment="Bottom" />
+            <ControlPoint Id="JUDMq6eUbFhOZADnL6axeH" Bounds="2196,545" Alignment="Top" />
             <Patch Id="SWHOpO36n78MYVnd9GSG2X" ManuallySortedPins="true">
               <Patch Id="LiMWBmUCvDeNlv4lSoUzIh" Name="Create" ManuallySortedPins="true" />
               <Patch Id="FJLCHsK52NxL35BLAf1VUH" Name="Then" ManuallySortedPins="true" />
-              <Pad Id="E6poZskj4e3Nx6vPXTsbUU" Comment="Mode" Bounds="2193,598,117,15" ShowValueBox="true" isIOBox="true" Value="NFOV_Unbinned">
+              <Pad Id="E6poZskj4e3Nx6vPXTsbUU" Comment="Mode" Bounds="2196,585,117,15" ShowValueBox="true" isIOBox="true" Value="NFOV_Unbinned">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.Sensor" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="TypeFlag" Name="DepthMode" />
                 </p:TypeAnnotation>
               </Pad>
             </Patch>
           </Node>
-          <Node Bounds="2078,551,25,19" Id="QW2qjKXAqj8MYC92dksaFF">
+          <Node Bounds="2081,538,25,19" Id="QW2qjKXAqj8MYC92dksaFF">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
@@ -3111,7 +3111,7 @@
             <Pin Id="QldXYNpZ4f3NxlLgBZFgUt" Name="Input 2" Kind="InputPin" />
             <Pin Id="MAkMPHdjhhvN4fXDigzdH3" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="M9e2lXsmBaMQGwA00Z4eXT" Comment="" Bounds="2107,534,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="M9e2lXsmBaMQGwA00Z4eXT" Comment="" Bounds="2110,521,35,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -3127,26 +3127,26 @@
           <Link Id="SNwQ7JJcwFBO6nzwx9qtwo" Ids="U5dT5IXW2kzQHHKyUEBisl,KZe6MjXUjFPLl68MO7sGdh" />
           <Link Id="Uj0qnalpgJPOjhNcNzu5gX" Ids="MAkMPHdjhhvN4fXDigzdH3,ApRY9hhyndJOn15gQ1kx7g" />
           <Link Id="BC5eRmvRX5uPTHqN28WgNI" Ids="E6poZskj4e3Nx6vPXTsbUU,CCTpkWeUbLuQTPJoTaB7UT" />
-          <Node Bounds="2177,669,192,94" Id="Bb8o9CQNPzdPBfuC5OlVMQ">
+          <Node Bounds="2180,656,192,94" Id="Bb8o9CQNPzdPBfuC5OlVMQ">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="IKsb6sczkdRN4Y2NcQpy2h" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="JZa1eLVDoskLlOXzbjeYOG" Bounds="2193,757" Alignment="Bottom" />
-            <ControlPoint Id="HDhEmthCkHpObtK1ce9i1e" Bounds="2193,675" Alignment="Top" />
+            <ControlPoint Id="JZa1eLVDoskLlOXzbjeYOG" Bounds="2196,744" Alignment="Bottom" />
+            <ControlPoint Id="HDhEmthCkHpObtK1ce9i1e" Bounds="2196,662" Alignment="Top" />
             <Patch Id="Hg6QqFwdXpAPaOQdYJOxjs" ManuallySortedPins="true">
               <Patch Id="NCSm5U7hn2wNbYjDDeXhk0" Name="Create" ManuallySortedPins="true" />
               <Patch Id="RUllQBmF98zNjCHPclhOPM" Name="Then" ManuallySortedPins="true" />
-              <Pad Id="DkT7DN3H5jUM1qW5lSR40U" Comment="Mode" Bounds="2193,715,117,15" ShowValueBox="true" isIOBox="true" Value="WFOV_2x2Binned">
+              <Pad Id="DkT7DN3H5jUM1qW5lSR40U" Comment="Mode" Bounds="2196,702,117,15" ShowValueBox="true" isIOBox="true" Value="WFOV_2x2Binned">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.Sensor" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="TypeFlag" Name="DepthMode" />
                 </p:TypeAnnotation>
               </Pad>
             </Patch>
           </Node>
-          <Node Bounds="2082,668,25,19" Id="TdNmeHltV3WOBl5U7mobfV">
+          <Node Bounds="2085,655,25,19" Id="TdNmeHltV3WOBl5U7mobfV">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
@@ -3155,7 +3155,7 @@
             <Pin Id="NkvAphCBVj8PLLVmQOYFDW" Name="Input 2" Kind="InputPin" />
             <Pin Id="FoACDW5Bay1L5mmiPphcYu" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="TgP3meIb1KbNc0onUC8WYs" Comment="" Bounds="2111,651,35,15" ShowValueBox="true" isIOBox="true" Value="2">
+          <Pad Id="TgP3meIb1KbNc0onUC8WYs" Comment="" Bounds="2114,638,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -3165,26 +3165,26 @@
           <Link Id="DjEsIQ17aBtLFeBbT7gTNB" Ids="FoACDW5Bay1L5mmiPphcYu,IKsb6sczkdRN4Y2NcQpy2h" />
           <Link Id="RsB4oUwumKyNCYjVmJAz6W" Ids="DkT7DN3H5jUM1qW5lSR40U,JZa1eLVDoskLlOXzbjeYOG" />
           <Link Id="R5qHSyGBlOyOZULOZKTu6J" Ids="U5dT5IXW2kzQHHKyUEBisl,U9eorqPW8S1Nd2ENWP7p1M" />
-          <Node Bounds="2177,784,192,94" Id="UQBYmhvc6YlMehfuhzfS8L">
+          <Node Bounds="2180,771,192,94" Id="UQBYmhvc6YlMehfuhzfS8L">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="HOkwOBSNLERLcVSwdbnub1" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="CM8sSDzaFHJQQYE2Jm7R1I" Bounds="2193,872" Alignment="Bottom" />
-            <ControlPoint Id="Qf5munrTZyJNwLARtRfcOz" Bounds="2193,790" Alignment="Top" />
+            <ControlPoint Id="CM8sSDzaFHJQQYE2Jm7R1I" Bounds="2196,859" Alignment="Bottom" />
+            <ControlPoint Id="Qf5munrTZyJNwLARtRfcOz" Bounds="2196,777" Alignment="Top" />
             <Patch Id="NgPKPVEgEUHLK9CSjQTtMA" ManuallySortedPins="true">
               <Patch Id="NbQb2ioHVUSNYOvjWyvrDJ" Name="Create" ManuallySortedPins="true" />
               <Patch Id="F0L9FoodLTpNkp3A7llz48" Name="Then" ManuallySortedPins="true" />
-              <Pad Id="GlB59GM45JuNsr9zZ4SEFR" Comment="Mode" Bounds="2193,830,117,15" ShowValueBox="true" isIOBox="true" Value="WFOV_Unbinned">
+              <Pad Id="GlB59GM45JuNsr9zZ4SEFR" Comment="Mode" Bounds="2196,817,117,15" ShowValueBox="true" isIOBox="true" Value="WFOV_Unbinned">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.Sensor" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="TypeFlag" Name="DepthMode" />
                 </p:TypeAnnotation>
               </Pad>
             </Patch>
           </Node>
-          <Node Bounds="2082,783,25,19" Id="F9tlwYO0kD3LN4n4X7Rq7w">
+          <Node Bounds="2085,770,25,19" Id="F9tlwYO0kD3LN4n4X7Rq7w">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
@@ -3193,7 +3193,7 @@
             <Pin Id="DFKENJD74UUMs5Y4CxKZ5S" Name="Input 2" Kind="InputPin" />
             <Pin Id="TmJzcjt9MIYOD9BTXN7GxM" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="OpdpKjkqgh9OKkYafXgQxW" Comment="" Bounds="2111,766,35,15" ShowValueBox="true" isIOBox="true" Value="3">
+          <Pad Id="OpdpKjkqgh9OKkYafXgQxW" Comment="" Bounds="2114,753,35,15" ShowValueBox="true" isIOBox="true" Value="3">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -3203,32 +3203,32 @@
           <Link Id="FJ97Rm5UgknP49jrTN04Lg" Ids="TmJzcjt9MIYOD9BTXN7GxM,HOkwOBSNLERLcVSwdbnub1" />
           <Link Id="IK9ZRtZHMjhNfmqMpbQBRU" Ids="GlB59GM45JuNsr9zZ4SEFR,CM8sSDzaFHJQQYE2Jm7R1I" />
           <Link Id="FlnEYEThyDkQZfnAsZJ2WE" Ids="U5dT5IXW2kzQHHKyUEBisl,PlTP87P7GQUMcCC61u0a4K" />
-          <ControlPoint Id="IJv4NyhCUgyMBYndiY0nmC" Bounds="2192,1012" />
+          <ControlPoint Id="IJv4NyhCUgyMBYndiY0nmC" Bounds="2195,999" />
           <Pin Id="NA05NkJB7XGPfLuP3UdbQM" Name="Depth Mode" Kind="OutputPin" />
           <Link Id="KofKCdzT7HvOHOGm3NXRqN" Ids="IJv4NyhCUgyMBYndiY0nmC,NA05NkJB7XGPfLuP3UdbQM" IsHidden="true" />
           <Link Id="Vd0pWPe322TMDZf7k1R6KL" Ids="N17rVEqY0u6NAh38XryCdF,JUDMq6eUbFhOZADnL6axeH" />
           <Link Id="DvWEBn3eignP7x1jFnmgST" Ids="CCTpkWeUbLuQTPJoTaB7UT,HDhEmthCkHpObtK1ce9i1e" />
           <Link Id="JDQrMLjchmnMrhhJzAFUk6" Ids="JZa1eLVDoskLlOXzbjeYOG,Qf5munrTZyJNwLARtRfcOz" />
-          <Node Bounds="2176,893,192,94" Id="FObRVmWMFqFPOeCT7vidk4">
+          <Node Bounds="2179,880,192,94" Id="FObRVmWMFqFPOeCT7vidk4">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="IZXWqyU1nHdL20wbCgnE9F" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="KyG1rWVGjyFQbAczd0vW3A" Bounds="2192,981" Alignment="Bottom" />
-            <ControlPoint Id="KXmYMv7aFh4QaHup27YCBE" Bounds="2192,899" Alignment="Top" />
+            <ControlPoint Id="KyG1rWVGjyFQbAczd0vW3A" Bounds="2195,968" Alignment="Bottom" />
+            <ControlPoint Id="KXmYMv7aFh4QaHup27YCBE" Bounds="2195,886" Alignment="Top" />
             <Patch Id="ITYbHF7wTyPM6RcVc42GZi" ManuallySortedPins="true">
               <Patch Id="CUiz1VLv1M3MWix2rLFak2" Name="Create" ManuallySortedPins="true" />
               <Patch Id="CpzPHBzQ8KhPVBaPXdanIm" Name="Then" ManuallySortedPins="true" />
-              <Pad Id="OcPb6VWuZOoPXgJ1Gr9Ga6" Comment="Mode" Bounds="2192,939,117,15" ShowValueBox="true" isIOBox="true" Value="PassiveIR">
+              <Pad Id="OcPb6VWuZOoPXgJ1Gr9Ga6" Comment="Mode" Bounds="2195,926,117,15" ShowValueBox="true" isIOBox="true" Value="PassiveIR">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.Sensor" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="TypeFlag" Name="DepthMode" />
                 </p:TypeAnnotation>
               </Pad>
             </Patch>
           </Node>
-          <Node Bounds="2081,892,25,19" Id="AO2fZK47WHPPmDatO2Ph2q">
+          <Node Bounds="2084,879,25,19" Id="AO2fZK47WHPPmDatO2Ph2q">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
@@ -3237,7 +3237,7 @@
             <Pin Id="MQxkIPYQF2AMloHAKnLG96" Name="Input 2" Kind="InputPin" />
             <Pin Id="U1EJuTrVCfdN5jhsTfpoct" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="Ahy7jxmIhrhP7VTuhjY5LS" Comment="" Bounds="2110,875,35,15" ShowValueBox="true" isIOBox="true" Value="3">
+          <Pad Id="Ahy7jxmIhrhP7VTuhjY5LS" Comment="" Bounds="2113,862,35,15" ShowValueBox="true" isIOBox="true" Value="3">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -3256,12 +3256,12 @@
     ************************ IntToFPS ************************
 
 -->
-      <Node Name="IntToFPS" Bounds="2417,380,323,450" Id="Mk7mPsnsWPDMTINMYazupD">
+      <Node Name="IntToFPS" Bounds="2423,372,323,450" Id="Mk7mPsnsWPDMTINMYazupD">
         <p:NodeReference>
           <Choice Kind="OperationDefinition" />
         </p:NodeReference>
         <Patch Id="J0LV58iWNqxNePoZ0fYZZ8">
-          <Node Bounds="2429,447,25,19" Id="BUGzikITPjoPRz5P1YOpRa">
+          <Node Bounds="2435,439,25,19" Id="BUGzikITPjoPRz5P1YOpRa">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
@@ -3270,56 +3270,56 @@
             <Pin Id="UkyZCnOPmApMIMqg0Hb0nq" Name="Input 2" Kind="InputPin" />
             <Pin Id="LRoXhJjhwDDPYGiDhuGwoO" Name="Result" Kind="OutputPin" />
           </Node>
-          <ControlPoint Id="SRPNTizcKslNUm3KKGYf8V" Bounds="2431,398" />
+          <ControlPoint Id="SRPNTizcKslNUm3KKGYf8V" Bounds="2437,390" />
           <Pin Id="BGrQXUPIDJhNqu219m7KaE" Name="Input" Kind="InputPin">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pin>
-          <Pad Id="N11FUrfk77nPXTmDhds7mN" Comment="" Bounds="2458,430,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+          <Pad Id="N11FUrfk77nPXTmDhds7mN" Comment="" Bounds="2464,422,35,15" ShowValueBox="true" isIOBox="true" Value="0">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="2536,463,192,64" Id="R9BMnNfpcIjN9iPbeZXono">
+          <Node Bounds="2542,455,192,64" Id="R9BMnNfpcIjN9iPbeZXono">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="JZnSCpPfsqPOMS9GojeXMh" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="EktNORxqXZ8Lns3CC3EHZT" Bounds="2552,521" Alignment="Bottom" />
-            <ControlPoint Id="L5LZgkk2FfcPUgCJSC53zh" Bounds="2552,469" Alignment="Top" />
+            <ControlPoint Id="EktNORxqXZ8Lns3CC3EHZT" Bounds="2558,513" Alignment="Bottom" />
+            <ControlPoint Id="L5LZgkk2FfcPUgCJSC53zh" Bounds="2558,461" Alignment="Top" />
             <Patch Id="O6VQ3Zx8r9CL09arkFrvJe" ManuallySortedPins="true">
               <Patch Id="VwlidEA8jHjPoO7LctAX4O" Name="Create" ManuallySortedPins="true" />
               <Patch Id="I5dxo5SQIp2OdfQ51vnr4Z" Name="Then" ManuallySortedPins="true" />
-              <Pad Id="I4osiX8HnW3PlEfNXWsj1K" Comment="Mode" Bounds="2552,499,117,15" ShowValueBox="true" isIOBox="true" Value="NFOV_2x2Binned">
+              <Pad Id="I4osiX8HnW3PlEfNXWsj1K" Comment="Mode" Bounds="2558,491,117,15" ShowValueBox="true" isIOBox="true" Value="NFOV_2x2Binned">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.Sensor" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="TypeFlag" Name="FPS" />
                 </p:TypeAnnotation>
               </Pad>
             </Patch>
           </Node>
-          <Node Bounds="2536,546,192,94" Id="OyEbkKNz4kzN06o2NisAo0">
+          <Node Bounds="2542,538,192,94" Id="OyEbkKNz4kzN06o2NisAo0">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="REItduM3XL5O2vkHaLoQYp" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="Pg1PFnDsopILfVhkQWaJqv" Bounds="2552,634" Alignment="Bottom" />
-            <ControlPoint Id="Kb2i11DU62aM7eYWdB8Son" Bounds="2552,552" Alignment="Top" />
+            <ControlPoint Id="Pg1PFnDsopILfVhkQWaJqv" Bounds="2558,626" Alignment="Bottom" />
+            <ControlPoint Id="Kb2i11DU62aM7eYWdB8Son" Bounds="2558,544" Alignment="Top" />
             <Patch Id="Gv8VLgm1YxMMqsVZ50vSEY" ManuallySortedPins="true">
               <Patch Id="TP6HmRze72pO7eyRi2kY26" Name="Create" ManuallySortedPins="true" />
               <Patch Id="F3mMjic96ELNJDDQBrQopl" Name="Then" ManuallySortedPins="true" />
-              <Pad Id="RWh8LrjchEcPYjTYYxBiUy" Comment="Mode" Bounds="2552,592,117,15" ShowValueBox="true" isIOBox="true" Value="FPS15">
+              <Pad Id="RWh8LrjchEcPYjTYYxBiUy" Comment="Mode" Bounds="2558,584,117,15" ShowValueBox="true" isIOBox="true" Value="FPS15">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.Sensor" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="TypeFlag" Name="FPS" />
                 </p:TypeAnnotation>
               </Pad>
             </Patch>
           </Node>
-          <Node Bounds="2437,545,25,19" Id="T7Ibma2ZM0iN9RLBz6jdJT">
+          <Node Bounds="2443,537,25,19" Id="T7Ibma2ZM0iN9RLBz6jdJT">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
@@ -3328,7 +3328,7 @@
             <Pin Id="I4gDHq53D3RMey0rIrFkJp" Name="Input 2" Kind="InputPin" />
             <Pin Id="T9bh06p6QxxPQ4R22vAMJK" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="CZr0F5WuZcNMw92XDDHd42" Comment="" Bounds="2466,528,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="CZr0F5WuZcNMw92XDDHd42" Comment="" Bounds="2472,520,35,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -3344,26 +3344,26 @@
           <Link Id="OpWHm1lo1IYO7YtWLSthif" Ids="SRPNTizcKslNUm3KKGYf8V,NVXI2ph0bQqMc4wvXhRjwG" />
           <Link Id="Qk7oWJGBSBOLGW2zoA9yxN" Ids="T9bh06p6QxxPQ4R22vAMJK,REItduM3XL5O2vkHaLoQYp" />
           <Link Id="EJJQMVobZLxLLEXwb13T6r" Ids="RWh8LrjchEcPYjTYYxBiUy,Pg1PFnDsopILfVhkQWaJqv" />
-          <Node Bounds="2536,663,192,94" Id="SnSnF7vk2FMPQJf8VzAyfz">
+          <Node Bounds="2542,655,192,94" Id="SnSnF7vk2FMPQJf8VzAyfz">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="If" />
               <CategoryReference Kind="Category" Name="Primitive" />
             </p:NodeReference>
             <Pin Id="DvPD1DX9KmEOnhZslFVY2g" Name="Condition" Kind="InputPin" />
-            <ControlPoint Id="AfZKR2LvlQVMXEMIUdYofM" Bounds="2552,751" Alignment="Bottom" />
-            <ControlPoint Id="HXoVNoy31aAMYbAHiFBkNy" Bounds="2552,669" Alignment="Top" />
+            <ControlPoint Id="AfZKR2LvlQVMXEMIUdYofM" Bounds="2558,743" Alignment="Bottom" />
+            <ControlPoint Id="HXoVNoy31aAMYbAHiFBkNy" Bounds="2558,661" Alignment="Top" />
             <Patch Id="E3A1TQTlb0AMKFqafRiNSz" ManuallySortedPins="true">
               <Patch Id="BrBOYREBaX5PmopbFEWzjy" Name="Create" ManuallySortedPins="true" />
               <Patch Id="AqEFogZNt9oMnYNWxr8nSS" Name="Then" ManuallySortedPins="true" />
-              <Pad Id="OndXVU7JTy9MmwrvmfcJiX" Comment="Mode" Bounds="2552,709,117,15" ShowValueBox="true" isIOBox="true" Value="FPS30">
+              <Pad Id="OndXVU7JTy9MmwrvmfcJiX" Comment="Mode" Bounds="2558,701,117,15" ShowValueBox="true" isIOBox="true" Value="FPS30">
                 <p:TypeAnnotation LastCategoryFullName="Microsoft.Azure.Kinect.Sensor" LastDependency="VL.Devices.AzureKinect.Body.vl">
                   <Choice Kind="TypeFlag" Name="FPS" />
                 </p:TypeAnnotation>
               </Pad>
             </Patch>
           </Node>
-          <Node Bounds="2441,662,25,19" Id="RgeodAOHYlILfdxE6X4ywl">
+          <Node Bounds="2447,654,25,19" Id="RgeodAOHYlILfdxE6X4ywl">
             <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="=" />
@@ -3372,7 +3372,7 @@
             <Pin Id="KuG7umcSdWVOl4x7f9Z1RD" Name="Input 2" Kind="InputPin" />
             <Pin Id="MOSAiQO749hLEpGEzdjaas" Name="Result" Kind="OutputPin" />
           </Node>
-          <Pad Id="VqRypAtVXvoN8xFVQtWPa6" Comment="" Bounds="2470,645,35,15" ShowValueBox="true" isIOBox="true" Value="2">
+          <Pad Id="VqRypAtVXvoN8xFVQtWPa6" Comment="" Bounds="2476,637,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -3385,7 +3385,7 @@
           <Link Id="GKJVliLfUTlNbxkrVAr6qe" Ids="EktNORxqXZ8Lns3CC3EHZT,Kb2i11DU62aM7eYWdB8Son" />
           <Link Id="S4sHsG3VLz2QSHxX18ZgtX" Ids="Pg1PFnDsopILfVhkQWaJqv,HXoVNoy31aAMYbAHiFBkNy" />
           <Link Id="HW3hdjzweoPPv1IdkEuIsP" Ids="AfZKR2LvlQVMXEMIUdYofM,BjUqjvZ5ZA9QLOygsD1avS" />
-          <ControlPoint Id="BjUqjvZ5ZA9QLOygsD1avS" Bounds="2552,787" />
+          <ControlPoint Id="BjUqjvZ5ZA9QLOygsD1avS" Bounds="2558,779" />
           <Pin Id="LHzdqDBl3H5LTYDy9p2UYp" Name="FPS" Kind="OutputPin" />
           <Link Id="OQLZg9ENncqPZhgW5NDhpJ" Ids="BjUqjvZ5ZA9QLOygsD1avS,LHzdqDBl3H5LTYDy9p2UYp" IsHidden="true" />
         </Patch>
@@ -3422,7 +3422,7 @@
     </Patch>
   </Patch>
   <NugetDependency Id="N39jYRGwF5lOZtWCQluutd" Location="VL.CoreLib" Version="2024.6.7" />
-  <NugetDependency Id="SBPd0GQmF8cPg0kXTtf0sT" Location="VL.IO.NetMQ" Version="0.4.2-alpha" />
+  <NugetDependency Id="SBPd0GQmF8cPg0kXTtf0sT" Location="VL.IO.NetMQ" Version="0.4.3-alpha" />
   <NugetDependency Id="GceoY5GyN3VOI9O7j4hId5" Location="IronSnappy" Version="1.3.1" />
   <NugetDependency Id="Ildz8NCFVVDMB9QvRKyCPW" Location="VL.Devices.AzureKinect" Version="1.5.0" />
   <NugetDependency Id="JPUUJifpUBSOnU87y8srlY" Location="VL.Devices.AzureKinect.Body" IsFriend="true" Version="1.5.0" />

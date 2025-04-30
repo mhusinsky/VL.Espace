@@ -1,4 +1,7 @@
-﻿using System;
+﻿// KabschUmeyama implementation for use in VVVV Gamma
+// by Matthias Husinsky and ChatGPT
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Stride.Core.Mathematics; // Stride3D's Math Library
@@ -7,6 +10,19 @@ using MathNetNumerics = MathNet.Numerics.LinearAlgebra.Single; // Single-precisi
 
 public static class KabschUmeyama
 {
+    /// <summary>
+    /// Aligns two sets of 3D points using the Kabsch-Umeyama algorithm, which computes the optimal
+    /// rotation, translation, and optional scaling to minimize the mean squared error between the points.
+    /// </summary>
+    /// <param name="sourcePoints">The list of source points to align.</param>
+    /// <param name="targetPoints">The list of target points to align to.</param>
+    /// <param name="scale">The computed scaling factor (output).</param>
+    /// <param name="rotationMatrix">The computed rotation matrix (output).</param>
+    /// <param name="rotationQuaternion">The computed rotation as a quaternion (output).</param>
+    /// <param name="translation">The computed translation vector (output).</param>
+    /// <param name="allowScaling">Indicates whether scaling is allowed in the alignment. Defaults to <c>false</c>.</param>
+    /// <exception cref="ArgumentException">Thrown if the point sets have different sizes or are empty.</exception>
+
     public static void KabschUmeyamaAlign(
         List<Vector3> sourcePoints,
         List<Vector3> targetPoints,

@@ -157,8 +157,6 @@
                   <Pin Id="Gm81nMQNe3sPRozToPRdok" Name="Result" Kind="OutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="JszVNhbuBBfLaT0m3Mdhgm" Bounds="279,276" Alignment="Top" />
-              <ControlPoint Id="DzsVMVGfUwPM51Qi9jBM6G" Bounds="361,276" Alignment="Top" />
               <ControlPoint Id="QSNUCQUWyq8NQrZiWV6I7V" Bounds="281,715" Alignment="Bottom" />
               <ControlPoint Id="Ss8cgJjdDAYO0wsgUlHxJC" Bounds="373,715" Alignment="Bottom" />
               <ControlPoint Id="TOR0cykurhJOC8uGUsPmwz" Bounds="467,715" Alignment="Bottom" />
@@ -189,6 +187,7 @@
             <ControlPoint Id="Khw01ckx7URMNMK7mmYhG4" Bounds="467,769" />
             <ControlPoint Id="Gzldjp90b8DMGMnD0X3t1K" Bounds="568,769" />
             <ControlPoint Id="A863eSh9z38OiLyh8WmxY8" Bounds="690,769" />
+            <ControlPoint Id="BI2KYabw23pO1qhSVviefs" Bounds="716,138" />
           </Canvas>
           <Patch Id="D2lOAzFPwIaOoxRD59oM97" Name="Create" />
           <Patch Id="IJTRr5J9HemL2rqr9cVm9k" Name="Update">
@@ -200,20 +199,17 @@
             <Pin Id="RnfhOz7VE33L99cMMMI82e" Name="Rotation Matrix" Kind="OutputPin" />
             <Pin Id="EbkJyEya08hOeel1Ul1CVN" Name="Rotation Quaternion" Kind="OutputPin" />
             <Pin Id="ViU9lwX3HsPLom8fJZEgBW" Name="Translation" Kind="OutputPin" />
+            <Pin Id="It2mMMAUl02OwnXTXWYx33" Name="Calculate" Kind="InputPin" />
           </Patch>
           <ProcessDefinition Id="VV1aoALLsZxOSta3kxjBk0">
             <Fragment Id="BJjmtkm4ITnNy5pAcNa9hg" Patch="D2lOAzFPwIaOoxRD59oM97" Enabled="true" />
             <Fragment Id="LvnF1w6fHgLNslsWTxZ7vQ" Patch="IJTRr5J9HemL2rqr9cVm9k" Enabled="true" />
           </ProcessDefinition>
-          <Link Id="JjL5b1g0bcXMEMlWTBJuqn" Ids="JszVNhbuBBfLaT0m3Mdhgm,TLk5xfvzwJlLYoxC6q0tjr" />
           <Link Id="QgC0l5raaHnN9mAg1T4sUX" Ids="GUkgPYk0VnpP0dyBzFoKOi,UV0wivaMSpxMkZmvVlmlYm" />
-          <Link Id="OxEypd9NMtxPAlLimdlYOe" Ids="DzsVMVGfUwPM51Qi9jBM6G,IM9esVAHvN5QRNHJxGIues" />
           <Link Id="GU0TGSvjpUzM8S1FMRInVT" Ids="ACOLPDDDNleP9dBYwAGHvM,KBA0RaD0TagO2fZxU79qKQ" />
           <Link Id="NCWFM7C6B5BORpx7IIQ24a" Ids="QSNUCQUWyq8NQrZiWV6I7V,VJ4yrDABA9qMS0OCAyeoBX" />
           <Link Id="OdBX4NShg9ELOBm3obAwht" Ids="VJ4yrDABA9qMS0OCAyeoBX,MPqU7Q4rXpUO7inNusj4Hv" IsHidden="true" />
-          <Link Id="RM7aJwwXsxxNqBrM6R0Uno" Ids="FIjKOw6TTWlN9KpKiQcYEC,JszVNhbuBBfLaT0m3Mdhgm" />
           <Link Id="IwGta3r4qjcNVlEjENZ4Un" Ids="AEdWQq4535oLF8jM1RnhC4,FIjKOw6TTWlN9KpKiQcYEC" IsHidden="true" />
-          <Link Id="IdrWvRgER8APD5OIhHxR4l" Ids="GYhWVsqmf4MLg1iw8TcROX,DzsVMVGfUwPM51Qi9jBM6G" />
           <Link Id="VmMmNymvB7MLdwnQISmQ3m" Ids="LKo8RygNYuxQbYQysycN4L,GYhWVsqmf4MLg1iw8TcROX" IsHidden="true" />
           <Link Id="L5GfKebRLXoK9jhVwtoteJ" Ids="Kewowm1rKH0QUl9heJ1HoU,ACOLPDDDNleP9dBYwAGHvM" />
           <Link Id="P3hFvp3JR8uMwQ7ySwp274" Ids="H0eGO6Qo9qtMe4QYa9JuWu,Kewowm1rKH0QUl9heJ1HoU" IsHidden="true" />
@@ -227,9 +223,7 @@
           <Link Id="EhyhmZsgmUzLoh9KbHsrq2" Ids="OGlyZooDJewPrApBNxiOx1,IDEKY6eDwQlMoDEsT0RMlh" IsFeedback="true" />
           <Link Id="J3GFBysaNjpLj8cQMfordE" Ids="D0VXj7VPts7NIQHL7mXeVL,IDEKY6eDwQlMoDEsT0RMlh" />
           <Link Id="EYbnS8odxzRNhg7bCO1ON8" Ids="IDEKY6eDwQlMoDEsT0RMlh,QSNUCQUWyq8NQrZiWV6I7V" />
-          <Link Id="RMk5Fylu5dCL6LynLnTgPy" Ids="JszVNhbuBBfLaT0m3Mdhgm,DqzsrrywlLQLt5nyKCY4Wy" />
           <Link Id="JmRdtcYiECQL5D1QxC7zur" Ids="TpOzQ4eLXQHOn12ciAgDpm,TWjvAXQVp0NM3adYF1v39j" />
-          <Link Id="M700GcvvH8nNQSC7jpb8ql" Ids="DzsVMVGfUwPM51Qi9jBM6G,RV5zrps9l0qLVbhDhreUPm" />
           <Link Id="NihxKEmYg8eO6BPfuCacUE" Ids="Bmh3wKZ4wvYOIb9RF2qixl,L9H6t3LpJiaLrmJkpk9sqx" />
           <Link Id="GWxz4ghNj0DNXEaDTM3v8p" Ids="TEzqyqgfgjBOSRlcMHqhu8,MPqK4xsG4pFO8Ce7fs6JBq" />
           <Link Id="LCOkbqY6zukOYFR3btZI1z" Ids="Gm81nMQNe3sPRozToPRdok,DmKg5C5q5AgODrRyaPTe5G" />
@@ -255,6 +249,12 @@
           <Link Id="UmqhUEYcs9vNO8cIICjIMw" Ids="I9OKjBJrkglMIVrG67kxIa,UOpVyx11xEFNEMVZwnmBRn" />
           <Link Id="CKRaDbGp0lROqhSusQelgx" Ids="UOpVyx11xEFNEMVZwnmBRn,A863eSh9z38OiLyh8WmxY8" />
           <Link Id="BEaKk0sVQm3Lu3fdF7poCI" Ids="A863eSh9z38OiLyh8WmxY8,ViU9lwX3HsPLom8fJZEgBW" IsHidden="true" />
+          <Link Id="IZmYDANt9uBQc5VR0QR5bc" Ids="FIjKOw6TTWlN9KpKiQcYEC,DqzsrrywlLQLt5nyKCY4Wy" />
+          <Link Id="CXU9XnLUvp1OpuJrdBZStC" Ids="FIjKOw6TTWlN9KpKiQcYEC,TLk5xfvzwJlLYoxC6q0tjr" />
+          <Link Id="Fyx3dMcdfj7NaTxSspimRg" Ids="GYhWVsqmf4MLg1iw8TcROX,RV5zrps9l0qLVbhDhreUPm" />
+          <Link Id="TPgbY7lR6KRLJPtIbrNIpz" Ids="GYhWVsqmf4MLg1iw8TcROX,IM9esVAHvN5QRNHJxGIues" />
+          <Link Id="TfKZv9XdWLjLOdChPkfv5R" Ids="BI2KYabw23pO1qhSVviefs,GUkgPYk0VnpP0dyBzFoKOi" />
+          <Link Id="TZo0jT1SYPkLsRZirXBTSV" Ids="It2mMMAUl02OwnXTXWYx33,BI2KYabw23pO1qhSVviefs" IsHidden="true" />
         </Patch>
       </Node>
     </Canvas>
@@ -279,5 +279,5 @@
       </Patch>
     </Node>
   </Patch>
-  <ProjectDependency Id="LyOr68sBe8JP3opsdpxN1t" Location="./csharp/CameraVizUtils/CameraVizUtils.csproj" />
+  <PlatformDependency Id="JxOILRCoq6TN3TiL27GHAY" Location="./lib/net8.0/VL.Espace.Utils.dll" />
 </Document>

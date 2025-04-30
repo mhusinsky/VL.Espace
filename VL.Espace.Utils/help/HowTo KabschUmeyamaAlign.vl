@@ -239,7 +239,7 @@
               <Choice Kind="TypeFlag" Name="Int3" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="609,803,88,70" Id="C2WFFj3fv4cPIOIvK7VOGd">
+          <Node Bounds="639,803,88,70" Id="C2WFFj3fv4cPIOIvK7VOGd">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <CategoryReference Kind="Category" Name="Primitive" NeedsToBeDirectParent="true" />
@@ -250,7 +250,7 @@
               <Patch Id="AwT98isByjIPDXQ5yjBS63" Name="Create" ManuallySortedPins="true" />
               <Patch Id="Mm0u2LP0n6yLTQO2Yjvjt6" Name="Update" ManuallySortedPins="true" />
               <Patch Id="NSjXiPYKiadPhLv7AwaO6s" Name="Dispose" ManuallySortedPins="true" />
-              <Node Bounds="621,826,64,19" Id="DqYxy7CKSrtQIOnE6etHXh">
+              <Node Bounds="651,826,64,19" Id="DqYxy7CKSrtQIOnE6etHXh">
                 <p:NodeReference LastCategoryFullName="3D.Vector3" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="4043309058" Name="Vector3" NeedsToBeDirectParent="true" />
@@ -261,10 +261,10 @@
                 <Pin Id="MXayR8iPK4lP1YehMJNvPv" Name="Transform" Kind="InputPin" />
               </Node>
             </Patch>
-            <ControlPoint Id="TP7MBICFXPOPsfymV8vblG" Bounds="623,809" Alignment="Top" />
-            <ControlPoint Id="EVrP2IJjJCuOVH665oy4Kx" Bounds="623,867" Alignment="Bottom" />
+            <ControlPoint Id="TP7MBICFXPOPsfymV8vblG" Bounds="653,809" Alignment="Top" />
+            <ControlPoint Id="EVrP2IJjJCuOVH665oy4Kx" Bounds="653,867" Alignment="Bottom" />
           </Node>
-          <Pad Id="ALenMQssjUFMBRIraNezKr" Comment="Pitch Yaw Roll" Bounds="732,668,35,43" ShowValueBox="true" isIOBox="true" Value="-0.75, -0.07, -0.02">
+          <Pad Id="ALenMQssjUFMBRIraNezKr" Comment="Pitch Yaw Roll" Bounds="762,668,35,43" ShowValueBox="true" isIOBox="true" Value="-0.75, -0.07, -0.02">
             <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
@@ -493,7 +493,7 @@
             <Pin Id="IScGi9WCFc2Pq5G93PghaV" Name="Enabled" Kind="InputPin" />
             <Pin Id="StIUTB7Q1CoPbFyxGTKqlJ" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="1000,1323,88,93" Id="GuZnBPQKjyLNUbz0RjPS07">
+          <Node Bounds="1059,1328,88,93" Id="GuZnBPQKjyLNUbz0RjPS07">
             <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <CategoryReference Kind="Category" Name="Primitive" NeedsToBeDirectParent="true" />
@@ -504,7 +504,7 @@
               <Patch Id="QKtREmEmE3ZMC0rPhntLEM" Name="Create" ManuallySortedPins="true" />
               <Patch Id="EsvBBrl2FE3OgMqqXEeCrO" Name="Update" ManuallySortedPins="true" />
               <Patch Id="E21BVmQvGXRNEbEGRwO1oh" Name="Dispose" ManuallySortedPins="true" />
-              <Node Bounds="1012,1359,64,19" Id="NT05z5v6hGIOQCl34H9Mxl">
+              <Node Bounds="1071,1364,64,19" Id="NT05z5v6hGIOQCl34H9Mxl">
                 <p:NodeReference LastCategoryFullName="3D.Vector3" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="4043309058" Name="Vector3" NeedsToBeDirectParent="true" />
@@ -515,8 +515,8 @@
                 <Pin Id="QWhDhH6BmE6OaFZxJZrfqF" Name="Transform" Kind="InputPin" />
               </Node>
             </Patch>
-            <ControlPoint Id="IVcezKUloMkQA1K1NNniSY" Bounds="1014,1329" Alignment="Top" />
-            <ControlPoint Id="VzsCDlIX9euNVT6mxl6zTN" Bounds="1014,1410" Alignment="Bottom" />
+            <ControlPoint Id="IVcezKUloMkQA1K1NNniSY" Bounds="1073,1334" Alignment="Top" />
+            <ControlPoint Id="VzsCDlIX9euNVT6mxl6zTN" Bounds="1073,1415" Alignment="Bottom" />
           </Node>
           <Node Bounds="1095,721,85,19" Id="OsWPRpUt6xRNTtXzqQq1Rm">
             <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
@@ -592,7 +592,7 @@
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="VZzyBvXQabKLJQn8aOq7Zn" Comment="Translation" Bounds="757,727,35,43" ShowValueBox="true" isIOBox="true" Value="-1.21, 1.2, 1.4">
+          <Pad Id="VZzyBvXQabKLJQn8aOq7Zn" Comment="Translation" Bounds="787,727,35,43" ShowValueBox="true" isIOBox="true" Value="-1.21, 1.2, 1.4">
             <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
@@ -646,7 +646,7 @@
             <Pin Id="JvV16YSMvTyMW9MhYkGVON" Name="Translation" Kind="InputPin" />
             <Pin Id="Tw0UvgYDg8QQNMAANBbVBl" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="680,771,80,19" Id="T2SdW1XRQwnN0b3DXIvjQi">
+          <Node Bounds="710,771,80,19" Id="T2SdW1XRQwnN0b3DXIvjQi">
             <p:NodeReference LastCategoryFullName="3D.Transform" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Transform" NeedsToBeDirectParent="true">
@@ -715,7 +715,7 @@
             <Pin Id="UgR5ZbEHZnGLlTUZxt7Gf0" Name="Input 2" Kind="InputPin" />
             <Pin Id="NEbnnJGksh0Myp5PapPo2e" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="RAp0NpDMT55MGlHtfKlj3t" Comment="Scaling" Bounds="707,608,35,43" ShowValueBox="true" isIOBox="true" Value="1.22, 1.22, 1.22">
+          <Pad Id="RAp0NpDMT55MGlHtfKlj3t" Comment="Scaling" Bounds="737,608,35,43" ShowValueBox="true" isIOBox="true" Value="1.22, 1.22, 1.22">
             <p:TypeAnnotation LastCategoryFullName="3D" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
@@ -725,7 +725,7 @@
               <Choice Kind="TypeFlag" Name="Vector3" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="623,435,45,19" Id="B0XZeP2644uMCyQ7bG79DG">
+          <Node Bounds="652,436,45,19" Id="B0XZeP2644uMCyQ7bG79DG">
             <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
@@ -743,7 +743,7 @@
           <Overlay Id="Lpv8lWcnRADNR0xaKJTUVb" Name="Add Random offset" Bounds="949,551,509,343">
             <p:ColorIndex p:Type="Int32">3</p:ColorIndex>
           </Overlay>
-          <Overlay Id="OeAeFTJxYlEPCuBYBkVGWR" Name="Transform points (target)" Bounds="554,551,342,340">
+          <Overlay Id="OeAeFTJxYlEPCuBYBkVGWR" Name="Transform points (target)" Bounds="528,551,368,340">
             <p:ColorIndex p:Type="Int32">3</p:ColorIndex>
           </Overlay>
           <Overlay Id="SG9nuPDPeUmMn8u8dKQXmC" Name="Source Point Viz" Bounds="64,1479,461,354">
@@ -756,7 +756,7 @@
             <p:ColorIndex p:Type="Int32">1</p:ColorIndex>
           </Overlay>
           <Overlay Id="PM4zsdtg10qQOf2bFzGC8f" Name="Transform source points by found transform" Bounds="950,1213,445,230" />
-          <Pad Id="FmwTpuHHUTkNqnR4FH8pdX" Bounds="974,1263,295,24" ShowValueBox="true" isIOBox="true" Value="-&gt; they should align with the target points">
+          <Pad Id="FmwTpuHHUTkNqnR4FH8pdX" Bounds="966,1259,295,24" ShowValueBox="true" isIOBox="true" Value="-&gt; they should align with the target points">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -789,7 +789,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="ShmeIjqghayNmTBEO1nUap" Bounds="87,617,180,62" ShowValueBox="true" isIOBox="true" Value="random transformation so source and target have a different configuration">
+          <Pad Id="ShmeIjqghayNmTBEO1nUap" Bounds="87,617,189,64" ShowValueBox="true" isIOBox="true" Value="apply random transformation so source and target have a different configuration">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -865,7 +865,7 @@
             <Pin Id="UNlJIt9lGK5LULM5UkxBmR" Name="Enabled" Kind="InputPin" />
             <Pin Id="NJ2wnHkSuc6LLJRQxi1kAh" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="F7BaY4qBDjqNEfC6KT0VM3" Bounds="1180,1045,159,68" ShowValueBox="true" isIOBox="true" Value="&lt;- deactivate, if the algorithm should only rotate and translate">
+          <Pad Id="F7BaY4qBDjqNEfC6KT0VM3" Bounds="1232,991,159,68" ShowValueBox="true" isIOBox="true" Value="&lt;- deactivate, if the algorithm should only rotate and translate">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -874,7 +874,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="DzznQDzX1kkO1SN0ZIiPJs" Bounds="637,726,91,22" ShowValueBox="true" isIOBox="true" Value="change me!">
+          <Pad Id="DzznQDzX1kkO1SN0ZIiPJs" Bounds="667,726,91,22" ShowValueBox="true" isIOBox="true" Value="change me!">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -897,13 +897,31 @@
             <Pin Id="TX64moXwXKPMWVffXAX5yb" Name="Rotation Matrix" Kind="OutputPin" />
             <Pin Id="OaLclOQKR5LMvIxvwWYIiV" Name="Rotation Quaternion" Kind="OutputPin" />
             <Pin Id="Rno32IIkkiWMooyQuqwi5m" Name="Translation" Kind="OutputPin" />
+            <Pin Id="P26a8Bg2EhLPFIQpPpI4Ef" Name="Calculate" Kind="InputPin" />
           </Node>
-          <Pad Id="HalTxV9jOAwPDFRmBZ3wl6" Comment="Allow Scaling" Bounds="1132,1026,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="HalTxV9jOAwPDFRmBZ3wl6" Comment="Allow Scaling" Bounds="1093,997,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
             <p:ValueBoxSettings>
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="PJu45r4VC77QI6MLyIG1nk" Comment="Calculate" Bounds="1142,1054,35,35" ShowValueBox="true" isIOBox="true" Value="false">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="RL1ODDIqkl0LDOb09g23Sb" Bounds="531,614,189,64" ShowValueBox="true" isIOBox="true" Value="apply random transformation so source and target have a different configuration">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
         </Canvas>
@@ -985,12 +1003,13 @@
         <Link Id="IsqpjKNnUOBOudGJ6eO6Gx" Ids="HalTxV9jOAwPDFRmBZ3wl6,D8EEkUXbdDBMQDG1WDk5VJ" />
         <Link Id="GFOhOlqs29LOi3NFrsVSpV" Ids="OVXhHWIWarjPZDEz98k6SG,HWeDUe4c8cyNhx6h4a3peQ" />
         <Link Id="HwHOqhzGmyvPZxannmi6U9" Ids="TSrdoyq9pj2NnuNXmLT1kJ,KGKd2fEjkrBMRTMGlflN9T" />
+        <Link Id="Ucsg81LCvbEOCypHyr9Pah" Ids="PJu45r4VC77QI6MLyIG1nk,P26a8Bg2EhLPFIQpPpI4Ef" />
       </Patch>
     </Node>
   </Patch>
   <NugetDependency Id="O4cakjMGDhTLmzD7Q9aWkK" Location="VL.Stride" Version="2024.6.7" />
   <NugetDependency Id="INjU1kkJ1HCOQptCYxqBTI" Location="VL.IO.PLY" Version="0.0.8-alpha" />
   <NugetDependency Id="NM39dlgzsIcLomDnqE3drA" Location="VL.Stride.TextureFX" Version="2024.6.7" />
-  <NugetDependency Id="LBakhJ2wIRDOVwyVGpjtBH" Location="VL.Addons" Version="0.3.9" />
+  <NugetDependency Id="LBakhJ2wIRDOVwyVGpjtBH" Location="VL.Addons" Version="0.4.2" />
   <DocumentDependency Id="VPNuIHUz8W8NMmmmnhfiT7" Location="../VL.Espace.Utils.vl" />
 </Document>

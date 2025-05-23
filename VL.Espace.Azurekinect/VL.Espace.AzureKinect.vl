@@ -565,6 +565,7 @@
                     <Pin Id="R3jpvJfnM2xLZpeJcZBOPB" Name="Input" Kind="StateInputPin" />
                     <Pin Id="PsZC4yiVPgTLcrVF2oB6XR" Name="Output" Kind="OutputPin" IsHidden="true" />
                     <Pin Id="KYz6tnOdj7gNtHjf4xBsGF" Name="JointType" Kind="OutputPin" />
+                    <Pin Id="BuR1kKsPF8pM2sDOVTYQUi" Name="Joint ID" Kind="OutputPin" />
                     <Pin Id="MbY4EALYmkOQbEKtTNbizz" Name="Pose" Kind="OutputPin" />
                     <Pin Id="Eb621RQbOPhNInF1ansZOK" Name="Position" Kind="OutputPin" />
                     <Pin Id="LatrnRMDnHrLBcE4li9tfY" Name="Orientation" Kind="OutputPin" />
@@ -583,6 +584,7 @@
                     <Pin Id="QRkDQiCNsGwMxjYeEhrb1A" Name="Input" Kind="StateInputPin" />
                     <Pin Id="N1NIeCgfp7ZLCRHH7mAygV" Name="Output" Kind="OutputPin" IsHidden="true" />
                     <Pin Id="NHCOX5A2WISPZXvakzmmM5" Name="JointType" Kind="OutputPin" />
+                    <Pin Id="HYnAUCPCwMCML6NQzjE7Ey" Name="Joint ID" Kind="OutputPin" />
                     <Pin Id="Iw5rjhNHjpPLsnnTKT4orK" Name="Pose" Kind="OutputPin" />
                     <Pin Id="HBIK9cML0iXLu94BPNaxkW" Name="Position" Kind="OutputPin" />
                     <Pin Id="UScJce2JsoMORIdgtdtAIW" Name="Orientation" Kind="OutputPin" />
@@ -612,10 +614,11 @@
                 <Pin Id="AdrcbgaM2rKLToSzT5HNsg" Name="Type" Kind="OutputPin" />
                 <Pin Id="DRnQkyUkBN3NdQwzXUrqD6" Name="Joints" Kind="OutputPin" />
                 <Pin Id="FNskfnCvyQUP1EmN1KWy3B" Name="JointType" Kind="OutputPin" />
+                <Pin Id="GjVqBFEKZeLNCAnwwHNCPz" Name="Joint ID" Kind="OutputPin" />
                 <Pin Id="VDm1gAue7DtOCPsN4ZZLXE" Name="Joint Positions" Kind="OutputPin" />
-                <Pin Id="TYGPhu75SpiPgGQNlOrYPB" Name="LastUpdated" Kind="OutputPin" />
                 <Pin Id="VZLcblD6jd3LRtp1H0gb6q" Name="Joint Orientations" Kind="OutputPin" />
                 <Pin Id="MDFv2wMSnGGOAVn1HMAIhn" Name="TrackingStatus" Kind="OutputPin" />
+                <Pin Id="TYGPhu75SpiPgGQNlOrYPB" Name="LastUpdated" Kind="OutputPin" />
               </Node>
               <Pad Id="UxR6ZXHr69mMtUN3A1smNQ" Bounds="26,40,277,44" ShowValueBox="true" isIOBox="true" Value="TODO: mapping of Kinect2 and AzureKinect Skeletons to Generic Skeleton">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -1670,7 +1673,7 @@
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
               </p:ValueBoxSettings>
             </Pad>
-            <Pad Id="Enb8ffXCnioP0G4kwkyF11" Comment="Send Binary" Bounds="963,499,35,15" ShowValueBox="true" isIOBox="true" Value="False">
+            <Pad Id="Enb8ffXCnioP0G4kwkyF11" Comment="Send Binary" Bounds="963,499,35,15" ShowValueBox="true" isIOBox="true" Value="True">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -1691,7 +1694,7 @@
               <Pin Id="DRDWgc7eJ9jPzTJfLRip3F" Name="Send Binary" Kind="InputPin" />
               <Pin Id="HDHt1MErCAcPLG6ZlqkzvY" Name="Result" Kind="OutputPin" />
             </Node>
-            <Pad Id="FGFVE6vafvKNG2Orz5BCmF" Comment="Send XML" Bounds="935,481,36,15" ShowValueBox="true" isIOBox="true" Value="True">
+            <Pad Id="FGFVE6vafvKNG2Orz5BCmF" Comment="Send XML" Bounds="935,481,36,15" ShowValueBox="true" isIOBox="true" Value="False">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -1842,7 +1845,7 @@
           <Canvas Id="UeyaV4xis3JP49DpuuLFSF" CanvasType="Group">
             <ControlPoint Id="LTvil3oXdbgPBug7iIFx1M" Bounds="635,77" />
             <ControlPoint Id="StkCCOOav8tMlzXce0T2rO" Bounds="751,77" />
-            <Pad Id="MvIfAtxpIvWOgRUqVD1EYx" Comment="Send Binary" Bounds="1731,815,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <Pad Id="MvIfAtxpIvWOgRUqVD1EYx" Comment="Send Binary" Bounds="1731,815,35,35" ShowValueBox="true" isIOBox="true" Value="True">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -2044,7 +2047,7 @@
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
-            <Pad Id="GFLGQmkqFEQQWHHhrv8CCu" Comment="Send XML" Bounds="1626,822,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+            <Pad Id="GFLGQmkqFEQQWHHhrv8CCu" Comment="Send XML" Bounds="1626,822,35,35" ShowValueBox="true" isIOBox="true" Value="False">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
                 <CategoryReference Kind="Category" Name="Primitive" />

@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="GGUjd2syCEZNuEQhXffKJA" LanguageVersion="2024.6.7" Version="0.128">
+  <NugetDependency Id="ElvEbe1H3iZNDCKeSjoahr" Location="VL.CoreLib" Version="2024.6.7" />
+  <Patch Id="ELw1KGIw72EOs7UKnOawLQ">
+    <Canvas Id="CjDMcBkkKRCLcN9b8eMjtC" DefaultCategory="Main" CanvasType="FullCategory">
+      <!--
+
+    ************************ SendOpenVRTrackerOSC ************************
+
+-->
+      <Node Name="SendOpenVRTrackerOSC" Bounds="117,88,311,431" Id="VEhE55Z5ONCLuURwmvggqJ">
+        <p:NodeReference>
+          <Choice Kind="OperationDefinition" />
+        </p:NodeReference>
+        <Patch Id="Qc9ZTKG2xDYQL6ufPkNWaI">
+          <Node Bounds="129,297,199,19" Id="GHw0YF8ncUbNmsJ6TtLVOS">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Espace.OSC.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="SendMatrixOSC" />
+            </p:NodeReference>
+            <Pin Id="JsgdNfqRHl8MDlz9vsnfCo" Name="OSCClient" Kind="InputPin" />
+            <Pin Id="ObZIEUkHshOQNfNuAinPUw" Name="Address" Kind="InputPin" />
+            <Pin Id="NvfFz8oVYVyPDMKwdcl3sC" Name="Matrix" Kind="InputPin" />
+            <Pin Id="ISTqV0Fts9uMZuiE7cc6s0" Name="Send" Kind="InputPin" />
+            <Pin Id="RB5X9i705DVQVI8jVcmSWq" Name="OSCClient" Kind="OutputPin" />
+          </Node>
+          <Pad Id="F9Hfw1nVMaqOjnxyxjKbax" Comment="Address" Bounds="162,143,56,15" ShowValueBox="true" isIOBox="true" Value="/tracker/">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Link Id="TFLjqtuX1QRORUvVGg0fsJ" Ids="F9Hfw1nVMaqOjnxyxjKbax,TRbn9D8xJa7OzjnX1Gn3hi" />
+          <Node Bounds="160,211,25,19" Id="SJulixAneRHMfV1RM5EW0P">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <FullNameCategoryReference ID="Math" />
+              <Choice Kind="OperationCallFlag" Name="+" />
+            </p:NodeReference>
+            <Pin Id="TRbn9D8xJa7OzjnX1Gn3hi" Name="Input" Kind="InputPin" />
+            <Pin Id="ICbY7xOOLhPPCjdJrFBami" Name="Input 2" Kind="InputPin" />
+            <Pin Id="ORwRuUI6LYYLdliYpIFnL6" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Link Id="NtGDwMmTRBAMQRoncwmNZ9" Ids="ORwRuUI6LYYLdliYpIFnL6,ObZIEUkHshOQNfNuAinPUw" />
+          <ControlPoint Id="D0U6AUfY98aPZiQLoif0Ua" Bounds="182,188" />
+          <Link Id="I7Bq4CCm1LTM13TMrBx3Cx" Ids="D0U6AUfY98aPZiQLoif0Ua,ICbY7xOOLhPPCjdJrFBami" />
+          <Pin Id="SqnBBUi3KnKNXSC5lZZ7Vs" Name="OSCClient" Kind="InputPin" />
+          <Link Id="P9qW5INgebuQVYAwHXe3dv" Ids="SqnBBUi3KnKNXSC5lZZ7Vs,Dd2BiG22K6hNgFwyexnAq5" IsHidden="true" />
+          <Pin Id="O8NPKsCuRYCM27EHW0r8lB" Name="Tracker ID" Kind="InputPin" />
+          <Link Id="PaHdQuYLcpDQOQHsUsFby6" Ids="O8NPKsCuRYCM27EHW0r8lB,D0U6AUfY98aPZiQLoif0Ua" IsHidden="true" />
+          <ControlPoint Id="Dd2BiG22K6hNgFwyexnAq5" Bounds="131,106" />
+          <Link Id="SgEP0XuYOmgP0p9H1uDy4B" Ids="Dd2BiG22K6hNgFwyexnAq5,JsgdNfqRHl8MDlz9vsnfCo" />
+          <ControlPoint Id="EMi0iBN1Fr7PDFNUkFtBuK" Bounds="285,106" />
+          <Pin Id="JtC7lnbXMVvLMSRMT7cEmM" Name="Matrix" Kind="InputPin" />
+          <Link Id="RuYCZgjZmIaQaYrYAsa2Tr" Ids="JtC7lnbXMVvLMSRMT7cEmM,EMi0iBN1Fr7PDFNUkFtBuK" IsHidden="true" />
+          <ControlPoint Id="SMVoNyIaPy7OhzogKQEPwF" Bounds="383,274" />
+          <Link Id="UMpOM3hs7rjO0vcHErszx2" Ids="SMVoNyIaPy7OhzogKQEPwF,ISTqV0Fts9uMZuiE7cc6s0" />
+          <Pin Id="CfGicjM9rlnPQ469fpce81" Name="Battery" Kind="InputPin">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pin>
+          <ControlPoint Id="AnwtGHqD54zOSwhALKJbRu" Bounds="352,106" />
+          <Node Bounds="129,430,238,26" Id="V5dzP7RV3VHMCtqfBk3Nka">
+            <p:NodeReference LastCategoryFullName="IO.OSC.OSCClient" LastDependency="VL.IO.OSC.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="SendMessage" />
+            </p:NodeReference>
+            <Pin Id="Aaui96FuQVYOjSVzjzO8D6" Name="Input" Kind="StateInputPin" />
+            <Pin Id="TqWaHpcORMvN4tbhNEwBLh" Name="Address" Kind="InputPin" />
+            <Pin Id="L8xe3iVvDYPPSTlDY2kqH1" Name="Arguments" Kind="InputPin" />
+            <Pin Id="NkKG8giLLmeL6jcdTUGY99" Name="Bundled Per Frame" Kind="InputPin" />
+            <Pin Id="Mmr2lYJVojGMeZ1kDjbo6n" Name="Apply" Kind="InputPin" />
+            <Pin Id="PgeIB6alCwpNsoHIEmWZW6" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="187,372,25,19" Id="PZpGahWX9yyLFtvmCm9797">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="+" />
+            </p:NodeReference>
+            <Pin Id="Ky6ah7pVKWCPw4u7TcqB4Y" Name="Input" Kind="InputPin" />
+            <Pin Id="EUPbbj6NDyDLgGsd5FrdW9" Name="Input 2" Kind="InputPin" />
+            <Pin Id="UrDBdTsV1xcOgECGu5hVJV" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="OpbQ4I7kUSROHXF8eHJhXF" Comment="" Bounds="209,351,54,15" ShowValueBox="true" isIOBox="true" Value="/battery">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Link Id="O0Qp5RoEtnbNHLk8jnRwYC" Ids="CfGicjM9rlnPQ469fpce81,AnwtGHqD54zOSwhALKJbRu" IsHidden="true" />
+          <Link Id="RABYnP9qwI1NzjBcCrdb5L" Ids="OpbQ4I7kUSROHXF8eHJhXF,EUPbbj6NDyDLgGsd5FrdW9" />
+          <Link Id="Sm8kCxC8u1ZL7cCXrF1Dlk" Ids="UrDBdTsV1xcOgECGu5hVJV,TqWaHpcORMvN4tbhNEwBLh" />
+          <Link Id="VzanPx88Z5PQOTe69SX5P9" Ids="AnwtGHqD54zOSwhALKJbRu,L8xe3iVvDYPPSTlDY2kqH1" />
+          <Pin Id="C4nXLSSbUTQOMCirrtxZ86" Name="Send" Kind="InputPin" />
+          <Link Id="DTdVZm84zGBOzbTfDC48LO" Ids="C4nXLSSbUTQOMCirrtxZ86,SMVoNyIaPy7OhzogKQEPwF" IsHidden="true" />
+          <Node Bounds="263,217,54,19" Id="CFujnk6rtKnOrZZL3ndzHh">
+            <p:NodeReference LastCategoryFullName="3D.Matrix" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="4026531840" Name="Matrix" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Rotation" />
+            </p:NodeReference>
+            <Pin Id="Q4R8uCEGOkGOx90m1ILwf1" Name="Pitch" Kind="InputPin" DefaultValue="0.25" />
+            <Pin Id="VtnVbP2bTtsMAAFFTVCMiT" Name="Yaw" Kind="InputPin" />
+            <Pin Id="UnNvUEsFDXUQHgKIhhRRFR" Name="Roll" Kind="InputPin" />
+            <Pin Id="BqLkBuz3YICLBX3O1XxGGT" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="263,247,25,19" Id="HIC1TqYmirMLkdN8UkeNqw">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="*" />
+            </p:NodeReference>
+            <Pin Id="N7eT34ikBxfOhoFZuZSAlW" Name="Input" Kind="InputPin" />
+            <Pin Id="Ki27NmRzcWHLhRRBhgc43T" Name="Input 2" Kind="InputPin" />
+            <Pin Id="REtJ5hHG2rgNXUJh9ZgrfL" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="A19AkTVsppkLTanHiMvqH7" Comment="Pitch" Bounds="265,197,35,15" ShowValueBox="true" isIOBox="true" Value="-0.25">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Link Id="LUcSqqaQvp5OFuLVoEj2Ap" Ids="BqLkBuz3YICLBX3O1XxGGT,N7eT34ikBxfOhoFZuZSAlW" />
+          <Link Id="HG43uQ8N8lDQbPh622XjQM" Ids="A19AkTVsppkLTanHiMvqH7,Q4R8uCEGOkGOx90m1ILwf1" />
+          <Link Id="DMpW9YTDJ44Mi4AGdvqdVk" Ids="EMi0iBN1Fr7PDFNUkFtBuK,Ki27NmRzcWHLhRRBhgc43T" />
+          <Link Id="NKelYEB3DkrNJNxQn3IWz7" Ids="REtJ5hHG2rgNXUJh9ZgrfL,NvfFz8oVYVyPDMKwdcl3sC" />
+          <ControlPoint Id="V8FYfkQ7cKCMuYJm6StmY2" Bounds="131,502" />
+          <Pin Id="NHKzU6Y3eb9OJ1mEJhGYyc" Name="OSCClient" Kind="OutputPin" />
+          <Link Id="H2fpitNx78kLUsnV4S7Ufo" Ids="V8FYfkQ7cKCMuYJm6StmY2,NHKzU6Y3eb9OJ1mEJhGYyc" IsHidden="true" />
+          <Link Id="PJMzqJFzNa0NZa1cXBh8YV" Ids="ORwRuUI6LYYLdliYpIFnL6,Ky6ah7pVKWCPw4u7TcqB4Y" />
+          <Link Id="GtDorqGDZp1NjPalXE6Cr2" Ids="RB5X9i705DVQVI8jVcmSWq,Aaui96FuQVYOjSVzjzO8D6" />
+          <Link Id="FBIiD5WLh6UP7xU2guegNa" Ids="PgeIB6alCwpNsoHIEmWZW6,V8FYfkQ7cKCMuYJm6StmY2" />
+          <Link Id="Ik96mZXE34uMAlknwszT3Q" Ids="SMVoNyIaPy7OhzogKQEPwF,Mmr2lYJVojGMeZ1kDjbo6n" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ SendOpenVRBaseStationOSC ************************
+
+-->
+      <Node Name="SendOpenVRBaseStationOSC" Bounds="121,560,292,360" Id="Ph25hoM14jOP9WJdurSsmM">
+        <p:NodeReference>
+          <Choice Kind="OperationDefinition" />
+        </p:NodeReference>
+        <Patch Id="HLI1mhnVHa8OuYdHDE8CEL">
+          <Node Bounds="133,769,199,19" Id="Bwa1LdlVgCCNSYUAYDI18x">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="VL.Espace.OSC.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="SendMatrixOSC" />
+            </p:NodeReference>
+            <Pin Id="G6x1JQNFsE2MSYcIAZVcra" Name="OSCClient" Kind="InputPin" />
+            <Pin Id="P7seZ0hQXwBLUfsL4DYTw4" Name="Address" Kind="InputPin" />
+            <Pin Id="VmI8fWlGbTlQXqmcNhXpjL" Name="Matrix" Kind="InputPin" />
+            <Pin Id="OtKmwhYNe9MMxSO9Ce9QPT" Name="Send" Kind="InputPin" />
+            <Pin Id="GwiULy10XXlODhJk7YG8so" Name="OSCClient" Kind="OutputPin" />
+          </Node>
+          <Pad Id="LKKlHxFh4YoPBbrIyRf3Eh" Comment="Address" Bounds="162,615,80,15" ShowValueBox="true" isIOBox="true" Value="/basestation/">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Link Id="I2vKb9OmFqzNXKa7t4rQpz" Ids="LKKlHxFh4YoPBbrIyRf3Eh,AQa6T0i6XmkQUpwlSVgtLv" />
+          <Node Bounds="160,683,25,19" Id="ODGDkaoKcahML0FEDDOwCl">
+            <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <FullNameCategoryReference ID="Math" />
+              <Choice Kind="OperationCallFlag" Name="+" />
+            </p:NodeReference>
+            <Pin Id="AQa6T0i6XmkQUpwlSVgtLv" Name="Input" Kind="InputPin" />
+            <Pin Id="R0xlOYMUbsVNCC23XlVKVn" Name="Input 2" Kind="InputPin" />
+            <Pin Id="GM2nNACZljjLDuM0IiZHqE" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Link Id="EL3ngmYHRlAOrISCBnf8SE" Ids="GM2nNACZljjLDuM0IiZHqE,P7seZ0hQXwBLUfsL4DYTw4" />
+          <ControlPoint Id="GeYQR3Ke77ILx1EhImPafo" Bounds="182,660" />
+          <Link Id="ENB9Bs1DD84MYPTOfAEVx6" Ids="GeYQR3Ke77ILx1EhImPafo,R0xlOYMUbsVNCC23XlVKVn" />
+          <Pin Id="V09XlMzxjspPADNKime6jW" Name="OSCClient" Kind="InputPin" />
+          <Link Id="QJqwc9GKmiGLhHW4U5N1SN" Ids="V09XlMzxjspPADNKime6jW,Fo0LGykRDDHPKHN1P5qM3z" IsHidden="true" />
+          <Pin Id="Nn3vSclwIcNMtvXLm5uBOy" Name="Basestation ID" Kind="InputPin" />
+          <Link Id="TNYUfuYglNGP4OcEzrm2Pe" Ids="Nn3vSclwIcNMtvXLm5uBOy,GeYQR3Ke77ILx1EhImPafo" IsHidden="true" />
+          <ControlPoint Id="Fo0LGykRDDHPKHN1P5qM3z" Bounds="135,578" />
+          <Link Id="LuHMLfiwPjMLKh9SA15XlJ" Ids="Fo0LGykRDDHPKHN1P5qM3z,G6x1JQNFsE2MSYcIAZVcra" />
+          <ControlPoint Id="POLF6E3x9YiNdiNnycCJxH" Bounds="264,578" />
+          <Pin Id="O1bROFbybFsMtBaokmySyU" Name="Matrix" Kind="InputPin" />
+          <Link Id="K9bi7E9hxzfLr9TD9ERA81" Ids="O1bROFbybFsMtBaokmySyU,POLF6E3x9YiNdiNnycCJxH" IsHidden="true" />
+          <ControlPoint Id="AfQ0iZ2u0hqLfOo7Lx1qEJ" Bounds="368,746" />
+          <Link Id="UoPoCfzSzh7OQOwFdAfpNt" Ids="AfQ0iZ2u0hqLfOo7Lx1qEJ,OtKmwhYNe9MMxSO9Ce9QPT" />
+          <Pin Id="N2TRRehoNiJP8ZzVF33D8u" Name="Send" Kind="InputPin" />
+          <Link Id="GSddyyqulPkOdzGv8Jdx9N" Ids="N2TRRehoNiJP8ZzVF33D8u,AfQ0iZ2u0hqLfOo7Lx1qEJ" IsHidden="true" />
+          <Link Id="BJkUH0I9XpePhwjYvqtwmy" Ids="POLF6E3x9YiNdiNnycCJxH,VmI8fWlGbTlQXqmcNhXpjL" />
+          <ControlPoint Id="ItDtMJ0WDumOFTiwUCKTsr" Bounds="135,903" />
+          <Pin Id="QIPsdgFILHWNbAhAMUfhQF" Name="OSCClient" Kind="OutputPin" />
+          <Link Id="RS9HkXhvbn0L69kuXBilgc" Ids="ItDtMJ0WDumOFTiwUCKTsr,QIPsdgFILHWNbAhAMUfhQF" IsHidden="true" />
+          <ControlPoint Id="N0dfXog2oEdPwQFFD6bKbS" Bounds="310,833" />
+          <Link Id="C8twDReAtQvOe78DS6h3V0" Ids="GM2nNACZljjLDuM0IiZHqE,N0dfXog2oEdPwQFFD6bKbS" />
+          <Pin Id="OIs4xsloV6ULbhOaoe1B6z" Name="Send Address" Kind="OutputPin" />
+          <Link Id="PCAbTX4JXN1P4L3WyIfsX6" Ids="N0dfXog2oEdPwQFFD6bKbS,OIs4xsloV6ULbhOaoe1B6z" IsHidden="true" />
+          <Link Id="H9UZB0NTSzuMKoDk18FD3m" Ids="GwiULy10XXlODhJk7YG8so,ItDtMJ0WDumOFTiwUCKTsr" />
+        </Patch>
+      </Node>
+    </Canvas>
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="VjmFmcDUj4gPRU1UCXzcfo">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="BeHC8sHlPFLO5AhaLIecHG">
+        <Canvas Id="KwWo5d4GgHiLMDnQB2VjOE" CanvasType="Group" />
+        <Patch Id="ChSUs8LqRyIMrbmkyVBTWC" Name="Create" />
+        <Patch Id="GqQvueoDmY2On5WorMM5QE" Name="Update" />
+        <ProcessDefinition Id="MGw6OHvEkJTMV3DFA1tTJw">
+          <Fragment Id="NOiznV0MCoPNlLqCEKDRoC" Patch="ChSUs8LqRyIMrbmkyVBTWC" Enabled="true" />
+          <Fragment Id="Lm9sSRl0gC7QaafH4XRp8J" Patch="GqQvueoDmY2On5WorMM5QE" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="UzQom8ZTuKyM203RUAtnL0" Location="VL.IO.OSC" Version="1.1.3" />
+  <DocumentDependency Id="USIdnyRzlRhLxsk8rqH03W" Location="./VL.Espace.OSC.vl" />
+  <NugetDependency Id="AWQenV9leAFMGh91MgO5U1" Location="VL.IO.OpenVR" Version="1.1.0" />
+</Document>
